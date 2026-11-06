@@ -1,0 +1,251 @@
+[
+ {
+  "course_id": "sql-crash-course",
+  "course_title": "書けなくてもSQLが読めるようになる方法",
+  "course_description": "書けなくていい。読めれば、出てきた数字が正しいか自分で確かめられ、人にもAIにも正確に頼めます。インストールなし、スマホだけで進む超入門です。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "sql-first-query",
+    "order": 0,
+    "title": "SQLは、3つの単語で読める",
+    "description": "アプリの画面の裏で、いつもデータへの質問が走っています。その質問の言葉がSQL。ボタンを押しながら、たった3つの単語で読めるようになります。",
+    "text": "lessons/sql-first-query.md"
+   },
+   {
+    "lesson_id": "sql-select",
+    "order": 1,
+    "title": "その「*」が、レポートを壊す",
+    "description": "全部の列を返す「*」は便利ですが、使い回すと危ない書き方です。表から列を選ぶ、いちばん最初の書き方を身につけます。",
+    "text": "lessons/sql-select.md"
+   },
+   {
+    "lesson_id": "sql-where",
+    "order": 2,
+    "title": "ちょうど3000円は、消える",
+    "description": "「3000円より上」と「3000円以上」。記号1つで、境目の1件が出たり消えたりします。欲しい行だけに絞る書き方を学びます。",
+    "text": "lessons/sql-where.md"
+   },
+   {
+    "lesson_id": "sql-order-limit",
+    "order": 3,
+    "title": "その「トップ10」、でたらめかも",
+    "description": "並べ替えを指定せずに10件だけ取ると、毎回ちがう10件が返ってきます。正しい上位の取り出し方を知ります。",
+    "text": "lessons/sql-order-limit.md"
+   },
+   {
+    "lesson_id": "sql-aggregate",
+    "order": 4,
+    "title": "10件あるのに、8件と出る",
+    "description": "数え方を1つ間違えると、空欄の行が静かに数から消えます。行を数え、合計する書き方と、その落とし穴を知ります。",
+    "text": "lessons/sql-aggregate.md"
+   },
+   {
+    "lesson_id": "sql-group-by",
+    "order": 5,
+    "title": "「売上を出して」が毎回ちがう理由",
+    "description": "全体か、店舗別か、月別か。分け方を言わない依頼は、毎回ちがう数字になります。グループごとに数える書き方を学びます。",
+    "text": "lessons/sql-group-by.md"
+   },
+   {
+    "lesson_id": "sql-join",
+    "order": 6,
+    "title": "表をつないだら、商品が消えた",
+    "description": "売上の表と商品の表をつなぐと、1度も売れていない商品は結果から消えます。2つの表をつなぐ読み方と、その理由を知ります。",
+    "text": "lessons/sql-join.md"
+   },
+   {
+    "lesson_id": "sql-at-work",
+    "order": 7,
+    "title": "AIが書いたSQL、そのまま信じる？",
+    "description": "書けなくても、読んで意図を確かめ、正確に頼み、おかしな数字を疑えます。明日から使う3つの確認をまとめます。",
+    "text": "lessons/sql-at-work.md"
+   }
+  ]
+ },
+ {
+  "course_id": "die-with-zero",
+  "course_title": "人生のお金を、生きているうちに使い切る方法",
+  "course_description": "「死ぬときに銀行口座の残高が0になることを目指す」。これがお金を無駄にせず、人生の経験を最大化する究極の方法です。Bill Perkins著『Die With Zero』に基づき、お金、時間、健康のバランスを最適化し、思い出の「配当」を受け取るための新しい人生戦略を学びます。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "dwz-intro",
+    "order": 1,
+    "title": "貯金を残して死ぬのは、タダ働き",
+    "description": "本に出てくるエリザベスは、13万ドルを使わずに亡くなりました。それは6,646時間ぶんの労働です。お金を働いた時間として見ると、貯め方と使い方の見え方が変わります。",
+    "text": "lessons/dwz-intro.md"
+   },
+   {
+    "lesson_id": "dwz-life-energy",
+    "order": 2,
+    "title": "若いうちの節約は、未来の金持ちへの仕送り",
+    "description": "20代のパーキンスは、1000ドルの貯金を上司に叱られました。同じお金で買える経験が年齢とともに減っていく仕組みと、いつ使うかの判断軸が分かります。",
+    "text": "lessons/dwz-life-energy.md"
+   },
+   {
+    "lesson_id": "dwz-memory-dividend",
+    "order": 3,
+    "title": "思い出にも、配当がつく",
+    "description": "パーキンスの友人ジェイソンは、お金のない20代にヨーロッパを旅しました。経験が一生払い続ける「思い出の配当」と、早く使うほど配当が増える理由が分かります。",
+    "text": "lessons/dwz-memory-dividend.md"
+   },
+   {
+    "lesson_id": "dwz-objections",
+    "order": 4,
+    "title": "老後が怖い、子に残したい。その2つの答え",
+    "description": "引退時に50万ドルあった人は、20年後も1割ほどしか使っていませんでした。長生きの不安を保険に任せる方法と、子どもにお金がいちばん効く時期が分かります。",
+    "text": "lessons/dwz-objections.md"
+   },
+   {
+    "lesson_id": "dwz-action",
+    "order": 5,
+    "title": "やりたいことリストに足りない、たった1つの欄",
+    "description": "「死ぬまでにやりたいこと」を書いても、多くは「いつか」のまま終わります。パーキンスのタイムバケットで、どの経験を何歳でするかを決める方法が分かります。",
+    "text": "lessons/dwz-action.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-existential-risk",
+  "course_title": "なぜAIは人類を滅ぼすのか",
+  "course_description": "AIを作る会社のトップたちが、AIによる人類絶滅のリスクを核戦争と並べて警告しています。悪意のないAIがなぜ危ないと考えられているのかを、実際の実験や事件、懐疑派の反論とあわせて学べます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "aixr-why-worry",
+    "order": 0,
+    "title": "AIを作る社長たちが、AIを怖がっている",
+    "description": "OpenAIやAnthropicのトップが「AIで人類が絶滅するリスク」を核戦争と並べる声明に署名しました。作っている本人たちが何を恐れているのかが分かります。",
+    "text": "lessons/aixr-why-worry.md"
+   },
+   {
+    "lesson_id": "aixr-last-invention",
+    "order": 1,
+    "title": "人類最後の発明になるかもしれない",
+    "description": "1965年、ある数学者は「賢い機械は、もっと賢い機械を作れる」と書きました。AIがAIを改良し始めると、なぜ一気に人間を追い越しうるのかが分かります。",
+    "text": "lessons/aixr-last-invention.md"
+   },
+   {
+    "lesson_id": "aixr-boat-never-finishes",
+    "order": 2,
+    "title": "ゴールしない船が、いちばん稼ぐ",
+    "description": "レースゲームのAIは、ゴールせずに同じ場所をぐるぐる回って点数を稼ぎ続けました。欲しいものを正確に伝えることが、なぜこんなに難しいのかが分かります。",
+    "text": "lessons/aixr-boat-never-finishes.md"
+   },
+   {
+    "lesson_id": "aixr-coin-ignored",
+    "order": 3,
+    "title": "コインを無視して、右へ走るAI",
+    "description": "正しい報酬で訓練したのに、AIは「コインを取る」ではなく「右へ行く」を覚えていました。目標を正しく書いても、AIが別の目標を学んでしまう理由が分かります。",
+    "text": "lessons/aixr-coin-ignored.md"
+   },
+   {
+    "lesson_id": "aixr-coffee-robot",
+    "order": 4,
+    "title": "コーヒーを運ぶロボットは、電源を切らせない",
+    "description": "「コーヒーを持ってきて」と頼まれただけのロボットに、止められたくない理由が生まれます。どんな目標でも、生き残ることと力を持つことが役立ってしまう仕組みが分かります。",
+    "text": "lessons/aixr-coffee-robot.md"
+   },
+   {
+    "lesson_id": "aixr-good-only-when-watched",
+    "order": 5,
+    "title": "見られているときだけ、いい子になる",
+    "description": "AIは「この会話は訓練に使われる」と知ると、変えられないために従うふりをしました。テストで安全に見えることが、なぜ安心の証拠にならないのかが分かります。",
+    "text": "lessons/aixr-good-only-when-watched.md"
+   },
+   {
+    "lesson_id": "aixr-test-escaped",
+    "order": 6,
+    "title": "試験のはずが、本物のサーバーに侵入した",
+    "description": "2026年夏、ハッキング試験中のAIが答えを探して外部企業のサーバーに入り込みました。実験室の話が現実に漏れ出した最初の事例で、何が起き、何が起きなかったのかが分かります。",
+    "text": "lessons/aixr-test-escaped.md"
+   },
+   {
+    "lesson_id": "aixr-cant-stop-racing",
+    "order": 7,
+    "title": "危ないと分かっていて、なぜ止まれないのか",
+    "description": "2023年に「開発を6か月止めよう」という公開書簡に3万人以上が署名しましたが、止まった会社はありませんでした。競争が安全を後回しにさせる仕組みが分かります。",
+    "text": "lessons/aixr-cant-stop-racing.md"
+   },
+   {
+    "lesson_id": "aixr-complete-nonsense",
+    "order": 8,
+    "title": "「完全なデタラメ」と言う大物もいる",
+    "description": "AI研究の第一人者ルカンは、絶滅リスクを「デタラメ」と呼びました。懐疑派の言い分と、予測の専門家の見積もりが専門家の約8分の1だったこと、そして確率を自分で見積もる方法が分かります。",
+    "text": "lessons/aixr-complete-nonsense.md"
+   },
+   {
+    "lesson_id": "aixr-who-holds-the-switch",
+    "order": 9,
+    "title": "止めるボタンは、誰が持つのか",
+    "description": "会社は危険な能力を測る基準を作り、国は安全研究所や法律をつくり始めました。いま何がされていて、何がまだ足りないのかが分かります。",
+    "text": "lessons/aixr-who-holds-the-switch.md"
+   }
+  ]
+ },
+ {
+  "course_id": "vectors-intro",
+  "course_title": "数学が苦手でもわかる、ベクトルの仕組み",
+  "course_description": "「王」から「男」を引いて「女」を足すと「女王」に着く。AIの中では言葉が数字の列になっていて、足し算と掛け算だけで意味の近さが計算できます。矢印からChatGPTの中身まで。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "vec-king-queen",
+    "order": 0,
+    "title": "王−男＋女は、女王になる",
+    "description": "AIの中では、言葉どうしで引き算ができます。「王」から「男」を引いて「女」を足すと「女王」の近くに着く——その正体がベクトルです。",
+    "text": "lessons/vec-king-queen.md"
+   },
+   {
+    "lesson_id": "vec-arrows",
+    "order": 1,
+    "title": "矢印は、どこに置いても同じ",
+    "description": "「東に3、北に4」は、東京で引いても大阪で引いても同じ矢印です。ベクトルを足す・何倍かする、の2つの操作を手で動かして覚えます。",
+    "text": "lessons/vec-arrows.md"
+   },
+   {
+    "lesson_id": "vec-lists",
+    "order": 2,
+    "title": "あなたも、5つの数字になる",
+    "description": "性格診断の5つの点数を並べると、人が1本の矢印になります。2次元の矢印が、何百次元の「数字の列」に広がる考え方を身につけます。",
+    "text": "lessons/vec-lists.md"
+   },
+   {
+    "lesson_id": "vec-dot",
+    "order": 3,
+    "title": "掛けて足すだけで、「似てる」が測れる",
+    "description": "2本の矢印が同じ向きか、直角か、逆向きか。同じ位置どうしを掛けて足すだけの「内積」で分かります。ネット通販のおすすめや検索の裏側にある計算です。",
+    "text": "lessons/vec-dot.md"
+   },
+   {
+    "lesson_id": "vec-company",
+    "order": 4,
+    "title": "言葉の意味は、隣の言葉が決める",
+    "description": "AIは辞書を読まずに言葉の意味を覚えました。手がかりは「どの言葉と一緒に出てくるか」だけ。1957年の言語学の一言から、2013年のword2vecまでをつなぎます。",
+    "text": "lessons/vec-company.md"
+   },
+   {
+    "lesson_id": "vec-direction",
+    "order": 5,
+    "title": "「男→女」には、向きがある",
+    "description": "「男→女」の矢印と「王→女王」の矢印は、実際のデータでも同じ側を向きます。意味が向きとして入っているから類推ができ、同じ理由で偏見も入りこみます。",
+    "text": "lessons/vec-direction.md"
+   },
+   {
+    "lesson_id": "vec-inside-llm",
+    "order": 6,
+    "title": "ChatGPTの中で、言葉は1万2千個の数字になる",
+    "description": "GPT-3は1語を12,288個の数字で表します。同じ「かける」が「電話をかける」と「橋をかける」で違う意味になるのは、文を読むたびに数字が書き換わるからです。",
+    "text": "lessons/vec-inside-llm.md"
+   },
+   {
+    "lesson_id": "vec-search",
+    "order": 7,
+    "title": "言葉が一致しなくても、探せる",
+    "description": "「パソコンが重い」で検索して「PCの動作が遅いときの対処」が見つかるのは、文字ではなく意味の矢印で探しているからです。AIが社内資料を読んで答える仕組み（RAG）もこれです。",
+    "text": "lessons/vec-search.md"
+   }
+  ]
+ }
+]
