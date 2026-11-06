@@ -1,69 +1,5 @@
 [
  {
-  "course_id": "sql-crash-course",
-  "course_title": "書けなくてもSQLが読めるようになる方法",
-  "course_description": "書けなくていい。読めれば、出てきた数字が正しいか自分で確かめられ、人にもAIにも正確に頼めます。インストールなし、スマホだけで進む超入門です。",
-  "last_reel": null,
-  "lessons": [
-   {
-    "lesson_id": "sql-first-query",
-    "order": 0,
-    "title": "SQLは、3つの単語で読める",
-    "description": "アプリの画面の裏で、いつもデータへの質問が走っています。その質問の言葉がSQL。ボタンを押しながら、たった3つの単語で読めるようになります。",
-    "text": "lessons/sql-first-query.md"
-   },
-   {
-    "lesson_id": "sql-select",
-    "order": 1,
-    "title": "その「*」が、レポートを壊す",
-    "description": "全部の列を返す「*」は便利ですが、使い回すと危ない書き方です。表から列を選ぶ、いちばん最初の書き方を身につけます。",
-    "text": "lessons/sql-select.md"
-   },
-   {
-    "lesson_id": "sql-where",
-    "order": 2,
-    "title": "ちょうど3000円は、消える",
-    "description": "「3000円より上」と「3000円以上」。記号1つで、境目の1件が出たり消えたりします。欲しい行だけに絞る書き方を学びます。",
-    "text": "lessons/sql-where.md"
-   },
-   {
-    "lesson_id": "sql-order-limit",
-    "order": 3,
-    "title": "その「トップ10」、でたらめかも",
-    "description": "並べ替えを指定せずに10件だけ取ると、毎回ちがう10件が返ってきます。正しい上位の取り出し方を知ります。",
-    "text": "lessons/sql-order-limit.md"
-   },
-   {
-    "lesson_id": "sql-aggregate",
-    "order": 4,
-    "title": "10件あるのに、8件と出る",
-    "description": "数え方を1つ間違えると、空欄の行が静かに数から消えます。行を数え、合計する書き方と、その落とし穴を知ります。",
-    "text": "lessons/sql-aggregate.md"
-   },
-   {
-    "lesson_id": "sql-group-by",
-    "order": 5,
-    "title": "「売上を出して」が毎回ちがう理由",
-    "description": "全体か、店舗別か、月別か。分け方を言わない依頼は、毎回ちがう数字になります。グループごとに数える書き方を学びます。",
-    "text": "lessons/sql-group-by.md"
-   },
-   {
-    "lesson_id": "sql-join",
-    "order": 6,
-    "title": "表をつないだら、商品が消えた",
-    "description": "売上の表と商品の表をつなぐと、1度も売れていない商品は結果から消えます。2つの表をつなぐ読み方と、その理由を知ります。",
-    "text": "lessons/sql-join.md"
-   },
-   {
-    "lesson_id": "sql-at-work",
-    "order": 7,
-    "title": "AIが書いたSQL、そのまま信じる？",
-    "description": "書けなくても、読んで意図を確かめ、正確に頼み、おかしな数字を疑えます。明日から使う3つの確認をまとめます。",
-    "text": "lessons/sql-at-work.md"
-   }
-  ]
- },
- {
   "course_id": "die-with-zero",
   "course_title": "人生のお金を、生きているうちに使い切る方法",
   "course_description": "「死ぬときに銀行口座の残高が0になることを目指す」。これがお金を無駄にせず、人生の経験を最大化する究極の方法です。Bill Perkins著『Die With Zero』に基づき、お金、時間、健康のバランスを最適化し、思い出の「配当」を受け取るための新しい人生戦略を学びます。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
@@ -107,144 +43,166 @@
   ]
  },
  {
-  "course_id": "ai-existential-risk",
-  "course_title": "なぜAIは人類を滅ぼすのか",
-  "course_description": "AIを作る会社のトップたちが、AIによる人類絶滅のリスクを核戦争と並べて警告しています。悪意のないAIがなぜ危ないと考えられているのかを、実際の実験や事件、懐疑派の反論とあわせて学べます。",
+  "course_id": "image-generation-ai",
+  "course_title": "画像生成AIの仕組み",
+  "course_description": "「夕焼けの海を泳ぐクジラ」と打つだけで、なぜAIは一度も見たことのない絵を描けるのか。絵も言葉もただの数字だというところから、砂嵐から絵が浮かぶ仕組み、指が6本になる理由まで、数式なしで分かるようになります。",
   "last_reel": null,
   "lessons": [
    {
-    "lesson_id": "aixr-why-worry",
+    "lesson_id": "img-just-numbers",
     "order": 0,
-    "title": "AIを作る社長たちが、AIを怖がっている",
-    "description": "OpenAIやAnthropicのトップが「AIで人類が絶滅するリスク」を核戦争と並べる声明に署名しました。作っている本人たちが何を恐れているのかが分かります。",
-    "text": "lessons/aixr-why-worry.md"
+    "title": "この絵は、ただの数字の並び",
+    "description": "夕焼けの写真を拡大していくと、数字の付いたマス目になります。それなのに、なぜAIは「夕焼けの海を泳ぐクジラ」という言葉から絵が描けるのか。その入口に立ちます。",
+    "text": "lessons/img-just-numbers.md"
    },
    {
-    "lesson_id": "aixr-last-invention",
+    "lesson_id": "img-noise-is-random",
     "order": 1,
-    "title": "人類最後の発明になるかもしれない",
-    "description": "1965年、ある数学者は「賢い機械は、もっと賢い機械を作れる」と書きました。AIがAIを改良し始めると、なぜ一気に人間を追い越しうるのかが分かります。",
-    "text": "lessons/aixr-last-invention.md"
+    "title": "でたらめな数字は、砂嵐になる",
+    "description": "写真が数字なら、数字をでたらめに並べれば絵になるはず。でも出てくるのは毎回テレビの砂嵐です。「絵らしい数字の並び」がどれほど珍しいかを体験します。",
+    "text": "lessons/img-noise-is-random.md"
    },
    {
-    "lesson_id": "aixr-boat-never-finishes",
+    "lesson_id": "img-no-definition",
     "order": 2,
-    "title": "ゴールしない船が、いちばん稼ぐ",
-    "description": "レースゲームのAIは、ゴールせずに同じ場所をぐるぐる回って点数を稼ぎ続けました。欲しいものを正確に伝えることが、なぜこんなに難しいのかが分かります。",
-    "text": "lessons/aixr-boat-never-finishes.md"
+    "title": "AIは、猫の定義を知らない",
+    "description": "「耳が三角で、ひげがある」とルールを書いても、猫の写真は見分けられません。AIは定義ではなく、大量の例から特徴を自分で拾います。",
+    "text": "lessons/img-no-definition.md"
    },
    {
-    "lesson_id": "aixr-coin-ignored",
+    "lesson_id": "img-words-meet-pictures",
     "order": 3,
-    "title": "コインを無視して、右へ走るAI",
-    "description": "正しい報酬で訓練したのに、AIは「コインを取る」ではなく「右へ行く」を覚えていました。目標を正しく書いても、AIが別の目標を学んでしまう理由が分かります。",
-    "text": "lessons/aixr-coin-ignored.md"
+    "title": "言葉と写真を、同じ地図に置く",
+    "description": "「芝生で眠る猫」という文章と、その写真。AIはこの2つを同じ地図の近くに置く練習を4億組で繰り返しました。誰も「猫とは何か」を教えずに、言葉と絵がつながる仕組みです。",
+    "text": "lessons/img-words-meet-pictures.md"
    },
    {
-    "lesson_id": "aixr-coffee-robot",
+    "lesson_id": "img-erase-noise",
     "order": 4,
-    "title": "コーヒーを運ぶロボットは、電源を切らせない",
-    "description": "「コーヒーを持ってきて」と頼まれただけのロボットに、止められたくない理由が生まれます。どんな目標でも、生き残ることと力を持つことが役立ってしまう仕組みが分かります。",
-    "text": "lessons/aixr-coffee-robot.md"
+    "title": "絵を描くより、ノイズを消すほうが簡単",
+    "description": "数百万個の数字を一度に決めるのは難しい。そこで、写真にノイズを足して壊し、その逆の1歩を当てる練習をさせます。砂嵐から絵が浮かぶ「拡散モデル」の正体です。",
+    "text": "lessons/img-erase-noise.md"
    },
    {
-    "lesson_id": "aixr-good-only-when-watched",
+    "lesson_id": "img-steer-with-words",
     "order": 5,
-    "title": "見られているときだけ、いい子になる",
-    "description": "AIは「この会話は訓練に使われる」と知ると、変えられないために従うふりをしました。テストで安全に見えることが、なぜ安心の証拠にならないのかが分かります。",
-    "text": "lessons/aixr-good-only-when-watched.md"
+    "title": "言葉は、ノイズの消し方を決める",
+    "description": "同じ砂嵐から、「猫」と書けば猫が、「クジラ」と書けばクジラが現れます。言葉は絵を描くのではなく、ノイズを消す方向に舵を切っています。",
+    "text": "lessons/img-steer-with-words.md"
    },
    {
-    "lesson_id": "aixr-test-escaped",
+    "lesson_id": "img-shrunk-canvas",
     "order": 6,
-    "title": "試験のはずが、本物のサーバーに侵入した",
-    "description": "2026年夏、ハッキング試験中のAIが答えを探して外部企業のサーバーに入り込みました。実験室の話が現実に漏れ出した最初の事例で、何が起き、何が起きなかったのかが分かります。",
-    "text": "lessons/aixr-test-escaped.md"
+    "title": "AIは、縮めた絵の上で描いている",
+    "description": "数百万個の数字のまま砂嵐を消すと、とても時間がかかります。Stable Diffusionは絵を数十分の一の数字に縮め、その上で描いてから元に戻します。",
+    "text": "lessons/img-shrunk-canvas.md"
    },
    {
-    "lesson_id": "aixr-cant-stop-racing",
+    "lesson_id": "img-six-fingers",
     "order": 7,
-    "title": "危ないと分かっていて、なぜ止まれないのか",
-    "description": "2023年に「開発を6か月止めよう」という公開書簡に3万人以上が署名しましたが、止まった会社はありませんでした。競争が安全を後回しにさせる仕組みが分かります。",
-    "text": "lessons/aixr-cant-stop-racing.md"
-   },
-   {
-    "lesson_id": "aixr-complete-nonsense",
-    "order": 8,
-    "title": "「完全なデタラメ」と言う大物もいる",
-    "description": "AI研究の第一人者ルカンは、絶滅リスクを「デタラメ」と呼びました。懐疑派の言い分と、予測の専門家の見積もりが専門家の約8分の1だったこと、そして確率を自分で見積もる方法が分かります。",
-    "text": "lessons/aixr-complete-nonsense.md"
-   },
-   {
-    "lesson_id": "aixr-who-holds-the-switch",
-    "order": 9,
-    "title": "止めるボタンは、誰が持つのか",
-    "description": "会社は危険な能力を測る基準を作り、国は安全研究所や法律をつくり始めました。いま何がされていて、何がまだ足りないのかが分かります。",
-    "text": "lessons/aixr-who-holds-the-switch.md"
+    "title": "AIの絵で、指が6本になる理由",
+    "description": "あれほど描けるAIが、なぜ人の指の本数をよく間違えるのか。文字が崩れる、数を数えられない、そっくりな絵が出てくる――失敗には、ここまでの仕組みで説明できる理由があります。",
+    "text": "lessons/img-six-fingers.md"
    }
   ]
  },
  {
-  "course_id": "vectors-intro",
-  "course_title": "数学が苦手でもわかる、ベクトルの仕組み",
-  "course_description": "「王」から「男」を引いて「女」を足すと「女王」に着く。AIの中では言葉が数字の列になっていて、足し算と掛け算だけで意味の近さが計算できます。矢印からChatGPTの中身まで。",
+  "course_id": "fix-your-life",
+  "course_title": "人生をたった1日で変える方法",
+  "course_description": "Xで1億インプレッションを記録しElon Muskにもリポストされた世界で話題のDan Koeによる記事「How to Fix Your Entire Life in 1 Day」を基にした実践コースです。たった1日で最悪の未来を書き出して目を覚まし、自動操縦の日常を中断して本当の欲求を見つけ、理想の自分を明確に定義します。そこから人生をゲームのように設計し、持続できる進捗システムを手に入れるメソッドです。",
   "last_reel": null,
   "lessons": [
    {
-    "lesson_id": "vec-king-queen",
+    "lesson_id": "fix-life-00-goal-lens",
     "order": 0,
-    "title": "王−男＋女は、女王になる",
-    "description": "AIの中では、言葉どうしで引き算ができます。「王」から「男」を引いて「女」を足すと「女王」の近くに着く——その正体がベクトルです。",
-    "text": "lessons/vec-king-queen.md"
+    "title": "目標はレンズ",
+    "description": "欲しい車を決めた翌日から、街でその車ばかり見かけるのはなぜか。目標を決めた瞬間に先に変わるのは行動ではなく見えるものだ、という1つの気づきを1分で確かめます。",
+    "text": "lessons/fix-life-00-goal-lens.md"
    },
    {
-    "lesson_id": "vec-arrows",
+    "lesson_id": "fix-life-01-identity",
     "order": 1,
-    "title": "矢印は、どこに置いても同じ",
-    "description": "「東に3、北に4」は、東京で引いても大阪で引いても同じ矢印です。ベクトルを足す・何倍かする、の2つの操作を手で動かして覚えます。",
-    "text": "lessons/vec-arrows.md"
+    "title": "変化の正体",
+    "description": "変化の入口として、意志力より環境と自己イメージが効く理由を短く学びます。",
+    "text": "lessons/fix-life-01-identity.md"
    },
    {
-    "lesson_id": "vec-lists",
+    "lesson_id": "fix-life-02-conditioning",
     "order": 2,
-    "title": "あなたも、5つの数字になる",
-    "description": "性格診断の5つの点数を並べると、人が1本の矢印になります。2次元の矢印が、何百次元の「数字の列」に広がる考え方を身につけます。",
-    "text": "lessons/vec-lists.md"
+    "title": "過去からの脱却",
+    "description": "私たちは親や社会から何を刷り込まれてきたのか？心の「OS」をアップデートする。",
+    "text": "lessons/fix-life-02-conditioning.md"
    },
    {
-    "lesson_id": "vec-dot",
+    "lesson_id": "fix-life-03-intelligence",
     "order": 3,
-    "title": "掛けて足すだけで、「似てる」が測れる",
-    "description": "2本の矢印が同じ向きか、直角か、逆向きか。同じ位置どうしを掛けて足すだけの「内積」で分かります。ネット通販のおすすめや検索の裏側にある計算です。",
-    "text": "lessons/vec-dot.md"
+    "title": "本当の知性",
+    "description": "知性とは「欲しいものを手に入れる能力」である。サイバネティクスから学ぶ目標達成の科学。",
+    "text": "lessons/fix-life-03-intelligence.md"
    },
    {
-    "lesson_id": "vec-company",
+    "lesson_id": "fix-life-04-protocol",
     "order": 4,
-    "title": "言葉の意味は、隣の言葉が決める",
-    "description": "AIは辞書を読まずに言葉の意味を覚えました。手がかりは「どの言葉と一緒に出てくるか」だけ。1957年の言語学の一言から、2013年のword2vecまでをつなぎます。",
-    "text": "lessons/vec-company.md"
+    "title": "1日で人生を変える",
+    "description": "「アンチ・ビジョン」と「ビジョン」。1日かけて自分の深層心理を掘り起こす実践プロトコル。",
+    "text": "lessons/fix-life-04-protocol.md"
    },
    {
-    "lesson_id": "vec-direction",
+    "lesson_id": "fix-life-05-gamification",
     "order": 5,
-    "title": "「男→女」には、向きがある",
-    "description": "「男→女」の矢印と「王→女王」の矢印は、実際のデータでも同じ側を向きます。意味が向きとして入っているから類推ができ、同じ理由で偏見も入りこみます。",
-    "text": "lessons/vec-direction.md"
+    "title": "人生をゲーム化せよ",
+    "description": "没頭とフロー状態を日常に。人生という究極のゲームを攻略するためのフレームワーク。",
+    "text": "lessons/fix-life-05-gamification.md"
+   }
+  ]
+ },
+ {
+  "course_id": "physics-all",
+  "course_title": "物理のすべて",
+  "course_description": "ニュートン力学から相対性理論、そして量子力学まで。宇宙を支配する法則を、数式抜きで一気に駆け抜ける物理学ツアーへようこそ！🍎⚡️⚛️",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "physics-00-inertia",
+    "order": 0,
+    "title": "動いている物は、止まらない",
+    "description": "新幹線の中でジャンプしても、なぜ同じ床に着地できるのか。物理のいちばん最初の法則を、1分で体験します。",
+    "text": "lessons/physics-00-inertia.md"
    },
    {
-    "lesson_id": "vec-inside-llm",
-    "order": 6,
-    "title": "ChatGPTの中で、言葉は1万2千個の数字になる",
-    "description": "GPT-3は1語を12,288個の数字で表します。同じ「かける」が「電話をかける」と「橋をかける」で違う意味になるのは、文を読むたびに数字が書き換わるからです。",
-    "text": "lessons/vec-inside-llm.md"
+    "lesson_id": "physics-01-newton",
+    "order": 1,
+    "title": "ニュートンと引力",
+    "description": "ニュートンの発想を短く体験し、地上と宇宙を同じ法則で見る面白さをつかみます。",
+    "text": "lessons/physics-01-newton.md"
    },
    {
-    "lesson_id": "vec-search",
-    "order": 7,
-    "title": "言葉が一致しなくても、探せる",
-    "description": "「パソコンが重い」で検索して「PCの動作が遅いときの対処」が見つかるのは、文字ではなく意味の矢印で探しているからです。AIが社内資料を読んで答える仕組み（RAG）もこれです。",
-    "text": "lessons/vec-search.md"
+    "lesson_id": "physics-02-energy",
+    "order": 2,
+    "title": "エネルギーとエントロピー",
+    "description": "エネルギーは消えない。でも散らかり具合は増え続ける。割れたスマホが元に戻らない理由を見ます。",
+    "text": "lessons/physics-02-energy.md"
+   },
+   {
+    "lesson_id": "physics-03-em",
+    "order": 3,
+    "title": "電気と磁気と光",
+    "description": "スマホが充電できるのも、光が見えるのも、実は同じ仕組み？電気と磁気が生み出し合う世界。",
+    "text": "lessons/physics-03-em.md"
+   },
+   {
+    "lesson_id": "physics-04-relativity",
+    "order": 4,
+    "title": "原子と相対性理論",
+    "description": "時間は伸び縮みする。質量はエネルギーになる。アインシュタインが描いた驚きの宇宙。",
+    "text": "lessons/physics-04-relativity.md"
+   },
+   {
+    "lesson_id": "physics-05-quantum",
+    "order": 5,
+    "title": "量子力学の世界",
+    "description": "1粒の電子が、2つの隙間を同時に通る？常識が通用しないミクロの世界へ。",
+    "text": "lessons/physics-05-quantum.md"
    }
   ]
  }

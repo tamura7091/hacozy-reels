@@ -1,0 +1,65 @@
+{
+  "course_id": "physics-all",
+  "course_title": "物理のすべて",
+  "lesson_id": "physics-02-energy",
+  "lesson_title": "エネルギーとエントロピー",
+  "title": "割れたスマホが戻らない理由",
+  "topic": "Energy conservation and entropy: why a broken phone never un-breaks",
+  "why": "候補3つ: (1) physics-02-energy「エネルギーとエントロピー」: エネルギーは減らないのに割れた画面は戻らない、という誰もが知る現象の逆説。仕切りを外すと粒が散らばる動きがそのまま映像になり、確率が1000分の1から10の30乗分の1へ跳ねる数字の驚きもある。(2) physics-00-inertia: 新幹線の中でジャンプしても同じ床に着地する理由。身近だが答えが慣性の一言で済み、驚きの持続が弱い。(3) dwz-intro: 使わずに亡くなった13万ドル＝6,646時間の労働。数字は強いが生き方の助言で、動く仕組みがなく、このアカウントでは助言系(2.2K)が伸びていない。画像生成AI系は投稿済みの「画像生成AIの仕組み」の近縁、physics-05は二重スリット、physics-03は投稿済みSuica(電磁誘導)、physics-04はGPS(相対論)と重なるので除外。採用は(1): 有名な物理の定番で、冒頭から割れる画面と散らばる粒という現象そのものが動き、最後の問い(ワイヤレス充電)はコースの次のレッスン「電気と磁気と光」が答える。",
+  "voice": "Konoha",
+  "yomi": {
+    "1000分の1": "せんぶんのいち",
+    "10個": "じっこ",
+    "100個": "ひゃっこ",
+    "0が30個": "ゼロがさんじゅっこ"
+  },
+  "instruction": "タイトルは「割れたスマホが戻らない理由」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭の1フレーム目から、スマホが床に落ちて画面にヒビが走る瞬間がスローで動いている(実写風、スマホと分かる画)。「エネルギーは少しも減っていません」で、割れたスマホの横に合計エネルギーのメーターが一定のまま光る。「なぜ巻き戻らないのでしょうか」で映像を逆再生しかけて止める。位置エネルギーと運動エネルギーは、落下するスマホの横に2本のバーを置き、高さのバーが減った分だけ速さのバーが伸び、合計が同じであることを見せる(イメージ図)。床に当たる瞬間、速さのバーが音の波・熱(赤い揺らぎ)・ヒビの3つに分かれる。「音と熱が集まり直して」では、音と熱が画面へ戻っていくありえない逆再生のイメージを一瞬だけ。箱の場面は本物らしいシミュレーション: 左側に10個の粒、仕切りが外れると粒がでたらめに跳ね回り全体に散らばる。「およそ1000分の1」「1の後ろに0が30個」の数字を大きく中央に、粒の数が100個に増えて箱がさらに混ざる。エントロピーでは時間の矢印が散らかる向きに伸びる。最後の問いではスマホを充電台に置き、線のない隙間にエネルギーが渡るイメージ(仕組みは見せない)で止める。テキスト、字幕、映像はすべて中央(x=540)。上部ラベルはタイトル。エンディングは物語からそのまま続け、広告カードにしない。Hacozyアイコン素材は「続きはHacozyで。」の時だけ出す。",
+  "lines": [
+    "割れたスマホの画面は、元に戻りません。",
+    "実は割れる前と後で、エネルギーは少しも減っていません。",
+    "それなのになぜ、元に巻き戻ることはないのでしょうか。",
+    "持ち上げたスマホには、高さの分だけ「位置エネルギー」がたくわえられています。",
+    "落ちるにつれて高さが減り、その分だけ速さの「運動エネルギー」が増えます。",
+    "床に当たると、その速さは音や熱、そして画面を割ることに使われます。",
+    "エネルギーは消えることなく形を変えるだけで、これが「エネルギー保存則」です。",
+    "それなら、音と熱が再び集まって、画面が元通りになってもよさそうです。",
+    "ところがそうはならず、その理由は並び方を数えてみるとわかります。",
+    "箱の左側に粒を10個集めて、仕切りを外してみます。",
+    "粒はでたらめに動き回り、すぐに箱全体へと散らばります。",
+    "すべての粒がたまたま左側に戻る確率は、およそ1000分の1です。",
+    "粒が100個の場合、1の後ろに0が30個並ぶ回数に1回となります。",
+    "元に戻ることが禁止されているのではなく、散らかった並び方が桁違いに多いだけです。",
+    "この散らかり具合が「エントロピー」であり、私たちはそれが増える方向を未来だと見分けています。",
+    "では、線もないのに、スマホはどうやって充電台からエネルギーを受け取っているのでしょうか。",
+    "その答えは、Hacozyのコース「物理のすべて」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "OpenStax University Physics Volume 1, 8.3 Conservation of Energy (Rice University)",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy"
+    },
+    {
+      "title": "OpenStax University Physics Volume 2, 4.7 Entropy on a Microscopic Scale (Rice University)",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/4-7-entropy-on-a-microscopic-scale"
+    },
+    {
+      "title": "Yi-Zhuang You, PHYS 2C Lecture Notes (UC San Diego), 20-4 A Statistical View of Entropy",
+      "url": "https://everettyou.github.io/teaching/PHYS2C/notes/ch20_entropy-second-law/20-4-a-statistical-view-of-entropy.html"
+    },
+    {
+      "title": "University of Alberta PHYS 310 assignment: probability all 100 molecules in the left half",
+      "url": "https://sites.ualberta.ca/~bsuther/courses/phys310/assn5.pdf"
+    },
+    {
+      "title": "The improbable event of spontaneous cell rejuvenation (arXiv:1212.1128), probability (1/2)^N for all molecules in one compartment",
+      "url": "https://arxiv.org/pdf/1212.1128"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 15,
+    "kept": 1
+  }
+}
