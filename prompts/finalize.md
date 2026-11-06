@@ -16,4 +16,10 @@ Then read the whole script once more as the viewer and fix only what is still wr
 `"polish": {"model": "<from polish.json>", "taken": <lines taken from Gemini>, "kept": <changed lines you rejected>}`.
 If `caption.txt` reads unnaturally, fix it the same way.
 
+**Length is a hard limit: all lines together must be 520 characters or fewer** (the voice reads about 6 a second,
+so 520 is about 85 seconds; longer reels are not made). Count with
+`node -e 'console.log(require("./REEL_DIR/reel.json").lines.join("").length)'` after writing. If it is over, cut:
+drop the weakest middle beat or merge two lines, never the hook, the question in line 2 or the ending, and count
+again until it fits.
+
 Be quick: this is a few minutes' work. Do not run the engine, commit or post.
