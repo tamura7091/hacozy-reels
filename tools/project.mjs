@@ -92,5 +92,5 @@ fs.writeFileSync(path.join(dir, 'project.json'), JSON.stringify({
 const seconds = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path.join(dir, 'recording.mp3')]).toString());
 fs.writeFileSync(path.join(reelDir, 'project'), id + '\n');
 console.error(`voice ${seconds.toFixed(1)} s, ${reel.lines.length} lines → ${dir}`);
-if (seconds > 75) throw new Error(`the voice runs ${seconds.toFixed(0)} s; a reel must stay under 75 s`);
+if (seconds > 100) throw new Error(`the voice runs ${seconds.toFixed(0)} s; a reel must stay under 100 s`);
 console.log(dir);
