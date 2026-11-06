@@ -72,7 +72,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           mkdir -p /tmp/probe && head -c 200000 /dev/urandom > /tmp/probe/reel.mp4 && echo 'プロフィール' > /tmp/probe/caption.txt && echo '{}' > /tmp/probe/reel.json
-          node tools/post.mjs /tmp/probe
+          node tools/post.mjs /tmp/probe --refresh
       - name: 0. Shortlist lessons from the Hacozy catalog
         id: pick
         timeout-minutes: 3

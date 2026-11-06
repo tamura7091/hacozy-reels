@@ -40,7 +40,7 @@ that needs it (Claude never sees the Instagram, Gemini, ElevenLabs or Supabase k
 | Secret | What | Where it came from |
 |---|---|---|
 | `CLAUDE_CODE_OAUTH_TOKEN` | Claude Code on Naoki's Claude plan (1 year) | `claude setup-token`; Kaminari `HACOZY_REELS_CLAUDE_TOKEN` |
-| `IG_TOKEN` | posts to @hacozy_official | Kaminari `HACOZY_IG_TOKEN` ([tools/connect.sh](tools/connect.sh)) |
+| `IG_TOKEN` | posts to @hacozy_official: an Instagram Login token from the Meta app (60 days, refreshed by every run) | Kaminari `HACOZY_IG_TOKEN` ([tools/connect.sh](tools/connect.sh)) |
 | `IG_USER_ID` | @hacozy_official's Instagram user id | Kaminari `HACOZY_IG_USER_ID` |
 | `ELEVENLABS_API_KEY` | the voice | Rakuda's ElevenLabs key (os `vault/rakuda-elevenlabs.env`) |
 | `GEMINI_API_KEY` | the Japanese polish | Kaminari `PERSONAL_GEMINI_API_KEY` (personal, never Speak's) |

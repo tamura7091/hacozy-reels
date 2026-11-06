@@ -51,6 +51,16 @@ const reel = JSON.parse(fs.readFileSync(path.join(dir, 'reel.json'), 'utf8'));
 const me = await api('GET', `/${igId}`, { fields: 'username' });
 if (me.username !== USERNAME) throw new Error(`the token posts as @${me.username}, not @${USERNAME}`);
 console.log(`posting as @${me.username} via ${new URL(API).host}: ${(size / 1e6).toFixed(1)} MB, caption ${caption.length} chars`);
+// An Instagram Login token lives 60 days from its last refresh: every run refreshes it. Meta answers with the same
+// token string (then nothing else is needed); if it ever answers with a new one, the old one still dies on its date,
+// so the run fails and says to store the new one.
+if (token.startsWith('IG') && args.includes('--refresh')) {
+  const r = await fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(token)}`);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || !j.access_token) console.log(`::warning::token refresh failed (${r.status} ${JSON.stringify(j.error ?? j).slice(0, 200)}); it is less than a day old or already broken`);
+  else if (j.access_token !== token) throw new Error('Instagram returned a new token on refresh: regenerate it, store it in Kaminari HACOZY_IG_TOKEN and run tools/connect.sh ig');
+  else console.log(`token refreshed: good for ${Math.round(j.expires_in / 86400)} more days`);
+}
 if (!publish) process.exit(0);
 
 // 2. a reel container, the mp4 uploaded into it, then published once Instagram has processed it
