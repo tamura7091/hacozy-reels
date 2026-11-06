@@ -40,8 +40,8 @@ that needs it (Claude never sees the Instagram, Gemini, ElevenLabs or Supabase k
 | Secret | What | Where it came from |
 |---|---|---|
 | `CLAUDE_CODE_OAUTH_TOKEN` | Claude Code on Naoki's Claude plan (1 year) | `claude setup-token`; Kaminari `HACOZY_REELS_CLAUDE_TOKEN` |
-| `IG_TOKEN` | posts to @hacozy_official: a token of the system user "Rakuda Reels Publisher" (Rakuda business, app "Rakuda Reels", 有効期限 なし), with @hacozy_official assigned to it as an asset (the app cannot make Instagram Login tokens: "新しいアプリでは利用できません") | Kaminari `HACOZY_IG_TOKEN` ([tools/connect.sh](tools/connect.sh)) |
-| `IG_USER_ID` | @hacozy_official's Instagram user id | Kaminari `HACOZY_IG_USER_ID` |
+| `IG_TOKEN` | posts to @hacozy_official: the system user "Rakuda Reels Publisher" token (Rakuda business 2556162848129136, app "Rakuda Reels"), which reaches the account because the Hacozy portfolio (901982835632847) shares its Page "Hacozy" 924885604045537, linked to @hacozy_official, with Rakuda as partner. The same token posts @rakuda.studio, so regenerate it for both (60-day token made 2026-11-07; next time pick 有効期限 なし) | Kaminari `RAKUDA_IG_TOKEN` ([tools/connect.sh](tools/connect.sh)) |
+| `IG_USER_ID` | @hacozy_official's Instagram user id, 17841480209110384 | not a secret |
 | `ELEVENLABS_API_KEY` | the voice | Rakuda's ElevenLabs key (os `vault/rakuda-elevenlabs.env`) |
 | `GEMINI_API_KEY` | the Japanese polish | Kaminari `PERSONAL_GEMINI_API_KEY` (personal, never Speak's) |
 | `HACOZY_SUPABASE_URL`, `HACOZY_SUPABASE_KEY` | read the catalog | the Hacozy web app's public (anon) key, `hacozy/web/.env` |
