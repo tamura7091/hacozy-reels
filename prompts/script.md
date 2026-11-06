@@ -15,7 +15,12 @@ ask; nobody is watching. Be efficient: this whole step should take well under 20
 
 `REEL_DIR/candidates.json` is today's shortlist from the live catalog: published courses that went longest without a
 reel, each with its lessons that have never had one. `REEL_DIR/lessons/<id>.md` is each lesson's full text. Also read:
-- `history.json`: what has been posted (never repeat a topic or a close variant, even from another course);
+- `REEL_DIR/posted.json`: every reel already on @hacozy_official and @rakuda.studio, read live from Instagram
+  (including the ones Naoki made by hand: Apollo 11, image generation AI, GPS, vectors, Google Maps, the double slit,
+  sorting, ChatGPT, black holes, Suica, the iPhone keyboard…). **Never repeat a topic or a close variant of one**,
+  even from a different angle: a lesson whose main idea is already a posted reel is not eligible, so pick another
+  lesson (or another course in the shortlist);
+- `history.json`: what this pipeline posted, with the lesson ids;
 - `rakuda/data/channels/6c5e10a070d9/channel.json` → `learnings`: what has worked on this very account (views per
   reel). Strong defaults: the first 3 seconds show the phenomenon itself moving; known products, famous experiments
   and CS classics beat abstract life advice.

@@ -10,7 +10,8 @@ Claude plan (Claude Code, `CLAUDE_CODE_OAUTH_TOKEN`); no Rakuda credits and no C
 
 0. **Shortlist** ([tools/pick.mjs](tools/pick.mjs)): the live Hacozy catalog (Supabase `courses` / `lessons`, the web
    app's public key) → published courses that went longest without a reel, each with its lessons that never had one
-   ([history.json](history.json) records `course_id` / `lesson_id` of every post). Courses rotate; lessons never repeat.
+   ([history.json](history.json) records `course_id` / `lesson_id` of every post). Courses rotate; lessons never repeat. [tools/posted.mjs](tools/posted.mjs) also reads every reel already on
+   @hacozy_official and @rakuda.studio live from Instagram (hand-made ones included), and no topic in it is made again.
 1. **Lesson and script** ([prompts/script.md](prompts/script.md)): Claude Code picks the lesson that makes the best
    reel, checks every fact on English primary sources and writes the script by Naoki's Hacozy short rules
    ([rules/hacozy-short-script.md](rules/hacozy-short-script.md), a copy of the os repo skill): the first line builds

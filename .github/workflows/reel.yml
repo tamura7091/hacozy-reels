@@ -1,6 +1,7 @@
 # The daily Hacozy reel for @hacozy_official, made by the real Rakuda engine on Naoki's Claude plan (no model API
 # keys for Claude; the engine's local "Claude Code" mode sends every model call to the claude CLI):
-#   0. tools/pick.mjs shortlists unused lessons of published Hacozy courses, least recently featured course first.
+#   0. tools/pick.mjs shortlists unused lessons of published Hacozy courses, least recently featured course first;
+#      tools/posted.mjs lists every reel @hacozy_official and @rakuda.studio already posted (by hand or by a run).
 #   A. Claude Code picks the lesson, checks the facts on English primary sources and writes the script by the Hacozy
 #      short rules (prompts/script.md); Gemini polishes the Japanese (tools/polish.mjs); Claude keeps only the changes
 #      that keep the facts (prompts/finalize.md).
@@ -79,11 +80,14 @@ jobs:
         env:
           HACOZY_SUPABASE_URL: ${{ secrets.HACOZY_SUPABASE_URL }}
           HACOZY_SUPABASE_KEY: ${{ secrets.HACOZY_SUPABASE_KEY }} # the public key the web app ships; reads published rows
+          IG_TOKEN: ${{ secrets.IG_TOKEN }} # only to read what both accounts already posted
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           dir="reels/$(TZ=Asia/Tokyo date +%F)"
           [ -e "$dir/reel.json" ] && dir="$dir-$(TZ=Asia/Tokyo date +%H%M)" # a second run that day keeps its own folder
           mkdir -p "$dir" && echo "dir=$dir" >> "$GITHUB_OUTPUT"
           node tools/pick.mjs "$dir"
+          node tools/posted.mjs "$dir"
       - name: A1. Lesson and script (Claude Code)
         timeout-minutes: 30
         env:
