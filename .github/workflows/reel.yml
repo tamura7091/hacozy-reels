@@ -1,0 +1,192 @@
+# The daily Hacozy reel for @hacozy_official, made by the real Rakuda engine on Naoki's Claude plan (no model API
+# keys for Claude; the engine's local "Claude Code" mode sends every model call to the claude CLI):
+#   0. tools/pick.mjs shortlists unused lessons of published Hacozy courses, least recently featured course first.
+#   A. Claude Code picks the lesson, checks the facts on English primary sources and writes the script by the Hacozy
+#      short rules (prompts/script.md); Gemini polishes the Japanese (tools/polish.mjs); Claude keeps only the changes
+#      that keep the facts (prompts/finalize.md).
+#   B. The Rakuda engine (tamura7091/rakuda, private, read with a deploy key) reads it with an AI voice and edits it.
+#   C. One review (prompts/review.md); if it fails, at most two sections are fixed and a second, final review decides.
+#   D. A passing reel is posted at once (tools/post.mjs). A run that should have posted and did not opens an issue.
+# Each secret reaches only the step that needs it. Starts 10:00 JST, posts around 11:30. Run by hand: Actions →
+# Daily reel → Run workflow (tick "publish" to post; otherwise the reel is only made and kept as the run's artifact).
+name: Daily reel
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Post it to Instagram
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write # the alert when a run that should have posted did not
+concurrency: reel
+env:
+  # the engine's spending caps count what the API would have charged; the plan pays nothing here
+  RAKUDA_RUN_BUDGET_USD: '1000'
+  RAKUDA_MONTH_BUDGET_USD: '100000'
+  POSTS: ${{ github.event_name == 'schedule' || inputs.publish }}
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: tamura7091/rakuda
+          ssh-key: ${{ secrets.RAKUDA_DEPLOY_KEY }}
+          path: rakuda
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Set up the engine (as rakuda/Dockerfile)
+        timeout-minutes: 15
+        env:
+          REELS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CHANNEL_JSON: ${{ secrets.CHANNEL_JSON }} # the Hacozy channel's learnings (what worked on its reels)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-cjk fonts-noto-color-emoji fonts-inter fonts-dejavu-core > /dev/null
+          sudo cp rakuda/docker/fonts.conf /etc/fonts/local.conf && fc-cache -f > /dev/null
+          python3 -m venv ~/venv && ~/venv/bin/pip install -q anthropic==0.125.0 numpy==2.3.4 pdfplumber==0.11.8 pypdfium2==5.9.0
+          echo "$HOME/venv/bin" >> "$GITHUB_PATH"
+          (cd rakuda/engine && npm ci --omit=dev --silent)
+          npm install -g --silent @anthropic-ai/claude-code
+          # the engine drops CLAUDE_* variables before it calls the CLI: this wrapper, first on PATH, hands the plan's
+          # token (REELS_CLAUDE_TOKEN, set only on the steps that run Claude) back to every claude it starts
+          mkdir -p ~/bin
+          printf '#!/bin/sh\nCLAUDE_CODE_OAUTH_TOKEN="$(printf %%s "$REELS_CLAUDE_TOKEN" | tr -d "[:space:]")" exec "%s" "$@"\n' "$(npm prefix -g)/bin/claude" > ~/bin/claude
+          chmod +x ~/bin/claude && echo "$HOME/bin" >> "$GITHUB_PATH"
+          # fail here, in seconds, when the plan's token is not accepted
+          ~/bin/claude -p "Reply with OK" --model haiku --output-format json | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);if(j.is_error){console.error("Claude sign-in failed: "+j.result);process.exit(1)}console.log("Claude sign-in ok")})'
+          mkdir -p rakuda/data/channels/6c5e10a070d9
+          printf '%s' "$CHANNEL_JSON" > rakuda/data/channels/6c5e10a070d9/channel.json
+          node -e 'JSON.parse(require("fs").readFileSync("rakuda/data/channels/6c5e10a070d9/channel.json","utf8")).learnings.text||process.exit(1)'
+      - name: Check the Instagram token before any work
+        if: env.POSTS == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          mkdir -p /tmp/probe && head -c 200000 /dev/urandom > /tmp/probe/reel.mp4 && echo 'プロフィール' > /tmp/probe/caption.txt && echo '{}' > /tmp/probe/reel.json
+          node tools/post.mjs /tmp/probe
+      - name: 0. Shortlist lessons from the Hacozy catalog
+        id: pick
+        timeout-minutes: 3
+        env:
+          HACOZY_SUPABASE_URL: ${{ secrets.HACOZY_SUPABASE_URL }}
+          HACOZY_SUPABASE_KEY: ${{ secrets.HACOZY_SUPABASE_KEY }} # the public key the web app ships; reads published rows
+        run: |
+          dir="reels/$(TZ=Asia/Tokyo date +%F)"
+          [ -e "$dir/reel.json" ] && dir="$dir-$(TZ=Asia/Tokyo date +%H%M)" # a second run that day keeps its own folder
+          mkdir -p "$dir" && echo "dir=$dir" >> "$GITHUB_OUTPUT"
+          node tools/pick.mjs "$dir"
+      - name: A1. Lesson and script (Claude Code)
+        timeout-minutes: 30
+        env:
+          REELS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          dir="${{ steps.pick.outputs.dir }}"
+          { echo "Today is $(TZ=Asia/Tokyo date +%F) (JST). REEL_DIR is $dir."; cat prompts/script.md; } > /tmp/prompt.md
+          claude -p "$(cat /tmp/prompt.md)" --model opus --dangerously-skip-permissions --output-format stream-json --verbose > "$dir/script.log"
+          node -e 'const r=require("./'"$dir"'/reel.json");if(!r.lines?.length||!r.lesson_id||!r.course_id)process.exit(1);console.log(r.course_title,"/",r.lesson_title,"|",r.why);console.log(r.lines.join("\n"))'
+      - name: A2. Gemini polishes the Japanese
+        timeout-minutes: 8
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node tools/polish.mjs "${{ steps.pick.outputs.dir }}"
+      - name: A3. Keep the natural wording, not the drift (Claude Code)
+        timeout-minutes: 10
+        env:
+          REELS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          dir="${{ steps.pick.outputs.dir }}"
+          { echo "REEL_DIR is $dir."; cat prompts/finalize.md; } > /tmp/finalize.md
+          claude -p "$(cat /tmp/finalize.md)" --model opus --dangerously-skip-permissions --output-format stream-json --verbose > "$dir/finalize.log"
+          node -e 'const r=require("./'"$dir"'/reel.json");const l=r.lines;if(!l.at(-1).includes("プロフィールのリンク")||!l.at(-2).includes("Hacozy"))process.exit(1);console.log(JSON.stringify(r.polish));console.log(l.join("\n"))'
+      - name: B. Rakuda edits and exports it
+        id: edit
+        timeout-minutes: 75
+        env:
+          REELS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          dir="${{ steps.pick.outputs.dir }}"
+          proj=$(node tools/project.mjs "$dir")
+          echo "proj=$proj" >> "$GITHUB_OUTPUT"
+          python3 rakuda/engine/pipeline.py hear "$proj"
+          if [ -f "$proj/error.log" ]; then cat "$proj/error.log"; exit 1; fi
+          python3 rakuda/engine/pipeline.py export "$proj"
+          cp "$(ls -t "$proj"/exports/*.mp4 | head -n 1)" "$dir/reel.mp4"
+          node tools/timing.mjs "$proj" "after the edit"
+      - name: C. Review, fix at most two sections, final review
+        id: review
+        timeout-minutes: 50
+        env:
+          REELS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          dir="${{ steps.pick.outputs.dir }}"; proj="${{ steps.edit.outputs.proj }}"
+          verdict() { node -e 'const r=require("./'"$dir"'/review.json");console.log(r.pass?"PASS":"FAIL", r.summary);process.exit(r.pass?0:1)'; }
+          review() {
+            { echo "REEL_DIR is $dir. PROJECT_DIR is $proj."; sed "s/ROUND_N/$1/" prompts/review.md; } > /tmp/review.md
+            claude -p "$(cat /tmp/review.md)" --model opus --dangerously-skip-permissions --output-format stream-json --verbose > "$dir/review-$1.log"
+          }
+          review 1
+          verdict && exit 0
+          n=$(node -e 'console.log(Math.min(2,(require("./'"$dir"'/review.json").revise||[]).length))')
+          [ "$n" = 0 ] && { echo "Nothing a redo can fix: not posted today."; exit 1; }
+          for i in $(seq 0 $((n - 1))); do
+            node -e 'const r=require("./'"$dir"'/review.json").revise['"$i"'];require("fs").writeFileSync("'"$proj"'/revise.json",JSON.stringify({section:r.section,request:r.request,quick:!!r.quick}));console.log("revise",r.section,r.quick?"(quick)":"(rebuild)",r.request)'
+            rm -f "$proj/error.log"
+            python3 rakuda/engine/pipeline.py revise "$proj"
+            if [ -f "$proj/error.log" ]; then echo "::warning::revise of a section failed"; tail -5 "$proj/error.log"; fi
+          done
+          python3 rakuda/engine/pipeline.py export "$proj"
+          cp "$(ls -t "$proj"/exports/*.mp4 | head -n 1)" "$dir/reel.mp4"
+          cp "$dir/review.json" "$dir/review-1.json"
+          review 2
+          node tools/timing.mjs "$proj" "after review"
+          verdict || { echo "Not good enough to post today."; exit 1; }
+      - name: D. Post to Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: node tools/post.mjs ${{ steps.pick.outputs.dir }} ${{ env.POSTS == 'true' && '--publish' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reel
+          path: |
+            reels/
+            ${{ steps.edit.outputs.proj }}/*.json
+            ${{ steps.edit.outputs.proj }}/events.jsonl
+            ${{ steps.edit.outputs.proj }}/trace/calls.jsonl
+            ${{ steps.edit.outputs.proj }}/error.log
+          if-no-files-found: ignore
+      - name: Keep the script, review and history
+        if: always()
+        run: |
+          git config user.name "hacozy-reels"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reels/*/reel.json reels/*/caption.txt reels/*/review*.json reels/*/polish.json reels/*/candidates.json reels/*/project history.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "reel ${{ steps.pick.outputs.dir }}"
+          git pull --rebase -q && git push -q
+      # A run that should have posted must end with a reel on Instagram; when it did not, say so where Naoki sees it
+      - name: Alert when no reel was posted
+        if: failure() && env.POSTS == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          passed="${{ steps.review.outcome == 'success' }}"
+          if [ "$passed" = true ]; then
+            what="The reel passed review but posting failed. Download the artifact and run: IG_TOKEN=… IG_USER_ID=… node tools/post.mjs ${{ steps.pick.outputs.dir }} --publish"
+          else
+            what="No reel passed today (a step failed or the review said no; see the run's log and ${{ steps.pick.outputs.dir }}/review.json)."
+          fi
+          echo "::error::$what"
+          gh issue create --title "No Hacozy reel posted: ${{ steps.pick.outputs.dir || github.run_id }}" --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          $what"

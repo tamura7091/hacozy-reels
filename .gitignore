@@ -1,0 +1,6 @@
+node_modules/
+rakuda/
+reels/*/reel.mp4
+reels/*/*.log
+reels/*/lessons/
+.DS_Store
