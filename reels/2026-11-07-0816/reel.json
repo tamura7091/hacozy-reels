@@ -1,0 +1,54 @@
+{
+  "course_id": "physics-all",
+  "course_title": "物理のすべて",
+  "lesson_id": "physics-01-newton",
+  "lesson_title": "ニュートンと引力",
+  "title": "月が落ちてこない理由",
+  "topic": "Why the Moon falls but never hits the Earth (Newton's Moon test)",
+  "why": "Candidates: (1) physics-01-newton 「月は、いまも落ちている」: a literally true paradox (the Moon is falling right now, yet never hits us) plus a famous classic (Newton's apple and Moon) with a number that clicks (60 times farther, 3600 times weaker, 1.4 mm a second) and a visual that moves from frame one (the Moon bending off its straight path). (2) physics-02-energy, why a broken phone never reassembles: strong particle animation and a huge probability number, but entropy is more abstract and the hook is weaker. (3) physics-03-em, wireless charging and light are the same thing: great twist, but its core, electromagnetic induction, is close to the Suica reel already on @rakuda.studio, so it is not eligible. The Moon wins: famous experiment, a paradox in line 1, a mechanism that animates naturally (falling plus moving sideways equals orbit), and a familiar payoff (the space station, astronauts floating because they fall). Not a variant of any posted reel (black hole reel is about falling into a black hole, not orbits).",
+  "voice": "Konoha",
+  "yomi": {
+    "1.4ミリ": "いってんよんミリ"
+  },
+  "instruction": "タイトルは「月が落ちてこない理由」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭は最初のフレームから、宇宙に浮かぶ地球と月が実写風に映り、月が地球へ向かってすっと落ちていく動き（まっすぐの点線から地球側へ曲がる軌跡）が「落ち続けています」の言葉と同時に見えること。ロゴや空の図から始めない。続いて、手から落ちるリンゴと「1秒で約5メートル」の落下距離。地球の中心からリンゴまでと月までの距離を並べ、月が約60倍遠いことを線で示す。引力の矢印が距離2倍で4分の1、3倍で9分の1と細くなっていくアニメーション、60倍で3600分の1。月が1秒で1.4ミリだけ落ちる拡大図（イメージ図）。リンゴと月に同じ矢印が地球へ向かう画で「万有引力」。月が横向き秒速約1キロで進み、引力に曲げられて円の軌道になる過程を、まっすぐ飛ぶ線と曲がる線の比較で見せる（イメージ図）。宇宙ステーションが約90分で地球を1周し、中で飛行士が浮かぶ様子（ステーションごと落ちていることを矢印で示すイメージ図）。最後は月が回り続ける画のまま問いで終える。文字・字幕・図はすべて画面中央（x=540）に揃える。上部ラベルはタイトル。エンディングは物語からそのまま続け、広告カードは入れない。Hacozyのアイコン素材は「続きはHacozyで。」のときだけ出す。",
+  "lines": [
+    "月は今この瞬間も、地球へ落ち続けています。",
+    "それなのに、なぜ一度もぶつからないのでしょうか。",
+    "手を離したリンゴは、最初の1秒間で約5メートル落ちます。",
+    "月は地球の中心から、リンゴの約60倍遠くにあります。",
+    "引力は離れるほど弱くなり、距離が2倍になると4分の1になります。",
+    "60倍遠い月では、60かける60で3600分の1になります。",
+    "月が1秒間に落ちる距離は、わずか1.4ミリほどです。",
+    "ニュートンが実際の月と比べると、ほぼぴったり合いました。",
+    "リンゴも月も、同じ「万有引力」、重さを持つもの同士が引き合う力で落ちていました。",
+    "では、なぜぶつからないのでしょうか。",
+    "それは月が同時に、横向きに秒速約1キロで進んでいるからです。",
+    "まっすぐ飛び去ろうとする月を、引力が少しずつ曲げ続けます。",
+    "落ちながらも地球を外れ続ける道、これが「軌道」です。",
+    "宇宙ステーションも、約90分で地球を1周しながら落ち続けています。",
+    "飛行士が浮いて見えるのは、ステーションごと落ちているからです。",
+    "しかし燃料もない月は、なぜ止まらずに進み続けられるのでしょうか。",
+    "その答えは、Hacozyのコース「物理のすべて」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Isaac Newton, The Mathematical Principles of Natural Philosophy (Motte translation, 1846), Book III, Proposition IV",
+      "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1846)/BookIII-Prop1"
+    },
+    {
+      "title": "NASA NSSDCA, Moon Fact Sheet (distance 384,400 km, mean orbital velocity 1.022 km/s)",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+    },
+    {
+      "title": "NASA, Space Station Facts and Figures (orbits Earth about every 90 minutes)",
+      "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 9,
+    "kept": 3
+  }
+}
