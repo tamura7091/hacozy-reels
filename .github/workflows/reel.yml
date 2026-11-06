@@ -113,8 +113,8 @@ jobs:
             { echo "REEL_DIR is $dir. The script is now $(len) characters."; sed "s#REEL_DIR/reel.json#$dir/reel.json#g" prompts/finalize.md; } > /tmp/finalize.md
             claude -p "$(cat /tmp/finalize.md)" --model opus --dangerously-skip-permissions --output-format stream-json --verbose > "$dir/finalize-$try.log"
             echo "script length: $(len) characters"
-            [ "$(len)" -le 520 ] && break
-            [ "$try" = 2 ] && { echo "::error::the script is still over 520 characters"; exit 1; }
+            [ "$(len)" -le 460 ] && break
+            [ "$try" = 2 ] && { echo "::error::the script is still over 460 characters"; exit 1; }
           done
           node -e 'const r=require("./'"$dir"'/reel.json");const l=r.lines;if(!l.at(-1).includes("プロフィールのリンク")||!l.at(-2).includes("Hacozy"))process.exit(1);console.log(JSON.stringify(r.polish));console.log(l.join("\n"))'
       - name: B. Rakuda edits and exports it
@@ -129,8 +129,7 @@ jobs:
           echo "proj=$proj" >> "$GITHUB_OUTPUT"
           python3 rakuda/engine/pipeline.py hear "$proj"
           if [ -f "$proj/error.log" ]; then cat "$proj/error.log"; exit 1; fi
-          python3 rakuda/engine/pipeline.py export "$proj"
-          cp "$(ls -t "$proj"/exports/*.mp4 | head -n 1)" "$dir/reel.mp4"
+          tools/export.sh "$dir" "$proj"
           node tools/timing.mjs "$proj" "after the edit"
       - name: C. Review, fix at most two sections, final review
         id: review
@@ -154,8 +153,7 @@ jobs:
             python3 rakuda/engine/pipeline.py revise "$proj"
             if [ -f "$proj/error.log" ]; then echo "::warning::revise of a section failed"; tail -5 "$proj/error.log"; fi
           done
-          python3 rakuda/engine/pipeline.py export "$proj"
-          cp "$(ls -t "$proj"/exports/*.mp4 | head -n 1)" "$dir/reel.mp4"
+          tools/export.sh "$dir" "$proj"
           cp "$dir/review.json" "$dir/review-1.json"
           review 2
           node tools/timing.mjs "$proj" "after review"
@@ -175,6 +173,7 @@ jobs:
             ${{ steps.edit.outputs.proj }}/events.jsonl
             ${{ steps.edit.outputs.proj }}/trace/calls.jsonl
             ${{ steps.edit.outputs.proj }}/error.log
+            ${{ steps.edit.outputs.proj }}/render.log
           if-no-files-found: ignore
       - name: Keep the script, review and history
         if: always()

@@ -50,8 +50,8 @@ Follow the Hacozy short script rules in `rules/hacozy-short-script.md` (Naoki's 
 - The mechanism in precise plain words a tired adult follows with no school maths; each term in 「」 explained in the
   same sentence; no spec numbers or formulas that don't change understanding.
 - です／ます, calm written narration. No 「なんです」「なんと」「〜わけです」. No em dashes.
-- 14-20 lines, one phrase per line, each ending in 、 or 。, about 60-80 seconds read aloud (the voice reads about
-  6 characters a second with pauses: 400-500 characters in all; over 520 is cut by the next step).
+- 14-20 lines, one phrase per line, each ending in 、 or 。, about 70-85 seconds read aloud (the voice reads about
+  5.4 characters a second with pauses: 380-450 characters in all; over 460 is cut by the next step).
 - **The ending is not an ad.** The story's last beat opens the next question the video naturally raises, one this
   course's own lessons answer (check the lesson list in candidates.json). Then exactly these three lines, with the
   real course title from candidates.json:
