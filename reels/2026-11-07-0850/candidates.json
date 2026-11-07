@@ -1,0 +1,517 @@
+[
+ {
+  "course_id": "ai-101-v3",
+  "course_title": "AIの仕組みと使い方",
+  "course_description": "プロンプト術は要りません。AIの仕組みから、資料の渡し方、エージェントへの任せ方まで、AIに振り回されずに使いこなす考え方を一続きで学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "ai101v3-not-magic",
+    "order": 0,
+    "title": "ルールを知らない箱が、勝ち始めた",
+    "description": "1961年、マッチ箱とビーズだけで三目並べを覚える機械が作られました。その仕組みが分かると、ChatGPTや絵を描くAIが魔法ではない理由まで説明できます。",
+    "text": "lessons/ai101v3-not-magic.md"
+   },
+   {
+    "lesson_id": "ai101v3-fluent-not-true",
+    "order": 1,
+    "title": "会社の予定を、AIがすらすら答えた",
+    "description": "何も教えていないのに、AIが来月の会議の日付まで言い切ることがあります。上手な答えと正しい答えを見分け、AIに正しく答えさせる4つの手が分かります。",
+    "text": "lessons/ai101v3-fluent-not-true.md"
+   },
+   {
+    "lesson_id": "ai101v3-background-not-spells",
+    "order": 2,
+    "title": "優秀な新人でも、この返事は書けない",
+    "description": "取引先への返信をAIに頼むと、丁寧なのにそのまま送れない返事が返ってくることがあります。足りないのはプロンプト術ではなく、あなたしか知らない背景だと分かり、何を足せば返事が変わるかが分かります。",
+    "text": "lessons/ai101v3-background-not-spells.md"
+   },
+   {
+    "lesson_id": "ai101v3-materials-not-manuals",
+    "order": 3,
+    "title": "マニュアルは、読み上げなくていい",
+    "description": "AIに頼むとき、手順や数字を長々と書き込んでいませんか。マニュアルを読み上げる代わりに資料とゴールを渡すと何が変わるか、そして渡し忘れた1枚がどこに響くかが分かります。",
+    "text": "lessons/ai101v3-materials-not-manuals.md"
+   },
+   {
+    "lesson_id": "ai101v3-chat-vs-agent",
+    "order": 4,
+    "title": "AIの手足は、あなただった",
+    "description": "AIのチャットに頼んだあと、資料を探し、返事を貼り、間違いに気づいて頼み直していたのは誰でしょう。答えて止まるチャットと、ゴールまで自分で動き続けるエージェントの違いと、その中身が魔法ではない理由が分かります。",
+    "text": "lessons/ai101v3-chat-vs-agent.md"
+   },
+   {
+    "lesson_id": "ai101v3-folder-not-attachments",
+    "order": 5,
+    "title": "添付は、もういらない",
+    "description": "資料を1つずつ探して添付する代わりに、フォルダを1つ渡すと何が起きるのでしょう。エージェントがフォルダの中で資料を読み、書き換え、新しく作る基本と、フォルダの外がAIからどう見えるかが分かります。",
+    "text": "lessons/ai101v3-folder-not-attachments.md"
+   },
+   {
+    "lesson_id": "ai101v3-cluttered-desk",
+    "order": 6,
+    "title": "AIの机も、散らかると探せない",
+    "description": "資料は多いほど安心、と共有フォルダを丸ごとAIに渡していませんか。AIにも一度に目を通せる量の限りがあり、広くなっても関係ない資料が多いほど大事な一行が埋もれる理由と、全部を渡すより要る資料に届くようにする考え方が分かります。",
+    "text": "lessons/ai101v3-cluttered-desk.md"
+   },
+   {
+    "lesson_id": "ai101v3-folder-names",
+    "order": 7,
+    "title": "「資料1」という名前が、AIを迷わせる",
+    "description": "「資料1」「最終版(2)」「スキャン0412」。この名前のファイルから、AIはどうやって今年の価格表を探すのでしょう。名前と置き場所を整えるだけで、AIが要る資料へまっすぐたどり着ける理由が分かります。",
+    "text": "lessons/ai101v3-folder-names.md"
+   },
+   {
+    "lesson_id": "ai101v3-instructions-file",
+    "order": 8,
+    "title": "同じお願いは、1回書けば済む",
+    "description": "新しい会話を開くたびに「敬語で」「結論から」と打ち直していませんか。毎回守ってほしいことを1枚の文章ファイルに残す指示書と、AIが自分で覚えるメモリ、仕事ごとに読む手順書のスキルの違いが分かります。",
+    "text": "lessons/ai101v3-instructions-file.md"
+   },
+   {
+    "lesson_id": "ai101v3-eyes-and-hands",
+    "order": 9,
+    "title": "AIは、送信ボタンまで押せる",
+    "description": "AIはパソコンの画面を操作し、メールやチャット、共有フォルダーにもつながります。できることが増えたとき、どこまで任せるかを「読むだけ」から「実行まで」の4つの段で決める方法が分かります。",
+    "text": "lessons/ai101v3-eyes-and-hands.md"
+   },
+   {
+    "lesson_id": "ai101v3-email-reply",
+    "order": 10,
+    "title": "「返信して」だけで、返事が書けた",
+    "description": "届いたメールをAIに貼り、相手や会社の事情を毎回打ち込んでいませんか。説明を打つ代わりに過去のやり取りと社内の資料を読める場所を渡すと、短い一言で合った返事が書ける理由と、送る前に自分で確かめる安全な使い方が分かります。",
+    "text": "lessons/ai101v3-email-reply.md"
+   },
+   {
+    "lesson_id": "ai101v3-split-your-task",
+    "order": 11,
+    "title": "確かめ方が言えたら、任せていい",
+    "description": "資料の要約も、フォルダーの整理も、報告スライドも、エージェントは「それらしく」仕上げてきます。頼む前に仕事を材料・ゴール・確認方法の3つに分けると、どの仕事をどう任せればいいかが分かります。",
+    "text": "lessons/ai101v3-split-your-task.md"
+   },
+   {
+    "lesson_id": "ai101v3-speak-the-background",
+    "order": 12,
+    "title": "キーボードが、事情を削っていた",
+    "description": "AIへの頼みを打ち込むと、なぜか一行で終わってしまう。その一行から消えていたのは、経緯や気持ちといった大事な背景でした。話して頼むと何が届くのか、まとまらない話をどうすればいいのかが分かります。",
+    "text": "lessons/ai101v3-speak-the-background.md"
+   },
+   {
+    "lesson_id": "ai101v3-model-and-cost",
+    "order": 13,
+    "title": "お礼の一文に、最強のAIは要らない",
+    "description": "メールの一文を直す頼みなら、軽いAIでも強いAIでも答えはほとんど同じです。モデルごとの得意・苦手と、使った量を数えるトークンの考え方から、仕事の重さに合わせてAIを選び分ける方法が分かります。",
+    "text": "lessons/ai101v3-model-and-cost.md"
+   },
+   {
+    "lesson_id": "ai101v3-judgment-stays-yours",
+    "order": 14,
+    "title": "全部任せた人ほど、仕事が増える",
+    "description": "AIに販売計画を丸ごと書かせたら、会議でひと言も説明できませんでした。AIと一緒に考えてよいところと、自分が理解して決めるところの線の引き方と、「AIに仕事を奪われる」不安への答えが分かります。",
+    "text": "lessons/ai101v3-judgment-stays-yours.md"
+   },
+   {
+    "lesson_id": "ai101v3-press-send-yourself",
+    "order": 15,
+    "title": "送信ボタンだけは、自分で押す",
+    "description": "AIに「作って送っておいて」と任せたメールの日付が、1週間ずれていたら？ 送る・公開する・消すの前に人の確認を置く任せ方と、パスワードや個人情報などAIに渡さないものの線引きが分かります。",
+    "text": "lessons/ai101v3-press-send-yourself.md"
+   },
+   {
+    "lesson_id": "ai101v3-own-workspace",
+    "order": 16,
+    "title": "質問するのは、AIのほうだった",
+    "description": "新しい会話のたびに、自分の仕事や好みを打ち直していませんか。パソコンに自分専用のフォルダを一つ作り、AIに質問してもらいながら、あなたの前提を文章で貯めていく方法が分かります。コース全体のまとめと、この先の学び方も紹介します。",
+    "text": "lessons/ai101v3-own-workspace.md"
+   }
+  ]
+ },
+ {
+  "course_id": "cs50-ai-intro",
+  "course_title": "AIの基礎：探索から機械学習まで",
+  "course_description": "ハーバード大学CS50の内容をベースに、検索、知識表現、不確実性、最適化、学習、ニューラルネットワーク、言語処理まで、AIの中核となる考え方をスマホでサクッと学べるように再構成しました。直感的な例とクイズで、理論と実践を両立しながら理解を深めます。本コースはHacozyが独自に制作したもので、ハーバード大学とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "cs50-onboarding-search",
+    "order": 0,
+    "title": "Google Mapsはどう道を探す？",
+    "description": "Google Mapsの疑問から、DFSとBFSの違いを迷路で体験し、AIの探索は「候補を見る順番」で性格が変わるとつかむ体感型レッスンです。",
+    "text": "lessons/cs50-onboarding-search.md"
+   },
+   {
+    "lesson_id": "search",
+    "order": 1,
+    "title": "探索の基本：目的地までの道を探せ！",
+    "description": "問題の要素（状態・行動・初期状態・ゴール）を定義し、DFSとBFSのメモリ構造（スタックとキュー）の違いをつかむレッスンです。",
+    "text": "lessons/search.md"
+   },
+   {
+    "lesson_id": "search-informed",
+    "order": 2,
+    "title": "賢く探すAI：A*探索と対戦ゲーム",
+    "description": "見積もり情報を使うヒューリスティックとA*探索、そして相手の最善を読むMinimaxアルゴリズムを学ぶレッスンです。",
+    "text": "lessons/search-informed.md"
+   },
+   {
+    "lesson_id": "knowledge",
+    "order": 3,
+    "title": "AIはどう推理する？：命題論理と知識ベース",
+    "description": "人間が知っている事実や文章を記号化し、命題論理と知識ベースを使って論理的推理を行う基礎を学ぶレッスンです。",
+    "text": "lessons/knowledge.md"
+   },
+   {
+    "lesson_id": "knowledge-inference",
+    "order": 4,
+    "title": "矛盾を見抜く：モデルチェックと推論規則",
+    "description": "可能な世界を全調べるモデルチェックと、パズルのように結論を導く前件肯定や解像度規則を学ぶレッスンです。",
+    "text": "lessons/knowledge-inference.md"
+   },
+   {
+    "lesson_id": "uncertainty",
+    "order": 5,
+    "title": "「たぶん」を数にする：確率とベイズの法則",
+    "description": "現実の不確実さを0〜1の確率で数値化し、手がかりを得るたびに予測を更新するベイズの法則と基準率の錯覚を学ぶレッスンです。",
+    "text": "lessons/uncertainty.md"
+   },
+   {
+    "lesson_id": "uncertainty-networks",
+    "order": 6,
+    "title": "つながる確率：ベイジアンネットワークと時間変化",
+    "description": "複数の確率要素の関係をネットワークで可視化するベイジアンネットワークと、時間変化や隠れた状態を推定するマルコフモデルを学ぶレッスンです。",
+    "text": "lessons/uncertainty-networks.md"
+   },
+   {
+    "lesson_id": "optimization",
+    "order": 7,
+    "title": "一番良い答えを探せ：山登り法と焼きなまし法",
+    "description": "無数の候補の中から最も優れた答えを探す最適化問題と、山登り法および局所解を脱出する焼きなまし法を学ぶレッスンです。",
+    "text": "lessons/optimization.md"
+   },
+   {
+    "lesson_id": "optimization-csp",
+    "order": 8,
+    "title": "ルールを守ってパズルを解く：制約充足問題",
+    "description": "変数・ドメイン・制約の3要素でパズルを定義し、バックトラック探索とアーク整合性（AC-3）で効率的に解く手法を学ぶレッスンです。",
+    "text": "lessons/optimization-csp.md"
+   },
+   {
+    "lesson_id": "learning",
+    "order": 9,
+    "title": "データから学ぶAI：教師あり学習と過学習",
+    "description": "正解つきデータからルールを学ぶ教師あり学習、分類と回帰、k-NN、過学習と汎化のトレードオフを学ぶレッスンです。",
+    "text": "lessons/learning.md"
+   },
+   {
+    "lesson_id": "learning-advanced",
+    "order": 10,
+    "title": "答えのない世界で学ぶ：クラスタリングと強化学習",
+    "description": "正解ラベルのないデータから構造を見つける教師なし学習（k-means）と、試行錯誤と報酬で上達する強化学習（Q学習）を学ぶレッスンです。",
+    "text": "lessons/learning-advanced.md"
+   },
+   {
+    "lesson_id": "neural-networks",
+    "order": 11,
+    "title": "脳を模した計算機：パーセプトロンと誤差逆伝播",
+    "description": "人工ニューロンの計算（重み・バイアス・活性化関数）と、勾配降下法および誤差逆伝播法（バックプロパゲーション）を学ぶレッスンです。",
+    "text": "lessons/neural-networks.md"
+   },
+   {
+    "lesson_id": "neural-networks-deep",
+    "order": 12,
+    "title": "深層学習の世界：画像認識と畳み込み (CNN)",
+    "description": "層を重ねるディープラーニング、画像認識に強い畳み込みニューラルネットワーク（CNN）、時系列を扱うRNNを学ぶレッスンです。",
+    "text": "lessons/neural-networks-deep.md"
+   },
+   {
+    "lesson_id": "language",
+    "order": 13,
+    "title": "言語を計算する：トークン化とN-gram",
+    "description": "自然言語をトークンに分解し、N-gramで確率予測、さらに単語の意味を空間のベクトルで表す分散表現（Word2Vec）を学ぶレッスンです。",
+    "text": "lessons/language.md"
+   },
+   {
+    "lesson_id": "language-transformers",
+    "order": 14,
+    "title": "ChatGPTの頭脳：AttentionとTransformer",
+    "description": "文脈付き埋め込み、Self-Attention（自己注意機構）、Transformer構造、大規模言語モデル（LLM）の動作原理を学ぶコース完結レッスンです。",
+    "text": "lessons/language-transformers.md"
+   }
+  ]
+ },
+ {
+  "course_id": "relativity",
+  "course_title": "相対性理論",
+  "course_description": "速く動くと、なぜ時計は遅れるのか。E=mc²、ブラックホール、宇宙の膨張まで、相対性理論の大事なところだけを、難しい計算なしで、動かしながら学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "rel-intro",
+    "order": 0,
+    "title": "動いている時計は、本当に遅れる",
+    "description": "相対性理論は時間と空間の仕組みを説明する理論です。速く動くと時計が遅れることを、指で動かして確かめます。",
+    "text": "lessons/rel-intro.md"
+   },
+   {
+    "lesson_id": "rel-principle",
+    "order": 1,
+    "title": "窓のない船では、動いているか分からない",
+    "description": "地球が猛スピードで動いているのに感じないのはなぜでしょうか。ガリレオの船の例で「動いている」意味を考えます。",
+    "text": "lessons/rel-principle.md"
+   },
+   {
+    "lesson_id": "rel-light-speed",
+    "order": 2,
+    "title": "光だけは、追いかけても逃げていく",
+    "description": "光を全速力で追いかけたら、どう見えるでしょうか。光の速さの不思議なルールを見ていきます。",
+    "text": "lessons/rel-light-speed.md"
+   },
+   {
+    "lesson_id": "rel-simultaneity",
+    "order": 3,
+    "title": "「同時」は、人によって違う",
+    "description": "離れた場所で同時に起きたことは、誰から見ても同時なのでしょうか。電車の中で光を1回光らせて確かめてみましょう。",
+    "text": "lessons/rel-simultaneity.md"
+   },
+   {
+    "lesson_id": "rel-time-dilation",
+    "order": 4,
+    "title": "動く時計が遅れる、たった1つの理由",
+    "description": "鏡と光だけの時計を動かすと、時間が遅れる理由が見えてきます。計算なしで説明できるようになります。",
+    "text": "lessons/rel-time-dilation.md"
+   },
+   {
+    "lesson_id": "rel-muon",
+    "order": 5,
+    "title": "空から降る粒子が、時間の遅れを証明した",
+    "description": "すぐに消えるはずの粒子が、地上まで届きます。動く時計が遅れている証拠です。",
+    "text": "lessons/rel-muon.md"
+   },
+   {
+    "lesson_id": "rel-length-contraction",
+    "order": 6,
+    "title": "動くものは、進む向きに縮む",
+    "description": "速く飛ぶ粒子から見ると、山が低く見えます。動くものが縮む仕組みを見ていきましょう。",
+    "text": "lessons/rel-length-contraction.md"
+   },
+   {
+    "lesson_id": "rel-speed-limit",
+    "order": 7,
+    "title": "光速の90%＋90%は、180%にならない",
+    "description": "速さは足し算できるはずなのに、光の速さに近いと成り立ちません。なぜ誰も光を追い越せないのかを見ていきましょう。",
+    "text": "lessons/rel-speed-limit.md"
+   },
+   {
+    "lesson_id": "rel-spacetime-diagram",
+    "order": 8,
+    "title": "時間を縦軸にすると、全部が見える",
+    "description": "縦軸に時間をとって図を描いてみると、人生は1本の線になります。太陽が消えてもすぐに気づかない理由まで、1枚の図でわかるんですよ。",
+    "text": "lessons/rel-spacetime-diagram.md"
+   },
+   {
+    "lesson_id": "rel-twins",
+    "order": 9,
+    "title": "旅に出た双子は、なぜ若いのか",
+    "description": "宇宙から戻った弟は地球に残った姉より若くなります。なぜ弟だけなのかを、線の形で説明できるようになります。",
+    "text": "lessons/rel-twins.md"
+   },
+   {
+    "lesson_id": "rel-mass-energy",
+    "order": 10,
+    "title": "E=mc²は、何を言っているのか",
+    "description": "有名な式を日本語で読み解いてみましょう。1円玉1枚にどれだけのエネルギーが隠れているかも分かりますよ。",
+    "text": "lessons/rel-mass-energy.md"
+   },
+   {
+    "lesson_id": "rel-equivalence",
+    "order": 11,
+    "title": "落ちているとき、重さは消えている",
+    "description": "落ちている間は、重さを感じませんよね。この発見から、宇宙飛行士が浮く理由や、光が重力で曲がる理由が分かるんですよ。",
+    "text": "lessons/rel-equivalence.md"
+   },
+   {
+    "lesson_id": "rel-gravity-time",
+    "order": 12,
+    "title": "東京スカイツリーの上では、時間が速い",
+    "description": "高い場所ほど時計は速く進みます。ロケットの絵でその理由を学び、スカイツリーで測定された本物の差を確認します。",
+    "text": "lessons/rel-gravity-time.md"
+   },
+   {
+    "lesson_id": "rel-gps",
+    "order": 13,
+    "title": "スマホの地図は、相対性理論で動いている",
+    "description": "GPS衛星の時計は高さと速さの影響で地上とずれます。補正しないと地図にどう影響するかを確認します。",
+    "text": "lessons/rel-gps.md"
+   },
+   {
+    "lesson_id": "rel-curved-spacetime",
+    "order": 14,
+    "title": "まっすぐ進むと、曲がってしまう",
+    "description": "北へまっすぐ飛ぶ2機の飛行機は、力が働いていなくても近づいていきます。これと同じ考え方で、りんごが落ちる理由を考えてみましょう。",
+    "text": "lessons/rel-curved-spacetime.md"
+   },
+   {
+    "lesson_id": "rel-solar-tests",
+    "order": 15,
+    "title": "水星の43秒が、ニュートンを終わらせた",
+    "description": "水星の不思議な動き、1919年の日食、そして宇宙の巨大なレンズ。相対性理論を証明した3つの証拠を見ていきましょう。",
+    "text": "lessons/rel-solar-tests.md"
+   },
+   {
+    "lesson_id": "rel-black-holes",
+    "order": 16,
+    "title": "光も出られない場所は、どうやってできるのか",
+    "description": "星をどんどん小さく縮めると、何が起きるのでしょうか。ブラックホールの正体を、計算なしで解き明かします。",
+    "text": "lessons/rel-black-holes.md"
+   },
+   {
+    "lesson_id": "rel-falling-in",
+    "order": 17,
+    "title": "ブラックホールに落ちると、どうなるのか",
+    "description": "落ちる本人と遠くで見ている人では、話が違ってきます。体がどうなるかも見ていきましょう。",
+    "text": "lessons/rel-falling-in.md"
+   },
+   {
+    "lesson_id": "rel-gravitational-waves",
+    "order": 18,
+    "title": "13億年前の衝突が、陽子の1000分の1を揺らした",
+    "description": "ブラックホールがぶつかると、空間そのものが揺れるんです。その揺れをどうやって測ったのか、一緒に見ていきましょう。",
+    "text": "lessons/rel-gravitational-waves.md"
+   },
+   {
+    "lesson_id": "rel-cosmology",
+    "order": 19,
+    "title": "宇宙は、どこから見ても広がっている",
+    "description": "遠くの銀河はどれも遠ざかっています。それでも宇宙に中心がない理由を、レーズンパンで考えましょう。",
+    "text": "lessons/rel-cosmology.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-101-v2",
+  "course_title": "AI 101（新版）",
+  "course_description": "同じAIなのに、なぜ人によって成果が違うのか。答えは聞き方ではなく、渡し方です。AIの正体をひとつだけ押さえたうえで、できないことを道具で越える方法、そして仕事の材料をどう置けばAIが勝手に読みに来るかまでを、触りながら順番に身につけます。専門知識も、PCも要りません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "ai101v2-intro",
+    "order": 0,
+    "title": "同じAI、違う答え",
+    "description": "同じアプリで同じことを頼んでいるのに、返ってくるものが人によって違う。その理由を1分で体験します。渡したものが、そのまま答えの質になります。",
+    "text": "lessons/ai101v2-intro.md"
+   },
+   {
+    "lesson_id": "ai101v2-next-word",
+    "order": 1,
+    "title": "AIは「次の一言」を当てているだけ",
+    "description": "スマホの予測変換の、とても強い親玉。検索でも計算機でもありません。この1点だけで、AIが堂々と知ったかぶりをする理由まで説明できます。",
+    "text": "lessons/ai101v2-next-word.md"
+   },
+   {
+    "lesson_id": "ai101v2-what-it-sees",
+    "order": 2,
+    "title": "見えているのは、渡した分だけ",
+    "description": "会話を新しくした途端にAIが鈍るのはなぜか。AIが一度に読める範囲と、その外にある資料の扱いが分かると、毎回説明し直す働き方から抜け出せます。最後は、置き場を実際に1つ作ります。",
+    "text": "lessons/ai101v2-what-it-sees.md"
+   },
+   {
+    "lesson_id": "ai101v2-map",
+    "order": 3,
+    "title": "今のAIの地図",
+    "description": "チャット、じっくり考えるAI、検索するAI、エージェント。同じ依頼を4つに渡すと、答える前に動ける回数がそのまま違いになります。自分がいまどれを使っているかが分かります。",
+    "text": "lessons/ai101v2-map.md"
+   },
+   {
+    "lesson_id": "ai101v2-five-shapes",
+    "order": 4,
+    "title": "AIが得意な5つの型",
+    "description": "仕事の頼みごとは、だいたい5つに割れます。要約する、形を変える、抜き出す、たたき台を作る、壁打ちに付き合う。この型が見えると、目の前の作業がAIに頼める形に見えてきます。",
+    "text": "lessons/ai101v2-five-shapes.md"
+   },
+   {
+    "lesson_id": "ai101v2-two-cannots",
+    "order": 5,
+    "title": "「できない」には2種類ある",
+    "description": "本当にできないことと、素のままではできないだけのこと。ほとんどは後者です。計算は苦手でも、計算する道具を作るのは得意——ここで考え方をひっくり返します。",
+    "text": "lessons/ai101v2-two-cannots.md"
+   },
+   {
+    "lesson_id": "ai101v2-hand-it-over",
+    "order": 6,
+    "title": "知らないことは、渡せば解決する",
+    "description": "AIが知らないのは2種類 — 最近のことと、あなたの会社のこと。どちらも渡し方で解決します。「知らないから使えない」ではなく「渡していないだけ」でした。",
+    "text": "lessons/ai101v2-hand-it-over.md"
+   },
+   {
+    "lesson_id": "ai101v2-rubric-first",
+    "order": 7,
+    "title": "長い文章のブレを止める",
+    "description": "長文は途中で調子が変わりがち。先に合格ラインを決めておくと、AIが自分で採点して直せるようになります。提案書や長いメールでそのまま使える手順です。",
+    "text": "lessons/ai101v2-rubric-first.md"
+   },
+   {
+    "lesson_id": "ai101v2-hard-line",
+    "order": 8,
+    "title": "どこまで任せて、どこで自分が出るか",
+    "description": "道具でも越えられないのは2つだけ——決めることと、正しいと判断して出すこと。線を引いているのは能力ではなく責任です。実際の作業では、取り消せない操作の手前に線が来ます。",
+    "text": "lessons/ai101v2-hard-line.md"
+   },
+   {
+    "lesson_id": "ai101v2-just-ask",
+    "order": 9,
+    "title": "人に頼むように頼む",
+    "description": "呪文もテンプレも要りません。新しく入った優秀な同僚に頼むように、目的と背景を丁寧に。頼み方の話は、実はこれで終わりです。",
+    "text": "lessons/ai101v2-just-ask.md"
+   },
+   {
+    "lesson_id": "ai101v2-speak-it",
+    "order": 10,
+    "title": "喋って渡す",
+    "description": "音声入力は速いだけではありません。喋ると人は雑に長く話す。その分だけ渡る情報が増えて、結果が良くなります。",
+    "text": "lessons/ai101v2-speak-it.md"
+   },
+   {
+    "lesson_id": "ai101v2-three-checks",
+    "order": 11,
+    "title": "うまくいかない時の3点チェック",
+    "description": "AIへの不満は、ほぼ3つのどれかで説明できます。材料を渡したか、触れる場所にあるか、やり方を教えたか。ここから先の全レッスンの背骨です。",
+    "text": "lessons/ai101v2-three-checks.md"
+   },
+   {
+    "lesson_id": "ai101v2-readable-form",
+    "order": 12,
+    "title": "材料を、読める形で1か所に",
+    "description": "いちばん効く材料は、たいてい自分の頭の中にあります。書き出して1か所に置き、AIが文字として取り出せる形で渡すところまで。入れすぎると薄まる理由も分かります。",
+    "text": "lessons/ai101v2-readable-form.md"
+   },
+   {
+    "lesson_id": "ai101v2-two-sheets",
+    "order": 13,
+    "title": "置いておく2枚 — 用語集と指示書",
+    "description": "指示書は最初に書き上げるものではなく、間違いから1行ずつ育てるもの。同じ直しを2回されたら、直すのはAIではなく指示書です。",
+    "text": "lessons/ai101v2-two-sheets.md"
+   },
+   {
+    "lesson_id": "ai101v2-inspect",
+    "order": 14,
+    "title": "検品の3手順",
+    "description": "AIは自信満々に間違えます。1行を突き合わせる、件数と桁を疑う、根拠を出させる。この3つで、間違いの大半が網にかかります。",
+    "text": "lessons/ai101v2-inspect.md"
+   },
+   {
+    "lesson_id": "ai101v2-case-meeting",
+    "order": 15,
+    "title": "ケース：会議のあとの30分",
+    "description": "会議のあとの30分が5分になるまでを、渡した材料と一緒に最初から最後まで見ます。どこがAIの判断で、どこがただの手順だったのかまで。",
+    "text": "lessons/ai101v2-case-meeting.md"
+   },
+   {
+    "lesson_id": "ai101v2-pick-three",
+    "order": 16,
+    "title": "何を任せ、何を続けるか",
+    "description": "任せる仕事は難しさでは選びません。繰り返すか、自分で検品できるか——この2つだけ。最後は3つに絞って続く形にし、作業場を自分で読んで動くAIの世界を覗いて終わります。",
+    "text": "lessons/ai101v2-pick-three.md"
+   }
+  ]
+ }
+]

@@ -1,0 +1,52 @@
+{
+  "course_id": "ai-101-v3",
+  "course_title": "AIの仕組みと使い方",
+  "lesson_id": "ai101v3-not-magic",
+  "lesson_title": "ルールを知らない箱が、勝ち始めた",
+  "title": "マッチ箱が学習する仕組み",
+  "topic": "MENACE: the 1961 matchbox machine that learns noughts and crosses",
+  "why": "Candidates: (1) ai101v3-not-magic: 287 matchboxes and beads learn tic-tac-toe with no strategy taught; a physical, famous CS classic that animates bead by bead and explains what AI 'learning' really is. (2) rel-muon: particles that should die high in the sky reach the ground, a strong paradox but a close cousin of the posted GPS/black-hole relativity reels. (3) rel-mass-energy: the energy hidden in one 1-yen coin, a striking number but a static formula visual. Winner: MENACE. It is a true paradox (a box of beads beats people with no one teaching it how), the mechanism is fully visible (shake the box, a coloured bead picks the square, beads removed or added), it is not a topic already posted (the ChatGPT reel was about training stages, not reinforcement), and it ties naturally into the course's next lesson on why AI answers fluently about what it was never told.",
+  "voice": "Konoha",
+  "yomi": {
+    "287": "にひゃくはちじゅうなな",
+    "1961": "せんきゅうひゃくろくじゅういち",
+    "MENACE": "メナス",
+    "ChatGPT": "チャットジーピーティー"
+  },
+  "instruction": "タイトルは「マッチ箱が学習する仕組み」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭の1フレーム目から、三目並べの盤面が描かれたマッチ箱がずらりと並び、1つの箱が振られて色つきビーズが転がり出て、その色のマスに○が打たれる様子が動いている状態で始める（「マッチ箱とビーズだけの機械が」の言葉に合わせて）。続けて人間の×との対戦で箱側が勝つ瞬間を見せる。以降は1ビートに1つ、仕組みを見せる画：287個の箱が並ぶ棚（各箱の面に盤面の絵）／箱の中のビーズの色と盤面のマスの対応（色→マスの線）／はじめは全色同じ数のビーズ→ランダムな手（イメージ図）／負けた対局で使った各箱からビーズが1個抜かれる／勝った対局でその色のビーズが3個ずつ足される／対戦を重ねるほど箱の中で勝ち手の色が増えていく比率バーの変化（イメージ図）／「結果を見て偏りを変える」＝学習のラベル／スマホのメール画面で「いつもお世話に」の後ろに候補「なっております」が最も太い確率バーで出る様子（イメージ図）／最後に「来月の会議の日程は？」とAIに聞くチャット画面で、答えが出る直前で止める。リアルな質感（木のマッチ箱、ガラスビーズ）で、子ども向けの図にしない。文字・字幕・画は画面中央（x=540）に揃える。上部ラベルはタイトル。エンディングは物語からそのまま続け（広告カードにしない）、Hacozyのアイコン素材は「続きはHacozyで。」のときだけ出す。",
+  "lines": [
+    "マッチ箱とビーズだけの機械が、三目並べで人間に勝ち始めました。",
+    "誰も勝ち方を教えていないのに、なぜでしょうか。",
+    "1961年、イギリスで作られた「MENACE」です。",
+    "箱は287個。盤面1つにつき1箱です。",
+    "中のビーズは、色ごとに「次に打つマス」を表します。",
+    "順番が来たら今の盤面の箱を振り、出たビーズの色のマスに打ちます。",
+    "最初は全色が同じ数なので、手はでたらめです。",
+    "そこで、勝負がつくたびに箱の中身を変えていきます。",
+    "負けたら、出たビーズを没収します。",
+    "勝ったら、同じ色を3個足します。",
+    "こうすると負ける手は減り、勝てる手ほど出やすくなります。",
+    "結果を見て選び方の偏りを変えるのが、AIの「学習」です。",
+    "ChatGPTも大量の文章から、次に来る言葉の偏りを覚えています。",
+    "「いつもお世話に」に「なっております」が続くのも、その偏りです。",
+    "では、教えていない会社の予定を聞くと、AIはどう答えるでしょうか。",
+    "その答えは、Hacozyのコース「AIの仕組みと使い方」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Michie, D. (1963) Experiments on the mechanization of game-learning, Part I: Characterization of the model and its parameters. The Computer Journal 6(3):232-236",
+      "url": "https://academic.oup.com/comjnl/article/6/3/232/360077"
+    },
+    {
+      "title": "OpenAI (2023) GPT-4 Technical Report (pre-trained to predict the next token)",
+      "url": "https://arxiv.org/abs/2303.08774"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 7,
+    "kept": 8
+  }
+}
