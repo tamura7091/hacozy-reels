@@ -7,6 +7,7 @@
 dir="$1"; proj="$2"
 for try in 1 2; do
   rm -f "$proj/error.log"
+  sh tools/render.sh "$proj"  # the frames on RENDER_SHARDS runners at once; on a failure it leaves none and export renders them
   python3 rakuda/engine/pipeline.py export "$proj"
   f=$(ls -t "$proj"/exports/*.mp4 2>/dev/null | head -n 1)
   if [ -n "$f" ]; then cp "$f" "$dir/reel.mp4"; exit 0; fi

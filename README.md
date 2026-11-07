@@ -23,9 +23,13 @@ Claude plan (Claude Code, `CLAUDE_CODE_OAUTH_TOKEN`); no Rakuda credits and no C
 3. **Edit** ([tools/project.mjs](tools/project.mjs)): ElevenLabs reads it (Hacozy is said ハコジー, the captions keep
    "Hacozy"); the project gets the Hacozy dark look (navy, blue accent, never green), no BGM and the app icon for the
    ending; then `pipeline.py hear` and `export` ([tools/export.sh](tools/export.sh): checks that an mp4 came out,
-   keeps `render.log`, retries once). A runner has no GPU: the workflow installs Mesa and sets `RAKUDA_CHROME_ARGS` so
-   Chrome draws the 3D scenes with llvmpipe, about 3x faster than SwiftShader; without it the Moon reel's frames
-   missed the renderer's 20 s deadline and the export died.
+   keeps `render.log`, retries once). A runner has no GPU, so Chrome draws the reels' 3D scenes in software: the
+   workflow installs Mesa and sets `RAKUDA_CHROME_ARGS` (llvmpipe, about 3x faster than SwiftShader; without it the
+   2026-11-07 Moon reel's frames missed the renderer's 20 s deadline and the export died), and
+   [tools/render.sh](tools/render.sh) renders each export's frames on `RENDER_SHARDS` (16) runners at once
+   ([render.yml](.github/workflows/render.yml), the timeline and frames passed as assets of a temporary prerelease),
+   so `export` only encodes. If the shards fail, the export renders the frames itself, slowly. Both copied from
+   rakuda-reels.
 4. **Review** ([prompts/review.md](prompts/review.md)): one look as creative director against Rakuda's `QUALITY` bar and
    the Hacozy layout rules (centred on x=540, inside the safe zone, top label = the topic). If it fails, at most two
    sections are fixed (`revise`, quick tweaks preferred) and a second, final review decides.
