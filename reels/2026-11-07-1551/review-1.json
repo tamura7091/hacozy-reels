@@ -1,0 +1,11 @@
+{
+  "pass": false,
+  "summary": "The hook, the 560→30→410 counter reversal and the clock sections are strong, and the facts and the ending are correct. But section 8 (the muon's point of view, about 67–81 s) breaks: the starfield background is cut by a hard rectangular seam, and the 'approaching mountain' is just a grey smudge with a floating detector, so the closing question has no readable picture.",
+  "revise": [
+    {
+      "section": 8,
+      "request": "ミューオン視点の画を直してください。背景の星空が途中で四角く切れて、下に紺色の別レイヤーの継ぎ目が見えています（70〜75秒あたり）。背景は画面全体を1枚でつなげてください。それから、迫ってくる山がぼやけた灰色のもやにしか見えないので、山頂に検出器が乗った山のシルエットをはっきり描き、画面中央（x=540）の下から大きくなって迫ってくるようにしてください。ミューオンの時計はそのまま、上で普通に回し続けてください。",
+      "quick": true
+    }
+  ]
+}

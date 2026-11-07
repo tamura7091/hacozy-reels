@@ -1,0 +1,391 @@
+[
+ {
+  "course_id": "relativity",
+  "course_title": "相対性理論",
+  "course_description": "速く動くと、なぜ時計は遅れるのか。E=mc²、ブラックホール、宇宙の膨張まで、相対性理論の大事なところだけを、難しい計算なしで、動かしながら学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "rel-intro",
+    "order": 0,
+    "title": "動いている時計は、本当に遅れる",
+    "description": "相対性理論は時間と空間の仕組みを説明する理論です。速く動くと時計が遅れることを、指で動かして確かめます。",
+    "text": "lessons/rel-intro.md"
+   },
+   {
+    "lesson_id": "rel-principle",
+    "order": 1,
+    "title": "窓のない船では、動いているか分からない",
+    "description": "地球が猛スピードで動いているのに感じないのはなぜでしょうか。ガリレオの船の例で「動いている」意味を考えます。",
+    "text": "lessons/rel-principle.md"
+   },
+   {
+    "lesson_id": "rel-light-speed",
+    "order": 2,
+    "title": "光だけは、追いかけても逃げていく",
+    "description": "光を全速力で追いかけたら、どう見えるでしょうか。光の速さの不思議なルールを見ていきます。",
+    "text": "lessons/rel-light-speed.md"
+   },
+   {
+    "lesson_id": "rel-simultaneity",
+    "order": 3,
+    "title": "「同時」は、人によって違う",
+    "description": "離れた場所で同時に起きたことは、誰から見ても同時なのでしょうか。電車の中で光を1回光らせて確かめてみましょう。",
+    "text": "lessons/rel-simultaneity.md"
+   },
+   {
+    "lesson_id": "rel-time-dilation",
+    "order": 4,
+    "title": "動く時計が遅れる、たった1つの理由",
+    "description": "鏡と光だけの時計を動かすと、時間が遅れる理由が見えてきます。計算なしで説明できるようになります。",
+    "text": "lessons/rel-time-dilation.md"
+   },
+   {
+    "lesson_id": "rel-muon",
+    "order": 5,
+    "title": "空から降る粒子が、時間の遅れを証明した",
+    "description": "すぐに消えるはずの粒子が、地上まで届きます。動く時計が遅れている証拠です。",
+    "text": "lessons/rel-muon.md"
+   },
+   {
+    "lesson_id": "rel-length-contraction",
+    "order": 6,
+    "title": "動くものは、進む向きに縮む",
+    "description": "速く飛ぶ粒子から見ると、山が低く見えます。動くものが縮む仕組みを見ていきましょう。",
+    "text": "lessons/rel-length-contraction.md"
+   },
+   {
+    "lesson_id": "rel-speed-limit",
+    "order": 7,
+    "title": "光速の90%＋90%は、180%にならない",
+    "description": "速さは足し算できるはずなのに、光の速さに近いと成り立ちません。なぜ誰も光を追い越せないのかを見ていきましょう。",
+    "text": "lessons/rel-speed-limit.md"
+   },
+   {
+    "lesson_id": "rel-spacetime-diagram",
+    "order": 8,
+    "title": "時間を縦軸にすると、全部が見える",
+    "description": "縦軸に時間をとって図を描いてみると、人生は1本の線になります。太陽が消えてもすぐに気づかない理由まで、1枚の図でわかるんですよ。",
+    "text": "lessons/rel-spacetime-diagram.md"
+   },
+   {
+    "lesson_id": "rel-twins",
+    "order": 9,
+    "title": "旅に出た双子は、なぜ若いのか",
+    "description": "宇宙から戻った弟は地球に残った姉より若くなります。なぜ弟だけなのかを、線の形で説明できるようになります。",
+    "text": "lessons/rel-twins.md"
+   },
+   {
+    "lesson_id": "rel-mass-energy",
+    "order": 10,
+    "title": "E=mc²は、何を言っているのか",
+    "description": "有名な式を日本語で読み解いてみましょう。1円玉1枚にどれだけのエネルギーが隠れているかも分かりますよ。",
+    "text": "lessons/rel-mass-energy.md"
+   },
+   {
+    "lesson_id": "rel-equivalence",
+    "order": 11,
+    "title": "落ちているとき、重さは消えている",
+    "description": "落ちている間は、重さを感じませんよね。この発見から、宇宙飛行士が浮く理由や、光が重力で曲がる理由が分かるんですよ。",
+    "text": "lessons/rel-equivalence.md"
+   },
+   {
+    "lesson_id": "rel-gravity-time",
+    "order": 12,
+    "title": "東京スカイツリーの上では、時間が速い",
+    "description": "高い場所ほど時計は速く進みます。ロケットの絵でその理由を学び、スカイツリーで測定された本物の差を確認します。",
+    "text": "lessons/rel-gravity-time.md"
+   },
+   {
+    "lesson_id": "rel-gps",
+    "order": 13,
+    "title": "スマホの地図は、相対性理論で動いている",
+    "description": "GPS衛星の時計は高さと速さの影響で地上とずれます。補正しないと地図にどう影響するかを確認します。",
+    "text": "lessons/rel-gps.md"
+   },
+   {
+    "lesson_id": "rel-curved-spacetime",
+    "order": 14,
+    "title": "まっすぐ進むと、曲がってしまう",
+    "description": "北へまっすぐ飛ぶ2機の飛行機は、力が働いていなくても近づいていきます。これと同じ考え方で、りんごが落ちる理由を考えてみましょう。",
+    "text": "lessons/rel-curved-spacetime.md"
+   },
+   {
+    "lesson_id": "rel-solar-tests",
+    "order": 15,
+    "title": "水星の43秒が、ニュートンを終わらせた",
+    "description": "水星の不思議な動き、1919年の日食、そして宇宙の巨大なレンズ。相対性理論を証明した3つの証拠を見ていきましょう。",
+    "text": "lessons/rel-solar-tests.md"
+   },
+   {
+    "lesson_id": "rel-black-holes",
+    "order": 16,
+    "title": "光も出られない場所は、どうやってできるのか",
+    "description": "星をどんどん小さく縮めると、何が起きるのでしょうか。ブラックホールの正体を、計算なしで解き明かします。",
+    "text": "lessons/rel-black-holes.md"
+   },
+   {
+    "lesson_id": "rel-falling-in",
+    "order": 17,
+    "title": "ブラックホールに落ちると、どうなるのか",
+    "description": "落ちる本人と遠くで見ている人では、話が違ってきます。体がどうなるかも見ていきましょう。",
+    "text": "lessons/rel-falling-in.md"
+   },
+   {
+    "lesson_id": "rel-gravitational-waves",
+    "order": 18,
+    "title": "13億年前の衝突が、陽子の1000分の1を揺らした",
+    "description": "ブラックホールがぶつかると、空間そのものが揺れるんです。その揺れをどうやって測ったのか、一緒に見ていきましょう。",
+    "text": "lessons/rel-gravitational-waves.md"
+   },
+   {
+    "lesson_id": "rel-cosmology",
+    "order": 19,
+    "title": "宇宙は、どこから見ても広がっている",
+    "description": "遠くの銀河はどれも遠ざかっています。それでも宇宙に中心がない理由を、レーズンパンで考えましょう。",
+    "text": "lessons/rel-cosmology.md"
+   }
+  ]
+ },
+ {
+  "course_id": "mit-9-13-human-brain",
+  "course_title": "脳科学入門",
+  "course_description": "顔だけを見分ける場所、音楽にだけ反応する場所、他人の勘違いを考える場所。MITのナンシー・カンウィッシャー教授の講義で扱う実験を自分の手で試しながら、脳のどこが何を受け持つのか、それがどう分かったのかを説明できるようになります。本コースはHacozyが独自に制作したもので、MITとは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "b913-face-area",
+    "order": 0,
+    "title": "電気を流したら、顔が現れた",
+    "description": "脳のある1点に弱い電気を流すと、見ていたボールの上に顔が浮かびました。脳に「顔の担当」がいることを、日本で行われたこの実験から体験します。",
+    "text": "lessons/b913-face-area.md"
+   },
+   {
+    "lesson_id": "b913-map-and-tools",
+    "order": 1,
+    "title": "光ったから、そこが担当とは限らない",
+    "description": "脳が光る画像は、その場所が「必要」だとまでは教えてくれません。fMRI、脳に傷がある人の研究、磁気刺激。方法ごとに何が言えて、何が言えないのかを見分けます。",
+    "text": "lessons/b913-map-and-tools.md"
+   },
+   {
+    "lesson_id": "b913-faces",
+    "order": 2,
+    "title": "顔だけが見分けられない人",
+    "description": "物も文字も見えるのに、顔だけが見分けられない人がいます。逆さまの顔で自分の脳を試し、顔の担当地区が本当に顔だけを受け持つのかを、反論も含めて確かめます。",
+    "text": "lessons/b913-faces.md"
+   },
+   {
+    "lesson_id": "b913-navigation",
+    "order": 3,
+    "title": "ロンドンのタクシー運転手の脳",
+    "description": "2万5千本の道を覚えた運転手は、道の記憶に関わる場所が大きい傾向がありました。脳の中の「地図」と「方位磁針」を見ていきます。",
+    "text": "lessons/b913-navigation.md"
+   },
+   {
+    "lesson_id": "b913-nature-nurture",
+    "order": 4,
+    "title": "見えない人の目の脳は、点字を読む",
+    "description": "幼いころから目の見えない人が点字を読むと、ふつうは「見る」ための場所が働きます。脳の地図は、生まれつき決まっているのか、経験で描かれるのかを確かめます。",
+    "text": "lessons/b913-nature-nurture.md"
+   },
+   {
+    "lesson_id": "b913-number",
+    "order": 5,
+    "title": "数えなくても、多いほうは分かる",
+    "description": "一瞬だけ見せた点の数を、数えずにどちらが多いか当ててみます。言葉の数詞を持たない人々もできるこの感覚と、その限界を知ります。",
+    "text": "lessons/b913-number.md"
+   },
+   {
+    "lesson_id": "b913-sound-music",
+    "order": 6,
+    "title": "音楽だけに反応する場所",
+    "description": "話し声にも、犬の鳴き声にも反応せず、音楽にだけ反応する場所が見つかりました。耳から入る音を、脳がどう仕分けているかを見ます。",
+    "text": "lessons/b913-sound-music.md"
+   },
+   {
+    "lesson_id": "b913-language",
+    "order": 7,
+    "title": "ことばを失っても、計算はできる",
+    "description": "脳卒中で文の意味が取れなくなった人が、かっこ付きの計算を解けました。ことばを受け持つ脳の地区を探し、「人はことばで考えている」という思い込みを確かめます。",
+    "text": "lessons/b913-language.md"
+   },
+   {
+    "lesson_id": "b913-other-minds",
+    "order": 8,
+    "title": "他人の勘違いが分かる場所",
+    "description": "人形がかごに入れたボールを、別の人形がこっそり箱へ移しました。戻ってきた人形はどこを探す？ 4歳前後で解けるようになるこの問題と、他人の考えを考えるときに働く脳の場所を知ります。",
+    "text": "lessons/b913-other-minds.md"
+   },
+   {
+    "lesson_id": "b913-attention",
+    "order": 9,
+    "title": "目の前のゴリラが見えない",
+    "description": "バスケットボールのパスを数えていると、画面を横切るゴリラに半数以上が気づきません。目に映っても気づかない仕組みと、脳が追っている「見えているもの」、そして地図にまだ書けない意識を見ます。",
+    "text": "lessons/b913-attention.md"
+   }
+  ]
+ },
+ {
+  "course_id": "english-grammar-intermediate",
+  "course_title": "中級英文法",
+  "course_description": "中級の英文法は、ほとんどが「文を長くする道具」です。日本語は説明を名詞の前に置き、英語は後ろにつなげる——この1点から、現在完了・不定詞・受け身・関係代名詞・仮定法までを、文が1か所だけ変わるところを見ながら組み立てられるようにします。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "eg2-onboarding",
+    "order": 0,
+    "title": "「駅で待っている男の人」は、英語だと逆さになる",
+    "description": "日本語は説明を名詞の前に、英語は後ろに置きます。中級文法のほとんどは、この「後ろにつなげる」道具です。",
+    "text": "lessons/eg2-onboarding.md"
+   },
+   {
+    "lesson_id": "eg2-will-going-to",
+    "order": 1,
+    "title": "「明日は雨」は、英語で2通りある",
+    "description": "will と be going to の違いは、いつ決めたか・根拠があるか。",
+    "text": "lessons/eg2-will-going-to.md"
+   },
+   {
+    "lesson_id": "eg2-perfect-result",
+    "order": 2,
+    "title": "「鍵をなくした」に yesterday をつけると、間違いになる",
+    "description": "過去形は「終わった話」、have + 過去分詞は「今も続く結果」。だから、終わった時を表す yesterday とは一緒に使えません。",
+    "text": "lessons/eg2-perfect-result.md"
+   },
+   {
+    "lesson_id": "eg2-perfect-experience",
+    "order": 3,
+    "title": "「行ったことがある」は、過去形では言えない",
+    "description": "have + 過去分詞は、今に残る結果だけでなく「〜したことがある」も「ずっと〜している」も言えます。been と gone、for と since の違いもここで。",
+    "text": "lessons/eg2-perfect-experience.md"
+   },
+   {
+    "lesson_id": "eg2-modals",
+    "order": 4,
+    "title": "must not と don't have to は、正反対の意味",
+    "description": "助動詞は、話し手の気持ちの強さを表すダイヤル。not がつくと、must と have to は「禁止」と「不要」に分かれます。",
+    "text": "lessons/eg2-modals.md"
+   },
+   {
+    "lesson_id": "eg2-comparison",
+    "order": 5,
+    "title": "beautiful に er がつかない理由",
+    "description": "比べ方の形は、単語の長さで決まる。短い語は -er、長い語は more を前に置きます。",
+    "text": "lessons/eg2-comparison.md"
+   },
+   {
+    "lesson_id": "eg2-to-infinitive",
+    "order": 6,
+    "title": "to study は、3つの席に入れる",
+    "description": "to + 動詞の原形は、「〜すること」「〜するための」「〜するために」の3役をこなします。どの役かは、to の前で文が完成しているかで見分けます。",
+    "text": "lessons/eg2-to-infinitive.md"
+   },
+   {
+    "lesson_id": "eg2-gerund-vs-to",
+    "order": 7,
+    "title": "stop smoking と stop to smoke は、真逆の意味",
+    "description": "ing は「すでにしていること」、to は「これからすること」。enjoy や want がどちらをとるかも、stop・remember・forget で意味が変わる理由も、この1本の線で読めます。",
+    "text": "lessons/eg2-gerund-vs-to.md"
+   },
+   {
+    "lesson_id": "eg2-passive",
+    "order": 8,
+    "title": "「財布が盗まれた」に、犯人はいらない",
+    "description": "受け身は、主語の席に入れる名詞を入れ替える道具。犯人を知らなくても文が作れて、by はたいてい省かれます。",
+    "text": "lessons/eg2-passive.md"
+   },
+   {
+    "lesson_id": "eg2-participles",
+    "order": 9,
+    "title": "「吠えている犬」と「割れた窓」は、同じ作り方",
+    "description": "ing と過去分詞は、名詞の後ろについて説明になります。名詞がする側なら ing、される側なら過去分詞。2語以上の説明は、名詞の後ろへ回ります。",
+    "text": "lessons/eg2-participles.md"
+   },
+   {
+    "lesson_id": "eg2-relative-who",
+    "order": 10,
+    "title": "2つの文を、1つにつなぐ1語",
+    "description": "who / which / that で、名詞の後ろに文をまるごとつなぎます。2文目の she や it が1語に変わって、名詞のすぐ後ろへ移る仕組みです。",
+    "text": "lessons/eg2-relative-who.md"
+   },
+   {
+    "lesson_id": "eg2-relative-omit",
+    "order": 11,
+    "title": "「私が買った本」に、which はいらない",
+    "description": "目的語の席が空いている文なら、つなぎの which や that を省けます。直後に主語が来るか、動詞が来るかで見分けます。",
+    "text": "lessons/eg2-relative-omit.md"
+   },
+   {
+    "lesson_id": "eg2-if-first",
+    "order": 12,
+    "title": "「明日雨なら」に will を入れない理由",
+    "description": "if の中は、未来の話でも現在形。will は結果の側に1回だけつけます。when や unless も同じ決まりです。",
+    "text": "lessons/eg2-if-first.md"
+   },
+   {
+    "lesson_id": "eg2-if-second",
+    "order": 13,
+    "title": "「もし鳥だったら」は、なぜ過去形？",
+    "description": "過去形は「今から遠い」ことを表すので、ありえない話にも使います。If I were you や I wish もこの仕組みで読めます。",
+    "text": "lessons/eg2-if-second.md"
+   },
+   {
+    "lesson_id": "eg2-indirect-questions",
+    "order": 14,
+    "title": "「どこに住んでいるか知ってる？」で、語順が元に戻る",
+    "description": "質問を文の中に入れると、ふつうの語順に戻ります。最後に、コースで手に入れた道具を1文に集めて総復習します。",
+    "text": "lessons/eg2-indirect-questions.md"
+   }
+  ]
+ },
+ {
+  "course_id": "let-them-theory",
+  "course_title": "他人に振り回されない生き方",
+  "course_description": "人を変えようとして消耗するのをやめる、メル・ロビンスの二語「Let Them」と「Let Me」。家族への口出し、日々のイライラ、上司の不機嫌、人の評価、離れていく友だちまで、本の研究と事例で手放し方と次の一手を学びます。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "let-them-00-two-words",
+    "order": 0,
+    "title": "イライラは、相手を変えたい合図",
+    "description": "人にイライラした瞬間は、相手が間違っている証拠ではなく、自分が相手を動かそうとし始めた合図です。メル・ロビンスの家で起きたプロムの日の話から、その合図の受け取り方を1分で確かめます。",
+    "text": "lessons/let-them-00-two-words.md"
+   },
+   {
+    "lesson_id": "let-them-01-power",
+    "order": 1,
+    "title": "言うほど、人は動かない",
+    "description": "家族に何度言っても変わらないのは、言い方のせいではありません。メル・ロビンスの二語の後半「Let Me」で、押す代わりに自分が動く方法が分かります。",
+    "text": "lessons/let-them-01-power.md"
+   },
+   {
+    "lesson_id": "let-them-02-formula",
+    "order": 2,
+    "title": "イラッとしたら、1年後を見る",
+    "description": "レジの遅さや割り込みに、毎日どれだけ力を使っているでしょう。ハーバードの医師が説明するストレス中の脳と、ロビンスの「1時間後・1週間後・1年後」の物差しで、力を使う相手を選べるようになります。",
+    "text": "lessons/let-them-02-formula.md"
+   },
+   {
+    "lesson_id": "let-them-03-stress",
+    "order": 3,
+    "title": "上司の不機嫌は、8歳のかんしゃく",
+    "description": "朝の不機嫌な挨拶が、夜まで頭に残っていませんか。ロビンスが「大人のかんしゃく」と呼ぶものの正体と、相手の感情を引き受けずに言いにくいことまで言える立ち方が分かります。",
+    "text": "lessons/let-them-03-stress.md"
+   },
+   {
+    "lesson_id": "let-them-04-opinions",
+    "order": 4,
+    "title": "評価は、あなたより相手を映す",
+    "description": "投稿や発言の前に「どう思われるか」で指が止まる。ロビンスの章「悪く思わせておけ」と「見方の枠」から、人の評価を自分の行動の条件にしない方法が分かります。",
+    "text": "lessons/let-them-04-opinions.md"
+   },
+   {
+    "lesson_id": "let-them-05-love",
+    "order": 5,
+    "title": "大人の友だちが減る、本当の理由",
+    "description": "学生時代の友だちと、気づけば年に一度。嫌われたからではありません。ロビンスの「友情の3本柱」とカンザス大学の研究から、離れた縁の受け止め方と、新しい縁の作り方が分かります。",
+    "text": "lessons/let-them-05-love.md"
+   }
+  ]
+ }
+]

@@ -1,0 +1,62 @@
+{
+  "course_id": "relativity",
+  "course_title": "相対性理論",
+  "lesson_id": "rel-muon",
+  "lesson_title": "空から降る粒子が、時間の遅れを証明した",
+  "title": "時間の遅れを数えた実験",
+  "topic": "Muons reaching the ground prove time dilation (Frisch & Smith 1963)",
+  "why": "候補3つ: (1) rel-muon ミューオン: 100万分の2秒で消える粒子が地上に届くというパラドックスと、30個のはずが410個という数字の逆転。有名実験で、粒子が降り注いで数が減る/減らない画が冒頭から動く。(2) b913-attention 見えないゴリラ: 誰もが知る有名実験で引きは強いが、ネタとして広く知られすぎていて「え、どうして？」の驚きが薄く、映像も既存動画の再現になりやすい。(3) rel-speed-limit 光速の90%＋90%: 数字が直観に反するが、仕組みの説明が抽象的で画が動きにくい。GPSとブラックホールは投稿済みなので避けた。勝者はミューオン: 二重スリット(137K)と同じ「有名実験＋ありえない結果」の型で、粒子が降る画で冒頭3秒から現象そのものが動き、最後は「粒子から見ると？」という自然な次の問い(長さの収縮のレッスン)につながる。",
+  "voice": "Konoha",
+  "yomi": {
+    "1963年": "せんきゅうひゃくろくじゅうさんねん",
+    "100万分の2秒": "ひゃくまんぶんのにびょう",
+    "宇宙線": "うちゅうせん"
+  },
+  "instruction": "タイトルは「時間の遅れを数えた実験」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭は最初のフレームから、夜空の上空から地上へ向かって光る粒子の筋が次々に降り注ぎ、地面に届いて光る画（実写風の空と地平線、イメージ図）。「100万分の2秒で消える粒子」で各粒子に小さなタイマーが付いて一瞬で減っていく。続いて、光の速さでも660m（スカイツリーの高さ634mの横に並べた縦の線）で粒子が消えていく画。山頂（約1900m）と海面の2つの検出器のカウンターを並べ、山頂で「560」まで数字が回る。寿命どおりの予想では海面のカウンターが「30」で止まり、そこから実際の「410」まで一気に跳ね上がる（数字の逆転が一番の見せ場）。「時間の遅れ」では、地上の時計と粒子に付いた時計を並べ、粒子の時計が約9倍ゆっくり回る。寿命の線が660mから約6000mまで伸び、山の高さを越える。最後の問いでは視点が粒子側に切り替わり、粒子の時計は普通に回っていて、山の方が迫ってくる予感で止める。数字はすべて「約」付き、図はイメージ図と明記。リアルな見た目で、子ども向けの図にしない。テキスト・字幕・図はすべて画面中央（x=540）。上部ラベルはタイトル。エンディングは広告カードにせずストーリーの画のまま続け、Hacozyのアイコン素材は「続きはHacozyで。」のときだけ出す。",
+  "lines": [
+    "100万分の2秒で消える粒子が、空から地上まで届いています。",
+    "光の速さでも、届かないはずの距離です。なぜでしょうか。",
+    "この粒子は「ミューオン」、宇宙線が上空の空気にぶつかって生まれます。",
+    "光の速さでも、寿命の間に進めるのは約660メートル。",
+    "スカイツリーほどの高さで、ほとんど消えるはずです。",
+    "1963年、アメリカの研究者が山でこれを数えました。",
+    "高さ約1900メートルの山頂では、1時間に約560個でした。",
+    "寿命どおりなら、海面に残るのは30個ほどのはずでした。",
+    "ところが海面には、約410個も届いていました。",
+    "理由は「時間の遅れ」という、速く動くものほど時計がゆっくり進む現象です。",
+    "ミューオンの時計は、地上から見ると約9倍ゆっくり進みます。",
+    "寿命が約9倍に延び、約6000メートル進めます。",
+    "でも、ミューオン自身の時計は、いつもどおり進んでいます。",
+    "では、ミューオンから見ると、なぜ山を越えられるのでしょうか。",
+    "その答えは、Hacozyのコース「相対性理論」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Frisch and Smith: Time Dilation (Modern Physics 330 handout, University of New Mexico)",
+      "url": "https://goldphysics.unm.edu/phys330/frisch-time-dilation.pdf"
+    },
+    {
+      "title": "Special Relativity and Mount Washington (Mount Washington Observatory)",
+      "url": "https://mountwashington.org/special-relativity-and-mount-washington/"
+    },
+    {
+      "title": "Historic Sites: Muon Time Dilation Experiment (APS News, 2014)",
+      "url": "https://www.aps.org/apsnews/2014/12/historic-sites-muon-time-dilation-experiment"
+    },
+    {
+      "title": "Time Dilation: An Experiment with Mu-Mesons (Frisch & Smith film, Internet Archive)",
+      "url": "https://archive.org/details/TimeDilation"
+    },
+    {
+      "title": "TOKYO SKYTREE official site (height 634 m)",
+      "url": "https://www.tokyo-skytree.jp/en/"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 4,
+    "kept": 7
+  }
+}
