@@ -29,6 +29,10 @@ env:
   RAKUDA_RUN_BUDGET_USD: '1000'
   RAKUDA_MONTH_BUDGET_USD: '100000'
   POSTS: ${{ github.event_name == 'schedule' || inputs.publish }}
+  # A runner has no GPU. Without this, Chrome draws the reels' 3D scenes (THREE.js) with its own SwiftShader at about
+  # 1.5 frames/s, slow enough to miss the renderer's 20 s per-frame deadline; the 2026-11-07 Moon reel's export died
+  # that way. Mesa's llvmpipe (installed below) is about 3x faster. The engine reads this in render/check/capture/outro.
+  RAKUDA_CHROME_ARGS: --use-angle=gl-egl --ignore-gpu-blocklist
 jobs:
   reel:
     runs-on: ubuntu-latest
@@ -50,7 +54,7 @@ jobs:
           CHANNEL_JSON: ${{ secrets.CHANNEL_JSON }} # the Hacozy channel's learnings (what worked on its reels)
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-cjk fonts-noto-color-emoji fonts-inter fonts-dejavu-core > /dev/null
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-cjk fonts-noto-color-emoji fonts-inter fonts-dejavu-core libegl1 libegl-mesa0 libgl1-mesa-dri libgles2 > /dev/null
           sudo cp rakuda/docker/fonts.conf /etc/fonts/local.conf && fc-cache -f > /dev/null
           python3 -m venv ~/venv && ~/venv/bin/pip install -q anthropic==0.125.0 numpy==2.3.4 pdfplumber==0.11.8 pypdfium2==5.9.0
           echo "$HOME/venv/bin" >> "$GITHUB_PATH"
