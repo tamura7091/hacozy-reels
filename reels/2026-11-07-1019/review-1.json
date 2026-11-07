@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "The hook and the hand and cat sections are strong, but the two number sections let it down. The bar charts sit on the far left (axis near x≈120) with tiny bars and an empty right half, and in section 7 the position bar is green (mint), which is off-brand. Both are quick fixes.",
+  "revise": [
+    {"section": 6, "request": "棒グラフ全体を画面中央(x=540)に揃えてください。軸・ラベル・棒が左端(x≈120)に寄っていて右半分が空いています。棒の最大幅を約720pxにして左右対称に置き、35%と4%の差がひと目でわかる長さに。数値ラベルも棒の右端に付けたまま中央寄せのレイアウトにしてください。", "quick": true},
+    {"section": 7, "request": "後半の位置の棒グラフ(6.5%→18%)を画面中央(x=540)に揃え、棒を太く長くしてください(最大幅約720px、18%がはっきり伸びて見える長さ)。棒の色がミント(緑)になっているのでHacozyの青に変えてください。「6.5% → 18%」の数字も中央に揃えてください。", "quick": true}
+  ]
+}

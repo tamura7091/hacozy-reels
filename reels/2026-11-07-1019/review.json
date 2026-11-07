@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "summary": "Pass. Both round-1 requests are fixed: the GenEval bars (section 6) and the SD3 position bar (section 7) now span the frame around centre, and the 18% bar is Hacozy blue instead of mint. The hook counts to a red 6 from the first frame, every visual matches its line, and the ending names the course and says to install from the profile link. The only flaws left are small: a brief crossfade where the 16 counter overlaps 見える指 (~0.3 s), and the 35% label reaching about x=1030, which is still above the side button column.",
+  "revise": []
+}
