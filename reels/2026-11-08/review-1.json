@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "A strong reel: the cloud-chamber hook moves from the first frame, every visual matches its line, captions are in sync and the ending names the course and says to install from the profile link. But the payoff beats are drawn in green: sec 7's huge 約5400m→約6000m number and stretched line, and the 7割 dots and label in sec 4. Hacozy is blue, so they must be recoloured before posting.",
+  "revise": [
+    {"section": 7, "request": "寿命が9倍に伸びる線と上の大きな「約6000m」の数字が緑になっています。Hacozyのブランドカラーに合わせて、線・数字・光をすべて青（#2F80FF／明るい部分は #6FB6FF）に変えてください。赤い660mの線との対比はそのまま残してください。", "quick": true},
+    {"section": 4, "request": "「実測」側で海辺に届いた点と「7割」の文字が緑になっています。緑は使わず、青（#2F80FF／#6FB6FF）に変えてください。「20個に1個」の赤との対比はそのままで大丈夫です。", "quick": true}
+  ]
+}

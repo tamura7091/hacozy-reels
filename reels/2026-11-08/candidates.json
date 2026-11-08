@@ -1,0 +1,391 @@
+[
+ {
+  "course_id": "relativity",
+  "course_title": "相対性理論",
+  "course_description": "速く動くと、なぜ時計は遅れるのか。E=mc²、ブラックホール、宇宙の膨張まで、相対性理論の大事なところだけを、難しい計算なしで、動かしながら学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "rel-intro",
+    "order": 0,
+    "title": "動いている時計は、本当に遅れる",
+    "description": "相対性理論は時間と空間の仕組みを説明する理論です。速く動くと時計が遅れることを、指で動かして確かめます。",
+    "text": "lessons/rel-intro.md"
+   },
+   {
+    "lesson_id": "rel-principle",
+    "order": 1,
+    "title": "窓のない船では、動いているか分からない",
+    "description": "地球が猛スピードで動いているのに感じないのはなぜでしょうか。ガリレオの船の例で「動いている」意味を考えます。",
+    "text": "lessons/rel-principle.md"
+   },
+   {
+    "lesson_id": "rel-light-speed",
+    "order": 2,
+    "title": "光だけは、追いかけても逃げていく",
+    "description": "光を全速力で追いかけたら、どう見えるでしょうか。光の速さの不思議なルールを見ていきます。",
+    "text": "lessons/rel-light-speed.md"
+   },
+   {
+    "lesson_id": "rel-simultaneity",
+    "order": 3,
+    "title": "「同時」は、人によって違う",
+    "description": "離れた場所で同時に起きたことは、誰から見ても同時なのでしょうか。電車の中で光を1回光らせて確かめてみましょう。",
+    "text": "lessons/rel-simultaneity.md"
+   },
+   {
+    "lesson_id": "rel-time-dilation",
+    "order": 4,
+    "title": "動く時計が遅れる、たった1つの理由",
+    "description": "鏡と光だけの時計を動かすと、時間が遅れる理由が見えてきます。計算なしで説明できるようになります。",
+    "text": "lessons/rel-time-dilation.md"
+   },
+   {
+    "lesson_id": "rel-muon",
+    "order": 5,
+    "title": "空から降る粒子が、時間の遅れを証明した",
+    "description": "すぐに消えるはずの粒子が、地上まで届きます。動く時計が遅れている証拠です。",
+    "text": "lessons/rel-muon.md"
+   },
+   {
+    "lesson_id": "rel-length-contraction",
+    "order": 6,
+    "title": "動くものは、進む向きに縮む",
+    "description": "速く飛ぶ粒子から見ると、山が低く見えます。動くものが縮む仕組みを見ていきましょう。",
+    "text": "lessons/rel-length-contraction.md"
+   },
+   {
+    "lesson_id": "rel-speed-limit",
+    "order": 7,
+    "title": "光速の90%＋90%は、180%にならない",
+    "description": "速さは足し算できるはずなのに、光の速さに近いと成り立ちません。なぜ誰も光を追い越せないのかを見ていきましょう。",
+    "text": "lessons/rel-speed-limit.md"
+   },
+   {
+    "lesson_id": "rel-spacetime-diagram",
+    "order": 8,
+    "title": "時間を縦軸にすると、全部が見える",
+    "description": "縦軸に時間をとって図を描いてみると、人生は1本の線になります。太陽が消えてもすぐに気づかない理由まで、1枚の図でわかるんですよ。",
+    "text": "lessons/rel-spacetime-diagram.md"
+   },
+   {
+    "lesson_id": "rel-twins",
+    "order": 9,
+    "title": "旅に出た双子は、なぜ若いのか",
+    "description": "宇宙から戻った弟は地球に残った姉より若くなります。なぜ弟だけなのかを、線の形で説明できるようになります。",
+    "text": "lessons/rel-twins.md"
+   },
+   {
+    "lesson_id": "rel-mass-energy",
+    "order": 10,
+    "title": "E=mc²は、何を言っているのか",
+    "description": "有名な式を日本語で読み解いてみましょう。1円玉1枚にどれだけのエネルギーが隠れているかも分かりますよ。",
+    "text": "lessons/rel-mass-energy.md"
+   },
+   {
+    "lesson_id": "rel-equivalence",
+    "order": 11,
+    "title": "落ちているとき、重さは消えている",
+    "description": "落ちている間は、重さを感じませんよね。この発見から、宇宙飛行士が浮く理由や、光が重力で曲がる理由が分かるんですよ。",
+    "text": "lessons/rel-equivalence.md"
+   },
+   {
+    "lesson_id": "rel-gravity-time",
+    "order": 12,
+    "title": "東京スカイツリーの上では、時間が速い",
+    "description": "高い場所ほど時計は速く進みます。ロケットの絵でその理由を学び、スカイツリーで測定された本物の差を確認します。",
+    "text": "lessons/rel-gravity-time.md"
+   },
+   {
+    "lesson_id": "rel-gps",
+    "order": 13,
+    "title": "スマホの地図は、相対性理論で動いている",
+    "description": "GPS衛星の時計は高さと速さの影響で地上とずれます。補正しないと地図にどう影響するかを確認します。",
+    "text": "lessons/rel-gps.md"
+   },
+   {
+    "lesson_id": "rel-curved-spacetime",
+    "order": 14,
+    "title": "まっすぐ進むと、曲がってしまう",
+    "description": "北へまっすぐ飛ぶ2機の飛行機は、力が働いていなくても近づいていきます。これと同じ考え方で、りんごが落ちる理由を考えてみましょう。",
+    "text": "lessons/rel-curved-spacetime.md"
+   },
+   {
+    "lesson_id": "rel-solar-tests",
+    "order": 15,
+    "title": "水星の43秒が、ニュートンを終わらせた",
+    "description": "水星の不思議な動き、1919年の日食、そして宇宙の巨大なレンズ。相対性理論を証明した3つの証拠を見ていきましょう。",
+    "text": "lessons/rel-solar-tests.md"
+   },
+   {
+    "lesson_id": "rel-black-holes",
+    "order": 16,
+    "title": "光も出られない場所は、どうやってできるのか",
+    "description": "星をどんどん小さく縮めると、何が起きるのでしょうか。ブラックホールの正体を、計算なしで解き明かします。",
+    "text": "lessons/rel-black-holes.md"
+   },
+   {
+    "lesson_id": "rel-falling-in",
+    "order": 17,
+    "title": "ブラックホールに落ちると、どうなるのか",
+    "description": "落ちる本人と遠くで見ている人では、話が違ってきます。体がどうなるかも見ていきましょう。",
+    "text": "lessons/rel-falling-in.md"
+   },
+   {
+    "lesson_id": "rel-gravitational-waves",
+    "order": 18,
+    "title": "13億年前の衝突が、陽子の1000分の1を揺らした",
+    "description": "ブラックホールがぶつかると、空間そのものが揺れるんです。その揺れをどうやって測ったのか、一緒に見ていきましょう。",
+    "text": "lessons/rel-gravitational-waves.md"
+   },
+   {
+    "lesson_id": "rel-cosmology",
+    "order": 19,
+    "title": "宇宙は、どこから見ても広がっている",
+    "description": "遠くの銀河はどれも遠ざかっています。それでも宇宙に中心がない理由を、レーズンパンで考えましょう。",
+    "text": "lessons/rel-cosmology.md"
+   }
+  ]
+ },
+ {
+  "course_id": "typescript-intro",
+  "course_title": "TypeScript入門",
+  "course_description": "型のメモで、バグを動かす前に止める言語、TypeScript。1レッスンごとに日程調整アプリを育て、最後はNext.jsのAPIとデータベースまでつないで、友だちに送れるリンクを完成させます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "ts-first-check",
+    "order": 0,
+    "title": "そのバグ、動かす前に見つかる",
+    "description": "TypeScriptは、JavaScriptに値の荷札を足した言語です。1文字の打ち間違いが、動かす前に止まるのを試します。",
+    "text": "lessons/ts-first-check.md"
+   },
+   {
+    "lesson_id": "ts-basic-types",
+    "order": 1,
+    "title": "型は、ほとんど書かなくていい",
+    "description": "型は、ほとんど自分で書かなくても大丈夫ですよ。TypeScriptが最初の値から自動的に決めてくれるからです。",
+    "text": "lessons/ts-basic-types.md"
+   },
+   {
+    "lesson_id": "ts-functions",
+    "order": 2,
+    "title": "引数を1つ忘れると、赤線が出る",
+    "description": "関数は、値を入れると値を1つ返す箱です。渡す値や返す値を間違えると、動かす前に赤線が出ます。",
+    "text": "lessons/ts-functions.md"
+   },
+   {
+    "lesson_id": "ts-object-types",
+    "order": 3,
+    "title": "その「?」は、無いかもしれない印",
+    "description": "名前や○△×やコメントは、1つのオブジェクトにまとまります。「?」の付いた項目は無いかもしれないので、確かめてから読みます。",
+    "text": "lessons/ts-object-types.md"
+   },
+   {
+    "lesson_id": "ts-union-narrowing",
+    "order": 4,
+    "title": "○△×のほかに「?」が届いたら",
+    "description": "答えを○△×の3つだけに絞る型を書きます。3つ以外は動かす前に止まり、道の中ではどれか1つに決まります。",
+    "text": "lessons/ts-union-narrowing.md"
+   },
+   {
+    "lesson_id": "ts-null-checks",
+    "order": 5,
+    "title": "「!」1文字で、エラーを黙らせる危うさ",
+    "description": "「見つからないかも」は型に書いてあり、TypeScriptは if で確かめるよう求めます。「!」で赤線は消えても、バグは残ります。",
+    "text": "lessons/ts-null-checks.md"
+   },
+   {
+    "lesson_id": "ts-nextjs-structure",
+    "order": 6,
+    "title": "そのコード、スマホとサーバーのどちらで動く？",
+    "description": "Next.jsでは、フォルダの名前がそのままURLになります。書いたコードは、皆さんのスマホで動くものと、サーバーで動くものに分かれますよ。",
+    "text": "lessons/ts-nextjs-structure.md"
+   },
+   {
+    "lesson_id": "ts-route-handlers",
+    "order": 7,
+    "title": "URLを1つ作るだけで、APIになる",
+    "description": "スマホからの頼みごとを、サーバーの窓口が受け取って返事をしてくれます。返事に付いてくる番号の意味も分かりますよ。",
+    "text": "lessons/ts-route-handlers.md"
+   },
+   {
+    "lesson_id": "ts-fetch-promise",
+    "order": 8,
+    "title": "Promise<Poll> は「あとで届く」と読む",
+    "description": "サーバーの返事は、すぐには届きません。「あとで届く」を表す型と、届くまで待つ書き方を読めるようになります。",
+    "text": "lessons/ts-fetch-promise.md"
+   },
+   {
+    "lesson_id": "ts-validate-zod",
+    "order": 9,
+    "title": "リンクを知っていれば、誰でも何でも送れる",
+    "description": "型の荷札は、動かすときには外れています。知らない人から届いた中身を、サーバーの入口で確かめる方法を学びます。",
+    "text": "lessons/ts-validate-zod.md"
+   },
+   {
+    "lesson_id": "ts-supabase-connect",
+    "order": 10,
+    "title": "再読み込みしたら、全員の回答が消えた",
+    "description": "サーバーのメモリに置いた回答は、再起動すると消えます。データベースの表にしまい、鍵はサーバーの中だけで使います。",
+    "text": "lessons/ts-supabase-connect.md"
+   },
+   {
+    "lesson_id": "ts-supabase-read-write",
+    "order": 11,
+    "title": "データベースの列を変えると、赤線が出る",
+    "description": "insert で書き込み、select で読み出します。表から作った型があるので、列名のずれは動かす前に赤線で分かります。",
+    "text": "lessons/ts-supabase-read-write.md"
+   },
+   {
+    "lesson_id": "ts-build-app",
+    "order": 12,
+    "title": "日程調整アプリを、最初から組み立てる",
+    "description": "アプリの器を作って自分のパソコンで動かし、スマホから回答します。1つの回答が、受付を通って表に届くまでを追います。",
+    "text": "lessons/ts-build-app.md"
+   }
+  ]
+ },
+ {
+  "course_id": "rewire-your-brain",
+  "course_title": "やる気に頼らない脳を作る方法",
+  "course_description": "続かないのは、意志が弱いからではありません。いつもの行動がラクで、新しい行動がおっくうになる脳のしくみを知れば、習慣は無理なく続けやすくなります。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "lesson-00-why-change-fails",
+    "order": 1,
+    "title": "意志が弱い人なんていない",
+    "description": "決意が2月に消えるのは、根性のせいではありません。脳のつくりから、挫折の正体を見ていきます。",
+    "text": "lessons/lesson-00-why-change-fails.md"
+   },
+   {
+    "lesson_id": "lesson-01-myelin-highways",
+    "order": 2,
+    "title": "脳はあなたをサボらせたい",
+    "description": "ソファでスマホはラクなのに、筋トレはおっくう。その差は、脳の省エネ本能から来ています。",
+    "text": "lessons/lesson-01-myelin-highways.md"
+   },
+   {
+    "lesson_id": "lesson-02-neurological-identity",
+    "order": 3,
+    "title": "脳は、言葉を信じない",
+    "description": "鏡の前で「私はできる」と唱えても、脳は動きません。脳が信じるのは、小さな行動の証拠だけです。",
+    "text": "lessons/lesson-02-neurological-identity.md"
+   },
+   {
+    "lesson_id": "lesson-03-discomfort-is-a-signal",
+    "order": 4,
+    "title": "しんどい時だけ、脳は変わる",
+    "description": "ラクな練習では、脳の配線は変わりません。もどかしさこそが、書き換えのスイッチです。",
+    "text": "lessons/lesson-03-discomfort-is-a-signal.md"
+   },
+   {
+    "lesson_id": "lesson-04-attention-and-environment",
+    "order": 5,
+    "title": "スマホを別の部屋に置くだけ",
+    "description": "誘惑に意志で勝とうとしなくていい。手間の置き方と、まわりの人で、脳の選択は変わります。",
+    "text": "lessons/lesson-04-attention-and-environment.md"
+   },
+   {
+    "lesson_id": "lesson-05-the-timing-paradox",
+    "order": 6,
+    "title": "努力は、寝ている間に完成する",
+    "description": "脳の配線が変わるのは、がんばっている最中ではなく眠っている間。睡眠を削ると、努力が定着しません。",
+    "text": "lessons/lesson-05-the-timing-paradox.md"
+   },
+   {
+    "lesson_id": "lesson-06-rewiring-roadmap",
+    "order": 7,
+    "title": "1日サボっても、台無しにならない",
+    "description": "新しい習慣が自動になるまでの3段階と、途中でやめないための考え方をまとめます。",
+    "text": "lessons/lesson-06-rewiring-roadmap.md"
+   }
+  ]
+ },
+ {
+  "course_id": "claude-cowork-intro",
+  "course_title": "Claude Cowork入門：AIに仕事を任せる",
+  "course_description": "チャットAIでの相談から一歩進み、Claude Coworkでデスクトップ上の書類作成・調査・整理を直接任せる実践コースです。「初日の同僚に机とファイルを渡す」ように、専用フォルダ・依頼文の3点セット・途中修正・安全境界を学び、毎週の作業を手放します。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "cowork-delegate",
+    "order": 1,
+    "title": "答えではなく、ファイルが返ってくる",
+    "description": "同じ頼みごとをチャットとCoworkに出すと、返ってくるものがまるで違います。答えをもらうのではなく、仕事を丸ごと渡すとはどういうことかを見ます。",
+    "text": "lessons/cowork-delegate.md"
+   },
+   {
+    "lesson_id": "cowork-fit",
+    "order": 2,
+    "title": "1問1答の仕事は、Coworkに渡さない",
+    "description": "Coworkに向く仕事には3つの形があります。手順が何段もある、本物のファイルを触る、いくつものツールにまたがる。逆に、渡すとかえって遅くなる仕事も見分けます。",
+    "text": "lessons/cowork-fit.md"
+   },
+   {
+    "lesson_id": "cowork-folder",
+    "order": 3,
+    "title": "デスクトップごと渡すと、全部見える",
+    "description": "Claudeに何が見えるかは、渡したフォルダひとつで決まります。デスクトップを渡すと何が起きるかを確かめ、仕事ごとの作業用フォルダを作ります。",
+    "text": "lessons/cowork-folder.md"
+   },
+   {
+    "lesson_id": "cowork-prompt",
+    "order": 4,
+    "title": "依頼の空欄は、質問になって返ってくる",
+    "description": "「競合の動きをまとめて」とだけ頼むと、作業の前に質問が返ってきます。成果物・材料・事情の3つを書くと、何が変わるのかを確かめます。",
+    "text": "lessons/cowork-prompt.md"
+   },
+   {
+    "lesson_id": "cowork-steer",
+    "order": 5,
+    "title": "質問に答え、途中で口を出す",
+    "description": "Coworkは走り出す前に質問してきます。そして走っている途中でも止められます。待って作り直すのではなく、その場で直すのがCoworkの使い方です。",
+    "text": "lessons/cowork-steer.md"
+   },
+   {
+    "lesson_id": "cowork-review",
+    "order": 6,
+    "title": "上がりを検品する",
+    "description": "成果物はチャットの文章ではなく、フォルダに残ったファイルです。信頼している同僚の初稿を読むときの目で見ます。",
+    "text": "lessons/cowork-review.md"
+   },
+   {
+    "lesson_id": "cowork-memory",
+    "order": 7,
+    "title": "毎回説明しないための2つ",
+    "description": "同じ説明を2回したら、それは設定に書くべきことです。全セッションに効くグローバル指示と、仕事の流れごとのプロジェクトを使い分けます。",
+    "text": "lessons/cowork-memory.md"
+   },
+   {
+    "lesson_id": "cowork-skills",
+    "order": 8,
+    "title": "スキル：手順そのものを渡す",
+    "description": "「こうやってほしい」を毎回説明する代わりに、手順書を渡します。一度作れば、その種類の仕事が来たときに自動で使われます。",
+    "text": "lessons/cowork-skills.md"
+   },
+   {
+    "lesson_id": "cowork-connect",
+    "order": 9,
+    "title": "届く範囲を広げる",
+    "description": "ファイルの次は、Slack・Notion・カレンダーです。つながらないツールも、ブラウザ越しなら触れます。読むだけか、動かすのかの線引きを押さえます。",
+    "text": "lessons/cowork-connect.md"
+   },
+   {
+    "lesson_id": "cowork-safety",
+    "order": 10,
+    "title": "事故らせない設計",
+    "description": "危ないのはClaudeではなく、確認画面を読まずに押す瞬間です。事故が起きない置き方と、起きたときに戻れる備えを作ります。",
+    "text": "lessons/cowork-safety.md"
+   },
+   {
+    "lesson_id": "cowork-case",
+    "order": 11,
+    "title": "ケース：毎週金曜の30分を手放す",
+    "description": "週次報告の作成を、依頼から定期実行の設定までひと続きでやります。1〜10でやったことが、1本の流れとしてつながります。",
+    "text": "lessons/cowork-case.md"
+   }
+  ]
+ }
+]
