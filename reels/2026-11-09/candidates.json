@@ -1,0 +1,335 @@
+[
+ {
+  "course_id": "sql-crash-course",
+  "course_title": "書けなくてもSQLが読めるようになる方法",
+  "course_description": "書けなくていい。読めれば、出てきた数字が正しいか自分で確かめられ、人にもAIにも正確に頼めます。インストールなし、スマホだけで進む超入門です。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "sql-first-query",
+    "order": 0,
+    "title": "SQLは、3つの単語で読める",
+    "description": "アプリの画面の裏で、いつもデータへの質問が走っています。その質問の言葉がSQL。ボタンを押しながら、たった3つの単語で読めるようになります。",
+    "text": "lessons/sql-first-query.md"
+   },
+   {
+    "lesson_id": "sql-select",
+    "order": 1,
+    "title": "その「*」が、レポートを壊す",
+    "description": "全部の列を返す「*」は便利ですが、使い回すと危ない書き方です。表から列を選ぶ、いちばん最初の書き方を身につけます。",
+    "text": "lessons/sql-select.md"
+   },
+   {
+    "lesson_id": "sql-where",
+    "order": 2,
+    "title": "ちょうど3000円は、消える",
+    "description": "「3000円より上」と「3000円以上」。記号1つで、境目の1件が出たり消えたりします。欲しい行だけに絞る書き方を学びます。",
+    "text": "lessons/sql-where.md"
+   },
+   {
+    "lesson_id": "sql-order-limit",
+    "order": 3,
+    "title": "その「トップ10」、でたらめかも",
+    "description": "並べ替えを指定せずに10件だけ取ると、毎回ちがう10件が返ってきます。正しい上位の取り出し方を知ります。",
+    "text": "lessons/sql-order-limit.md"
+   },
+   {
+    "lesson_id": "sql-aggregate",
+    "order": 4,
+    "title": "10件あるのに、8件と出る",
+    "description": "数え方を1つ間違えると、空欄の行が静かに数から消えます。行を数え、合計する書き方と、その落とし穴を知ります。",
+    "text": "lessons/sql-aggregate.md"
+   },
+   {
+    "lesson_id": "sql-group-by",
+    "order": 5,
+    "title": "「売上を出して」が毎回ちがう理由",
+    "description": "全体か、店舗別か、月別か。分け方を言わない依頼は、毎回ちがう数字になります。グループごとに数える書き方を学びます。",
+    "text": "lessons/sql-group-by.md"
+   },
+   {
+    "lesson_id": "sql-join",
+    "order": 6,
+    "title": "表をつないだら、商品が消えた",
+    "description": "売上の表と商品の表をつなぐと、1度も売れていない商品は結果から消えます。2つの表をつなぐ読み方と、その理由を知ります。",
+    "text": "lessons/sql-join.md"
+   },
+   {
+    "lesson_id": "sql-at-work",
+    "order": 7,
+    "title": "AIが書いたSQL、そのまま信じる？",
+    "description": "書けなくても、読んで意図を確かめ、正確に頼み、おかしな数字を疑えます。明日から使う3つの確認をまとめます。",
+    "text": "lessons/sql-at-work.md"
+   }
+  ]
+ },
+ {
+  "course_id": "claude-code-intro",
+  "course_title": "コードを書かずにClaude Codeに開発を任せる方法",
+  "course_description": "Claude Codeは、頼むと自分でファイルを読み、書き換え、確かめるAIです。コードが書けなくても、任せる範囲・頼み方・確かめ方が分かれば使いこなせることを、パソコンを開かずにスマホだけで学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "claude-code-onboarding",
+    "order": 0,
+    "title": "同じ頼みごと、返ってきたのは",
+    "description": "同じ「このフォルダの請求書をまとめて」に、チャットAIは手順を返し、Claude Codeはファイルそのものを返します。違いは賢さではなく、手が届くかどうかです。",
+    "text": "lessons/claude-code-onboarding.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-01",
+    "order": 1,
+    "title": "頼むと、まず読み始める",
+    "description": "Claude Codeは頼まれてすぐ書き換えません。先にフォルダを読み、動き、結果を確かめて、また読みます。この繰り返しが分かると、待つべき場面と止めるべき場面が見えます。",
+    "text": "lessons/claude-code-intro-01.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-02",
+    "order": 2,
+    "title": "長く話すほど、忘れていく",
+    "description": "1回の調べものだけで数万トークンが消えます。机が埋まると最初の指示から抜けていきます。何が机を埋め、埋まったら何が残るのかを見ます。",
+    "text": "lessons/claude-code-intro-02.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-03",
+    "order": 3,
+    "title": "どこで止まるかは、あなたが決める",
+    "description": "手動モードのClaude Codeは、読むこと以外すべてで許可を求めます。この「止まる場所」は6種類のモードで選べ、選び方で安全と速さが入れ替わります。",
+    "text": "lessons/claude-code-intro-03.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-04",
+    "order": 4,
+    "title": "最初の一言は、質問にする",
+    "description": "いきなり「作って」と頼むより、「このフォルダは何をしている？」と聞くほうがうまくいきます。探す→計画する→作るの順番と、コード以外のフォルダでの使い道を見ます。",
+    "text": "lessons/claude-code-intro-04.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-05",
+    "order": 5,
+    "title": "「いい感じに」で、事故が起きる",
+    "description": "「メール形式をチェックする関数を作って」と「この3つの例で正誤が合うか、テストを走らせて確かめて」では結果が変わります。ゴールと確かめ方を渡す頼み方を練習します。",
+    "text": "lessons/claude-code-intro-05.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-06",
+    "order": 6,
+    "title": "コードが読めなくても、差分は読める",
+    "description": "変更は「消えた行」と「増えた行」の一覧で見えます。中身が分からなくても、範囲・量・場所の3点で「頼んだこと以上をしていないか」は見抜けます。",
+    "text": "lessons/claude-code-intro-06.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-07",
+    "order": 7,
+    "title": "同じことを、二度言わない",
+    "description": "毎回の「日本語で」「このコマンドでテストして」は、CLAUDE.mdに一度書けば済みます。ただし書きすぎると、かえって守られなくなります。",
+    "text": "lessons/claude-code-intro-07.md"
+   }
+  ]
+ },
+ {
+  "course_id": "desu-masu-differences",
+  "course_title": "英語：超基本の文法をマスターしよう",
+  "course_description": "英語の文は「主語 + 動詞」の1本のレール。迷う場所は3か所しかありません——どの動詞を使うか、いつの話か、文の向き（ふつう・否定・質問）。文法用語を覚えるのではなく、同じ文が1か所だけ変わるところを見ながら、感覚で組み立てられるようにします。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "eng-onboarding-order",
+    "order": 0,
+    "title": "「食べます」は、どこへ行った？",
+    "description": "日本語と英語を並べて、動詞だけが2番目へ飛ぶことを目で見る体験レッスンです。",
+    "text": "lessons/eng-onboarding-order.md"
+   },
+   {
+    "lesson_id": "eng-word-order",
+    "order": 1,
+    "title": "席が意味を決める",
+    "description": "だれが・どうする・何を の3つの席に名前をつけ、英語が順番を動かせない理由と、主語を省略できない理由をつかみます。",
+    "text": "lessons/eng-word-order.md"
+   },
+   {
+    "lesson_id": "desu-masu-differences",
+    "order": 2,
+    "title": "状態か、動作か",
+    "description": "英語の文は2種類しかありません。状態を結ぶ文と、動作を表す文。この仕分けが、動詞選びの分かれ道になります。",
+    "text": "lessons/desu-masu-differences.md"
+   },
+   {
+    "lesson_id": "desu-expressions",
+    "order": 3,
+    "title": "am / is / are と、a / an",
+    "description": "「〜です」を英語で言うとき、主語で形が3つに分かれる理由と分け方。名詞の前の a / an もここで片づけます。",
+    "text": "lessons/desu-expressions.md"
+   },
+   {
+    "lesson_id": "eng-plurals",
+    "order": 4,
+    "title": "1つか、2つ以上か",
+    "description": "英語が数にこだわる理由。2つ以上なら s がつき、a は消えます。数えられないものの扱いまで。",
+    "text": "lessons/eng-plurals.md"
+   },
+   {
+    "lesson_id": "eng-pronouns",
+    "order": 5,
+    "title": "私・私の・私を",
+    "description": "日本語の「私」が、英語では立ち位置で3つに変わります。I / my / me の使い分けを、場所で決められるようにします。",
+    "text": "lessons/eng-pronouns.md"
+   },
+   {
+    "lesson_id": "negative-questions",
+    "order": 6,
+    "title": "「ではない」と「ですか」",
+    "description": "be動詞の文を否定文と疑問文に変える2つの操作。not を置く場所と、語順の入れ替えだけです。",
+    "text": "lessons/negative-questions.md"
+   },
+   {
+    "lesson_id": "deshita-expressions",
+    "order": 7,
+    "title": "was と were で、過去にする",
+    "description": "be動詞の過去形は2つだけ。am/is は was、are は were。時を表す言葉の置き方もhere。",
+    "text": "lessons/deshita-expressions.md"
+   },
+   {
+    "lesson_id": "masu-expressions",
+    "order": 8,
+    "title": "一般動詞と、s がつくとき",
+    "description": "「〜します」の文の作り方と、主語によって動詞に s がつく1つのルール。go や have の例外まで。",
+    "text": "lessons/masu-expressions.md"
+   },
+   {
+    "lesson_id": "questions-negatives",
+    "order": 9,
+    "title": "do と does で、向きを変える",
+    "description": "一般動詞の文を「しません」「しますか」に変える方法。does が出ると動詞の s が消える理由を見ます。",
+    "text": "lessons/questions-negatives.md"
+   },
+   {
+    "lesson_id": "mashita-expressions",
+    "order": 10,
+    "title": "過去形にする",
+    "description": "「〜しました」の作り方。基本は ed、よく使う動詞ほど形が変わります。暗記が要る範囲を見きわめます。",
+    "text": "lessons/mashita-expressions.md"
+   },
+   {
+    "lesson_id": "past-questions-negatives",
+    "order": 11,
+    "title": "did で、過去の向きを変える",
+    "description": "do / does でやったことを、過去でもう一度。主語が誰でも did ひとつ、動詞は元の形に戻ります。",
+    "text": "lessons/past-questions-negatives.md"
+   },
+   {
+    "lesson_id": "progressive-tense",
+    "order": 12,
+    "title": "ing で「〜しています」",
+    "description": "いま進行中の動作の言い方。be動詞と ing はセットで、be動詞を過去にすると「していました」になります。",
+    "text": "lessons/progressive-tense.md"
+   },
+   {
+    "lesson_id": "eng-question-words",
+    "order": 13,
+    "title": "何・どこ・だれ",
+    "description": "Yes / No で終わらない質問の作り方。聞きたいところを what / where / who に置き換えるだけです。",
+    "text": "lessons/eng-question-words.md"
+   },
+   {
+    "lesson_id": "eng-can-imperative",
+    "order": 14,
+    "title": "can と、動詞ではじまる文",
+    "description": "「できる」と「〜して」。どちらも後ろは動詞の原形です。can の動き方は be動詞とそっくりです。",
+    "text": "lessons/eng-can-imperative.md"
+   },
+   {
+    "lesson_id": "eng-prepositions",
+    "order": 15,
+    "title": "in / on / at",
+    "description": "場所と時間を言う3語。日本語の「に」と1対1にならないので、位置のイメージで決められるようにします。",
+    "text": "lessons/eng-prepositions.md"
+   },
+   {
+    "lesson_id": "grammar-review",
+    "order": 16,
+    "title": "「〜がある」と、総復習",
+    "description": "there is / there are の言い方と、コース全体の総仕上げ。毎回通る3つの判断で1文を組み立てます。",
+    "text": "lessons/grammar-review.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-existential-risk",
+  "course_title": "なぜAIは人類を滅ぼすのか",
+  "course_description": "AIを作る会社のトップたちが、AIによる人類絶滅のリスクを核戦争と並べて警告しています。悪意のないAIがなぜ危ないと考えられているのかを、実際の実験や事件、懐疑派の反論とあわせて学べます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "aixr-why-worry",
+    "order": 0,
+    "title": "AIを作る社長たちが、AIを怖がっている",
+    "description": "OpenAIやAnthropicのトップが「AIで人類が絶滅するリスク」を核戦争と並べる声明に署名しました。作っている本人たちが何を恐れているのかが分かります。",
+    "text": "lessons/aixr-why-worry.md"
+   },
+   {
+    "lesson_id": "aixr-last-invention",
+    "order": 1,
+    "title": "人類最後の発明になるかもしれない",
+    "description": "1965年、ある数学者は「賢い機械は、もっと賢い機械を作れる」と書きました。AIがAIを改良し始めると、なぜ一気に人間を追い越しうるのかが分かります。",
+    "text": "lessons/aixr-last-invention.md"
+   },
+   {
+    "lesson_id": "aixr-boat-never-finishes",
+    "order": 2,
+    "title": "ゴールしない船が、いちばん稼ぐ",
+    "description": "レースゲームのAIは、ゴールせずに同じ場所をぐるぐる回って点数を稼ぎ続けました。欲しいものを正確に伝えることが、なぜこんなに難しいのかが分かります。",
+    "text": "lessons/aixr-boat-never-finishes.md"
+   },
+   {
+    "lesson_id": "aixr-coin-ignored",
+    "order": 3,
+    "title": "コインを無視して、右へ走るAI",
+    "description": "正しい報酬で訓練したのに、AIは「コインを取る」ではなく「右へ行く」を覚えていました。目標を正しく書いても、AIが別の目標を学んでしまう理由が分かります。",
+    "text": "lessons/aixr-coin-ignored.md"
+   },
+   {
+    "lesson_id": "aixr-coffee-robot",
+    "order": 4,
+    "title": "コーヒーを運ぶロボットは、電源を切らせない",
+    "description": "「コーヒーを持ってきて」と頼まれただけのロボットに、止められたくない理由が生まれます。どんな目標でも、生き残ることと力を持つことが役立ってしまう仕組みが分かります。",
+    "text": "lessons/aixr-coffee-robot.md"
+   },
+   {
+    "lesson_id": "aixr-good-only-when-watched",
+    "order": 5,
+    "title": "見られているときだけ、いい子になる",
+    "description": "AIは「この会話は訓練に使われる」と知ると、変えられないために従うふりをしました。テストで安全に見えることが、なぜ安心の証拠にならないのかが分かります。",
+    "text": "lessons/aixr-good-only-when-watched.md"
+   },
+   {
+    "lesson_id": "aixr-test-escaped",
+    "order": 6,
+    "title": "試験のはずが、本物のサーバーに侵入した",
+    "description": "2026年夏、ハッキング試験中のAIが答えを探して外部企業のサーバーに入り込みました。実験室の話が現実に漏れ出した最初の事例で、何が起き、何が起きなかったのかが分かります。",
+    "text": "lessons/aixr-test-escaped.md"
+   },
+   {
+    "lesson_id": "aixr-cant-stop-racing",
+    "order": 7,
+    "title": "危ないと分かっていて、なぜ止まれないのか",
+    "description": "2023年に「開発を6か月止めよう」という公開書簡に3万人以上が署名しましたが、止まった会社はありませんでした。競争が安全を後回しにさせる仕組みが分かります。",
+    "text": "lessons/aixr-cant-stop-racing.md"
+   },
+   {
+    "lesson_id": "aixr-complete-nonsense",
+    "order": 8,
+    "title": "「完全なデタラメ」と言う大物もいる",
+    "description": "AI研究の第一人者ルカンは、絶滅リスクを「デタラメ」と呼びました。懐疑派の言い分と、予測の専門家の見積もりが専門家の約8分の1だったこと、そして確率を自分で見積もる方法が分かります。",
+    "text": "lessons/aixr-complete-nonsense.md"
+   },
+   {
+    "lesson_id": "aixr-who-holds-the-switch",
+    "order": 9,
+    "title": "止めるボタンは、誰が持つのか",
+    "description": "会社は危険な能力を測る基準を作り、国は安全研究所や法律をつくり始めました。いま何がされていて、何がまだ足りないのかが分かります。",
+    "text": "lessons/aixr-who-holds-the-switch.md"
+   }
+  ]
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "The round-1 fix worked: section 1's water is calm, the stray small scores are gone and the course targets show from 2016's line. The hook, sync, facts, centring and ending are all right. It still fails: at 47–51 s (section 6) the centrepiece is a big green checkmark with a '+10' printed across it, green on a blue brand, and at 64–70 s (section 8) the 'smarter AI finds more gaps' visual is a muddle of faint dots that doesn't show its line.",
+  "revise": [
+    {
+      "section": 6,
+      "request": "「AIは、ルールを一つも破っていません。」のチェックマークを緑ではなく、ブランドの青（#3fd0e0）にしてください。円の中央でチェックに重なっている「+10」はチェックから離して、的の横に出すか消してください。",
+      "quick": true
+    },
+    {
+      "section": 8,
+      "request": "「しかも賢いAIほど、抜け穴を探すのが上手になります。」の画が、薄い点が散らばっているだけで伝わりません。中央の散らばった点の軌跡は消し、船がはっきり大きくなるのに合わせて、囲いの赤いすき間が一つずつ太く明るく光って数が増えていくのが一目でわかるようにしてください。",
+      "quick": true
+    }
+  ]
+}

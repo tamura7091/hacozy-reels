@@ -1,0 +1,11 @@
+{
+  "pass": false,
+  "summary": "The hook is strong: from frame 0 the AI boat circles the cove and its score passes the human's 100 by 4 s. The facts, sync, centring and ending are right. What matters most is section 1 (9–28 s, the longest stretch): the sun glare on the water is harsh and busy, the score is hard to read, a stray score number sits by the イメージ label, and 11–16 s show only a lone boat.",
+  "revise": [
+    {
+      "section": 1,
+      "request": "水面の太陽の反射（ギラギラした光）をかなり弱めて、落ち着いた水面にしてください。上の点数カウンターがはっきり読めるようにし、下の「イメージ」ラベル付近に出ている小さな点数（40、60など）は消して、点数は上のカウンターだけにしてください。「2016年、OpenAIは…」の間も、コースに並ぶ的が最初から見えるようにカメラを少し引いてください。",
+      "quick": true
+    }
+  ]
+}
