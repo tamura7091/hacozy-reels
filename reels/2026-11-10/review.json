@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Fail (round 2). Round-1 fixes partly landed: the 5–9 s cut-off and the section-7 centring are fixed. But the very first frame (0.5 s) is still cluttered: the envelope covers the 「おにぎりと味噌汁」 bubble and cuts 「…うと？」 in half. During 「アプリが毎回届けています」 (~50–52 s) the scene shrinks to tiny, unreadable cards scattered to the edges, and the right column of bubbles runs to about x=1035, inside the right 150 px UI zone. Both are visible to a viewer, and the first one is in the hook.",
+  "revise": [
+    {"section": 0, "request": "冒頭0.5秒で封筒が「おにぎりと味噌汁」の吹き出しに重なって隠し、「それを英語で言うと？」も封筒で半分切れています。封筒は吹き出しと重ならない位置（吹き出しの下、中央x=540）から飛ばし、1フレーム目から全部の文字が読めるようにしてください。", "quick": true},
+    {"section": 5, "request": "「アプリが毎回届けています」の場面で、AIの箱・封筒・チャットの吹き出しが極小になって左右の端に散らばり、右側の吹き出しが右端150pxの内側に入り込んでいます。縮小せずに中央（x=540）に大きく配置し、文字が読める大きさを保って、左60px・右150pxの内側に収めてください。", "quick": true}
+  ]
+}

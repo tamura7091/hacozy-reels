@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Fail: the hook is broken. At 0.5 s the cards hug the left edge, small and off-centre, and from about 5 to 9 s the zoomed AI box and the 「それを英語で言うと？」 card are cut off on the right edge, with the AI box overlapping the top label. In the 「どこに保存」 beat (66–70 s) the card sits off-centre to the left and the chat input bar runs under the caption.",
+  "revise": [
+    {"section": 0, "request": "冒頭の構図を中央（x=540）に揃えてください。0.5秒の吹き出しカードは左端に寄って小さいので、中央に大きく配置。5〜9秒でズームしたAIの箱と「それを英語で言うと？」のカードが右端で切れ、AIの箱が上部ラベルに重なっているので、ズーム量を抑えて、全体が左60px・右150px・上220pxの内側に収まるようにしてください。", "quick": true},
+    {"section": 7, "request": "「どこに保存されているのでしょうか」の場面で、「Rice balls and miso…」のカードの束と赤い？が左に寄っているので中央（x=540）に揃えてください。下のチャット入力欄が字幕に重なっているので、字幕より上（下端から420pxより上）に移してください。「AIとつくるアプリ開発入門」のラベルの下に出る細い縦線も消してください。", "quick": true}
+  ]
+}

@@ -1,0 +1,328 @@
+[
+ {
+  "course_id": "desu-masu-differences",
+  "course_title": "英語：超基本の文法をマスターしよう",
+  "course_description": "英語の文は「主語 + 動詞」の1本のレール。迷う場所は3か所しかありません——どの動詞を使うか、いつの話か、文の向き（ふつう・否定・質問）。文法用語を覚えるのではなく、同じ文が1か所だけ変わるところを見ながら、感覚で組み立てられるようにします。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "eng-onboarding-order",
+    "order": 0,
+    "title": "「食べます」は、どこへ行った？",
+    "description": "日本語と英語を並べて、動詞だけが2番目へ飛ぶことを目で見る体験レッスンです。",
+    "text": "lessons/eng-onboarding-order.md"
+   },
+   {
+    "lesson_id": "eng-word-order",
+    "order": 1,
+    "title": "席が意味を決める",
+    "description": "だれが・どうする・何を の3つの席に名前をつけ、英語が順番を動かせない理由と、主語を省略できない理由をつかみます。",
+    "text": "lessons/eng-word-order.md"
+   },
+   {
+    "lesson_id": "desu-masu-differences",
+    "order": 2,
+    "title": "状態か、動作か",
+    "description": "英語の文は2種類しかありません。状態を結ぶ文と、動作を表す文。この仕分けが、動詞選びの分かれ道になります。",
+    "text": "lessons/desu-masu-differences.md"
+   },
+   {
+    "lesson_id": "desu-expressions",
+    "order": 3,
+    "title": "am / is / are と、a / an",
+    "description": "「〜です」を英語で言うとき、主語で形が3つに分かれる理由と分け方。名詞の前の a / an もここで片づけます。",
+    "text": "lessons/desu-expressions.md"
+   },
+   {
+    "lesson_id": "eng-plurals",
+    "order": 4,
+    "title": "1つか、2つ以上か",
+    "description": "英語が数にこだわる理由。2つ以上なら s がつき、a は消えます。数えられないものの扱いまで。",
+    "text": "lessons/eng-plurals.md"
+   },
+   {
+    "lesson_id": "eng-pronouns",
+    "order": 5,
+    "title": "私・私の・私を",
+    "description": "日本語の「私」が、英語では立ち位置で3つに変わります。I / my / me の使い分けを、場所で決められるようにします。",
+    "text": "lessons/eng-pronouns.md"
+   },
+   {
+    "lesson_id": "negative-questions",
+    "order": 6,
+    "title": "「ではない」と「ですか」",
+    "description": "be動詞の文を否定文と疑問文に変える2つの操作。not を置く場所と、語順の入れ替えだけです。",
+    "text": "lessons/negative-questions.md"
+   },
+   {
+    "lesson_id": "deshita-expressions",
+    "order": 7,
+    "title": "was と were で、過去にする",
+    "description": "be動詞の過去形は2つだけ。am/is は was、are は were。時を表す言葉の置き方もhere。",
+    "text": "lessons/deshita-expressions.md"
+   },
+   {
+    "lesson_id": "masu-expressions",
+    "order": 8,
+    "title": "一般動詞と、s がつくとき",
+    "description": "「〜します」の文の作り方と、主語によって動詞に s がつく1つのルール。go や have の例外まで。",
+    "text": "lessons/masu-expressions.md"
+   },
+   {
+    "lesson_id": "questions-negatives",
+    "order": 9,
+    "title": "do と does で、向きを変える",
+    "description": "一般動詞の文を「しません」「しますか」に変える方法。does が出ると動詞の s が消える理由を見ます。",
+    "text": "lessons/questions-negatives.md"
+   },
+   {
+    "lesson_id": "mashita-expressions",
+    "order": 10,
+    "title": "過去形にする",
+    "description": "「〜しました」の作り方。基本は ed、よく使う動詞ほど形が変わります。暗記が要る範囲を見きわめます。",
+    "text": "lessons/mashita-expressions.md"
+   },
+   {
+    "lesson_id": "past-questions-negatives",
+    "order": 11,
+    "title": "did で、過去の向きを変える",
+    "description": "do / does でやったことを、過去でもう一度。主語が誰でも did ひとつ、動詞は元の形に戻ります。",
+    "text": "lessons/past-questions-negatives.md"
+   },
+   {
+    "lesson_id": "progressive-tense",
+    "order": 12,
+    "title": "ing で「〜しています」",
+    "description": "いま進行中の動作の言い方。be動詞と ing はセットで、be動詞を過去にすると「していました」になります。",
+    "text": "lessons/progressive-tense.md"
+   },
+   {
+    "lesson_id": "eng-question-words",
+    "order": 13,
+    "title": "何・どこ・だれ",
+    "description": "Yes / No で終わらない質問の作り方。聞きたいところを what / where / who に置き換えるだけです。",
+    "text": "lessons/eng-question-words.md"
+   },
+   {
+    "lesson_id": "eng-can-imperative",
+    "order": 14,
+    "title": "can と、動詞ではじまる文",
+    "description": "「できる」と「〜して」。どちらも後ろは動詞の原形です。can の動き方は be動詞とそっくりです。",
+    "text": "lessons/eng-can-imperative.md"
+   },
+   {
+    "lesson_id": "eng-prepositions",
+    "order": 15,
+    "title": "in / on / at",
+    "description": "場所と時間を言う3語。日本語の「に」と1対1にならないので、位置のイメージで決められるようにします。",
+    "text": "lessons/eng-prepositions.md"
+   },
+   {
+    "lesson_id": "grammar-review",
+    "order": 16,
+    "title": "「〜がある」と、総復習",
+    "description": "there is / there are の言い方と、コース全体の総仕上げ。毎回通る3つの判断で1文を組み立てます。",
+    "text": "lessons/grammar-review.md"
+   }
+  ]
+ },
+ {
+  "course_id": "let-them-theory",
+  "course_title": "他人に振り回されない生き方",
+  "course_description": "人を変えようとして消耗するのをやめる、メル・ロビンスの二語「Let Them」と「Let Me」。家族への口出し、日々のイライラ、上司の不機嫌、人の評価、離れていく友だちまで、本の研究と事例で手放し方と次の一手を学びます。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "let-them-00-two-words",
+    "order": 0,
+    "title": "イライラは、相手を変えたい合図",
+    "description": "人にイライラした瞬間は、相手が間違っている証拠ではなく、自分が相手を動かそうとし始めた合図です。メル・ロビンスの家で起きたプロムの日の話から、その合図の受け取り方を1分で確かめます。",
+    "text": "lessons/let-them-00-two-words.md"
+   },
+   {
+    "lesson_id": "let-them-01-power",
+    "order": 1,
+    "title": "言うほど、人は動かない",
+    "description": "家族に何度言っても変わらないのは、言い方のせいではありません。メル・ロビンスの二語の後半「Let Me」で、押す代わりに自分が動く方法が分かります。",
+    "text": "lessons/let-them-01-power.md"
+   },
+   {
+    "lesson_id": "let-them-02-formula",
+    "order": 2,
+    "title": "イラッとしたら、1年後を見る",
+    "description": "レジの遅さや割り込みに、毎日どれだけ力を使っているでしょう。ハーバードの医師が説明するストレス中の脳と、ロビンスの「1時間後・1週間後・1年後」の物差しで、力を使う相手を選べるようになります。",
+    "text": "lessons/let-them-02-formula.md"
+   },
+   {
+    "lesson_id": "let-them-03-stress",
+    "order": 3,
+    "title": "上司の不機嫌は、8歳のかんしゃく",
+    "description": "朝の不機嫌な挨拶が、夜まで頭に残っていませんか。ロビンスが「大人のかんしゃく」と呼ぶものの正体と、相手の感情を引き受けずに言いにくいことまで言える立ち方が分かります。",
+    "text": "lessons/let-them-03-stress.md"
+   },
+   {
+    "lesson_id": "let-them-04-opinions",
+    "order": 4,
+    "title": "評価は、あなたより相手を映す",
+    "description": "投稿や発言の前に「どう思われるか」で指が止まる。ロビンスの章「悪く思わせておけ」と「見方の枠」から、人の評価を自分の行動の条件にしない方法が分かります。",
+    "text": "lessons/let-them-04-opinions.md"
+   },
+   {
+    "lesson_id": "let-them-05-love",
+    "order": 5,
+    "title": "大人の友だちが減る、本当の理由",
+    "description": "学生時代の友だちと、気づけば年に一度。嫌われたからではありません。ロビンスの「友情の3本柱」とカンザス大学の研究から、離れた縁の受け止め方と、新しい縁の作り方が分かります。",
+    "text": "lessons/let-them-05-love.md"
+   }
+  ]
+ },
+ {
+  "course_id": "claude-code-intro",
+  "course_title": "コードを書かずにClaude Codeに開発を任せる方法",
+  "course_description": "Claude Codeは、頼むと自分でファイルを読み、書き換え、確かめるAIです。コードが書けなくても、任せる範囲・頼み方・確かめ方が分かれば使いこなせることを、パソコンを開かずにスマホだけで学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "claude-code-onboarding",
+    "order": 0,
+    "title": "同じ頼みごと、返ってきたのは",
+    "description": "同じ「このフォルダの請求書をまとめて」に、チャットAIは手順を返し、Claude Codeはファイルそのものを返します。違いは賢さではなく、手が届くかどうかです。",
+    "text": "lessons/claude-code-onboarding.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-01",
+    "order": 1,
+    "title": "頼むと、まず読み始める",
+    "description": "Claude Codeは頼まれてすぐ書き換えません。先にフォルダを読み、動き、結果を確かめて、また読みます。この繰り返しが分かると、待つべき場面と止めるべき場面が見えます。",
+    "text": "lessons/claude-code-intro-01.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-02",
+    "order": 2,
+    "title": "長く話すほど、忘れていく",
+    "description": "1回の調べものだけで数万トークンが消えます。机が埋まると最初の指示から抜けていきます。何が机を埋め、埋まったら何が残るのかを見ます。",
+    "text": "lessons/claude-code-intro-02.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-03",
+    "order": 3,
+    "title": "どこで止まるかは、あなたが決める",
+    "description": "手動モードのClaude Codeは、読むこと以外すべてで許可を求めます。この「止まる場所」は6種類のモードで選べ、選び方で安全と速さが入れ替わります。",
+    "text": "lessons/claude-code-intro-03.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-04",
+    "order": 4,
+    "title": "最初の一言は、質問にする",
+    "description": "いきなり「作って」と頼むより、「このフォルダは何をしている？」と聞くほうがうまくいきます。探す→計画する→作るの順番と、コード以外のフォルダでの使い道を見ます。",
+    "text": "lessons/claude-code-intro-04.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-05",
+    "order": 5,
+    "title": "「いい感じに」で、事故が起きる",
+    "description": "「メール形式をチェックする関数を作って」と「この3つの例で正誤が合うか、テストを走らせて確かめて」では結果が変わります。ゴールと確かめ方を渡す頼み方を練習します。",
+    "text": "lessons/claude-code-intro-05.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-06",
+    "order": 6,
+    "title": "コードが読めなくても、差分は読める",
+    "description": "変更は「消えた行」と「増えた行」の一覧で見えます。中身が分からなくても、範囲・量・場所の3点で「頼んだこと以上をしていないか」は見抜けます。",
+    "text": "lessons/claude-code-intro-06.md"
+   },
+   {
+    "lesson_id": "claude-code-intro-07",
+    "order": 7,
+    "title": "同じことを、二度言わない",
+    "description": "毎回の「日本語で」「このコマンドでテストして」は、CLAUDE.mdに一度書けば済みます。ただし書きすぎると、かえって守られなくなります。",
+    "text": "lessons/claude-code-intro-07.md"
+   }
+  ]
+ },
+ {
+  "course_id": "vibe-coding-intro",
+  "course_title": "AIとつくるアプリ開発入門",
+  "course_description": "AIを相棒に、アイデアから人に使ってもらえるアプリを作る初心者向けコースです。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "vibe-coding-onboarding",
+    "order": 0,
+    "title": "「いい感じにして」が、通じない相手",
+    "description": "Vibe Codingとは何かを、身近なアプリから確かめます。字面どおりに動くロボットに指示を出し、あいまいな一言がどこで止まり、AIなら何を推測で埋めてしまうのかを体験します。",
+    "text": "lessons/vibe-coding-onboarding.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-01",
+    "order": 1,
+    "title": "画面を3枚に剥がすと、直し方が見える",
+    "description": "予約ボタン1つも、中身・見た目・動きの3枚の指示書でできています。1枚ずつ外して壊れ方を見比べ、AIに「どこを直して」と頼めるようになります。",
+    "text": "lessons/vibe-coding-intro-01.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-02",
+    "order": 2,
+    "title": "送信した1通は、どこまで旅する？",
+    "description": "チャットの送信ボタンを押したメッセージは、スマホを出て遠くの機械まで往復しています。4つの係を1つずつ止めて、症状から故障の場所を当てられるようになります。",
+    "text": "lessons/vibe-coding-intro-02.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-03",
+    "order": 3,
+    "title": "アプリ1つに、道具が4つ要る理由",
+    "description": "「ボタンを足して」が友達のスマホに届くまで、書く・預ける・配る・支えるの4つの係がバトンをつなぎます。Claude Code・GitHub・Vercel・Supabaseを、名前ではなく係で覚えます。",
+    "text": "lessons/vibe-coding-intro-03.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-04",
+    "order": 4,
+    "title": "Gitがあれば、壊しても昨日に戻れる",
+    "description": "作りかけのアプリを壊すのが怖いのは、戻れないからです。セーブして壊して巻き戻し、PCが壊れても残る預け方と、本流を汚さずに試す分身の作り方を体験します。",
+    "text": "lessons/vibe-coding-intro-04.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-05",
+    "order": 5,
+    "title": "同じAIなのに、人によって差が出る理由",
+    "description": "AIに見えているのは、あなたが渡した材料だけです。AIの席に座って当てる側を体験し、一度で通じる頼み方の型と、任せたあとの確かめ方を身につけます。",
+    "text": "lessons/vibe-coding-intro-05.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-06",
+    "order": 6,
+    "title": "コードに書いた鍵は、誰でも拾える",
+    "description": "AIを借りるための鍵をコードに書いて公開すると、機械が端から拾っていきます。鍵の置き場所を3通り試し、.envと.gitignoreで守る方法と、漏れたときの手当てを学びます。",
+    "text": "lessons/vibe-coding-intro-06.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-07",
+    "order": 7,
+    "title": "機能を足すほど、完成が遠のく理由",
+    "description": "機能を1つ足すと、確かめる組み合わせは数以上に増えます。自分専用のAIチャットの核を1文に決め、動く最小限から作るための設計メモを1枚仕上げます。",
+    "text": "lessons/vibe-coding-intro-07.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-08",
+    "order": 8,
+    "title": "AIは、あなたの前の発言を覚えていない",
+    "description": "自作のAIチャットの返事は、よその会社の機械から借りています。APIに注文を出して突き返される番号を見たあと、AIがなぜ会話の流れについてこられるのか、その意外な仕掛けを確かめます。",
+    "text": "lessons/vibe-coding-intro-08.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-09",
+    "order": 9,
+    "title": "再読み込みすると、会話が消える理由",
+    "description": "画面に出ている言葉が、保存されているとは限りません。2台のチャットを再読み込みして比べ、会話を表に1件1行で残す仕組みと、表にできる4つの操作を体験します。",
+    "text": "lessons/vibe-coding-intro-09.md"
+   },
+   {
+    "lesson_id": "vibe-coding-intro-10",
+    "order": 10,
+    "title": "手元で動くのに、公開すると動かない理由",
+    "description": "プッシュ1回で、ビルドから公開までが自動で走ります。友達に渡したURLでだけAIの返事が来ない原因を記録から見つけ、コードを1文字も変えずに直します。",
+    "text": "lessons/vibe-coding-intro-10.md"
+   }
+  ]
+ }
+]
