@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Fail: neither round-1 fix landed. In the payoff at 57-61 s ('文字としては丸見えです') the number 1234-5678-901 is still near-black on navy, so it can't be read, and at 61 s it overlaps the page thumbnail. The hook at 0-1 s and the statement at 13-17 s are still zoomed so far that the page runs off the left and right edges, off centre.",
+  "revise": [
+    {
+      "section": 5,
+      "request": "「画像では隠れていても、文字としては丸見えです」で、文字データ側の番号「1234-5678-901」がまだ黒に近い色で、紺の背景に溶けて読めません。番号を白の太字で大きく、x=540の中央に出してください。ページ画像のサムネイルとは重ねず、下に離してください。",
+      "quick": true
+    },
+    {
+      "section": 0,
+      "request": "冒頭0〜1秒と13〜17秒の明細が拡大されすぎて、左右の画面端からはみ出しています。明細全体が左右60px以上の余白に収まるサイズにして、x=540の中央にそろえてください。",
+      "quick": true
+    }
+  ]
+}

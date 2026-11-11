@@ -1,0 +1,54 @@
+{
+  "course_id": "ai-information-management",
+  "course_title": "AI時代の情報管理入門",
+  "lesson_id": "minimum-useful-input",
+  "lesson_title": "黒く塗った口座番号は、AIに読める",
+  "title": "黒塗りがAIに読まれる仕組み",
+  "topic": "Why black-box redaction in a PDF fails: the text layer stays and AI reads it",
+  "why": "候補1: 黒く塗った口座番号は、AIに読める（minimum-useful-input）。誰もがやったことのある「黒い四角で隠す」が、コピー1回で外れる。冒頭から黒い四角の下から番号が浮かぶ現象を動かして見せられ、「え、自分のPDFも？」という自分ごとの恐怖と、図形と文字データは別という一言で解ける仕組みがある。2019年のマナフォート弁護団の実例で本当だと示せる。候補2: ファイルの一行が、AIを操る（internal-ai-access）。EchoLeakの間接プロンプトインジェクションは驚きが強いが、仕組みが「AIは指示とデータを区別できない」の一文で、動く画にしにくい。候補3: 席は8つ（apollo11-executive）や1202警報。題材は強いが、アポロ11号のプログラムはすでに@hacozy_officialで投稿済みで、近い変種になるため除外。人生系（注意の予算など）は助言中心で、「頑張っても変わらない理由」が2.2Kに留まった実績からも弱い。採用は候補1：既知のもの（PDF・黒塗り・ChatGPT）、一瞬で見える異常な結果、身近な家計の例、次の問い（Driveをつなぐとどこまで届くか）がコースの次のレッスンにそのままつながる。",
+  "voice": "Konoha",
+  "yomi": {
+    "Google Drive": "グーグルドライブ",
+    "墨消し": "すみけし"
+  },
+  "instruction": "タイトルは「黒塗りがAIに読まれる仕組み」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭は1フレーム目から、銀行の明細PDF（イメージ図、架空の番号）の口座番号の上に黒い四角が乗っている画面。「そのまま読めます」の言葉で、黒い四角が少し持ち上がって横にずれ、下から同じ番号がくっきり現れる。ロゴや白い画面から始めない。「文字の上に置いた図形」では、ページを斜めから見た2層の分解図（下の層に番号の文字、上の層に黒い四角だけ）を見せ、2枚が離れていく動き。「全文をコピーして貼り付けると」では、PDFで全選択→コピー→メモアプリに貼り付けて、黒い四角のない番号だけが打ち出される画面録画風の動き。2019年の行では、黒塗りの線が入った英文の裁判書類（イメージ図）の黒い帯が消えて文字が出る。「AIも同じです」からは、PDFがチャット画面に添付され、ページ画像と文字データの2本に分かれてAIへ流れ、文字データ側の番号がハイライトされる。「墨消し」では、四角を重ねるのではなく下の文字ごと消えて空白になる対比（左：重ねただけ、右：墨消し）。最後の問いでは、Google Driveのフォルダがたくさんのファイルごとチャットにつながっていく画。文字、字幕、画はすべて画面中央（x=540）にそろえる。上部ラベルはタイトル。エンディングは物語の流れのまま続け、広告カードは入れない。Hacozyのアイコン素材は「続きはHacozyで。」のときだけ出す。",
+  "lines": [
+    "黒く塗りつぶした口座番号は、AIにはそのまま読めます。",
+    "画面では見えないのに、なぜ読めてしまうのでしょうか。",
+    "家計の相談で、明細PDFをAIに送るとします。",
+    "口座番号は、黒い四角で隠しました。",
+    "ところがこの四角は、文字の上に置かれた図形にすぎません。",
+    "PDFは、文字そのものの「文字データ」と図形を、別々に保存しています。",
+    "画面では図形が上に重なり、隠れて見えるだけです。",
+    "試しに全文をコピーして貼り付けると、",
+    "黒い四角は付いてこず、番号だけが出てきます。",
+    "2019年の米国の裁判で、弁護団が黒塗りした書類がこうして読まれました。",
+    "AIも同じです。",
+    "PDFを渡すと、ページの画像とは別に、文字データも読み取ります。",
+    "画像では隠れていても、文字としては丸見えです。",
+    "本当に消すには、下の文字ごと削る「墨消し」を使います。",
+    "では、Google Driveをまるごとつなぐと、AIはどこまで読めるのでしょうか。",
+    "その答えは、Hacozyのコース「AI時代の情報管理入門」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Columbia Journalism Review: A redaction failure in Manafort filing (Jan 10, 2019)",
+      "url": "https://www.cjr.org/analysis/manafort-mueller-redacted-document-ukraine.php"
+    },
+    {
+      "title": "OpenAI API docs: File inputs (PDF files) — text and page images are extracted and sent to the model",
+      "url": "https://developers.openai.com/api/docs/guides/pdf-files"
+    },
+    {
+      "title": "Adobe Experience League: Remove sensitive information (Redact and Sanitize in Acrobat)",
+      "url": "https://experienceleague.adobe.com/en/docs/document-cloud-learn/acrobat-learning/advanced-tasks/redact"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 6,
+    "kept": 5
+  }
+}

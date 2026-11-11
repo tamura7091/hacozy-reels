@@ -1,0 +1,244 @@
+[
+ {
+  "course_id": "fix-life-hour",
+  "course_title": "たった1時間で人生を立て直す方法",
+  "course_description": "Dan Koeの記事「Full guide: how to unlock extreme focus on command」（2026年1月）に基づくコース。成功には長時間労働が必要だと思われがちですが、1日1時間でも1年で365時間になります。足りないのは時間ではなく、注意の行き先です。心が散らかる仕組み、没頭に入る3つの材料、回復の置き方、1つに注ぐ理由、1時間の使い道を決める手順、そして先の見えなさとの付き合い方を学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-hour-00-attention",
+    "order": 0,
+    "title": "注意は一生の予算",
+    "description": "電車でなんとなく眺めたスマホの10分は、時間よりずっと少ない何かを使っています。一生ぶんで映画5本ほどしかない注意の予算と、その行き先を自分で決める一手を2分で確かめます。",
+    "text": "lessons/fix-life-hour-00-attention.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-01-entropy",
+    "order": 1,
+    "title": "集中できない本当の理由",
+    "description": "集中できない理由をエントロピーの比喩でつかみ、整える入口を短く学びます。",
+    "text": "lessons/fix-life-hour-01-entropy.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-02-flow",
+    "order": 2,
+    "title": "没頭のスイッチ",
+    "description": "時間を忘れる没頭に、狙って入るには？ 難しさと腕前の釣り合い、明確さ・重要さ・緊急さの3つの材料を学びます。",
+    "text": "lessons/fix-life-hour-02-flow.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-03-rest",
+    "order": 3,
+    "title": "天才たちの休息法",
+    "description": "成果を出す人は長時間働いていない。作る・回す・回復するの3種類の仕事と、睡眠・散歩・自然で力を戻す方法を学びます。",
+    "text": "lessons/fix-life-hour-03-rest.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-04-extreme",
+    "order": 4,
+    "title": "極端さが脳を変える",
+    "description": "なぜ「ほどほど」では人は変わらないのか。使うほど太くなる脳のつながりと80/20の法則から、1つに時間を注ぐ理由を学びます。",
+    "text": "lessons/fix-life-hour-04-extreme.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-05-protocol",
+    "order": 5,
+    "title": "実践プロトコル",
+    "description": "1日1時間を何に使うか。レバーの効く仕事、アンチ・ビジョン、4段の目標、作りながら学ぶ手順を組み立てます。",
+    "text": "lessons/fix-life-hour-05-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-06-uncertainty",
+    "order": 6,
+    "title": "不確実性を受け入れる",
+    "description": "先が読めないとき、どう動くか。不確実さを伸びしろの合図と捉え、小さく出して直し、失敗をデータに変える考え方を学びます。",
+    "text": "lessons/fix-life-hour-06-uncertainty.md"
+   }
+  ]
+ },
+ {
+  "course_id": "apollo-11-source-code",
+  "course_title": "アポロ11号のコードを読む",
+  "course_description": "スマホの約200万分の1の書き換えメモリで、アポロ11号はどう月に降りたのか。銅線で編まれたプログラム、数字だけの操作盤、8つしかない仕事の席、2秒ごとの誘導、そして1202警報と帰還まで、本物のコードで読み解きます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "apollo11-intro",
+    "order": 0,
+    "title": "月面着陸のコードは、いま誰でも読める",
+    "description": "月へ降りた着陸船のコンピューターとは何か。着陸の4つの場面で、実際に動いていたコードをのぞきます。",
+    "text": "lessons/apollo11-intro.md"
+   },
+   {
+    "lesson_id": "apollo11-two-programs",
+    "order": 1,
+    "title": "アポロのプログラムは、銅線で編まれていた",
+    "description": "2隻の船に載った2つのプログラムと、打ち上げたら二度と書き換えられないメモリの仕組みを見ます。",
+    "text": "lessons/apollo11-two-programs.md"
+   },
+   {
+    "lesson_id": "apollo11-dsky",
+    "order": 2,
+    "title": "宇宙飛行士は、数字だけでコンピューターと話した",
+    "description": "文字のない操作盤DSKYで、動詞と名詞を2桁の数字で組み合わせて頼む仕組みを、実際に押して確かめます。",
+    "text": "lessons/apollo11-dsky.md"
+   },
+   {
+    "lesson_id": "apollo11-executive",
+    "order": 3,
+    "title": "席は8つ。仕事が重なったらどうする？",
+    "description": "同時に届く仕事を優先度で並べるExecutiveと、8つしかない席、2秒ごとに仕事を予約するWaitlistを見ます。",
+    "text": "lessons/apollo11-executive.md"
+   },
+   {
+    "lesson_id": "apollo11-descent",
+    "order": 4,
+    "title": "月面着陸は、プログラムのリレーだった",
+    "description": "減速のP63、着地点を見るP64、人が降下速度を操るP66。高度15kmから月面まで、仕事がどう切り替わるかを追います。",
+    "text": "lessons/apollo11-descent.md"
+   },
+   {
+    "lesson_id": "apollo11-guidance",
+    "order": 5,
+    "title": "2秒ごとに、計算をやり直す",
+    "description": "1回だけ立てた計画と、2秒ごとに計算し直す誘導。ずれが起きても目標へ降りられる理由を、見比べて確かめます。",
+    "text": "lessons/apollo11-guidance.md"
+   },
+   {
+    "lesson_id": "apollo11-alarms",
+    "order": 6,
+    "title": "1202警報は「着陸中止」ではなかった",
+    "description": "降下中に何度も出た1202警報。コードが示す意味、席が埋まった原因、そして着陸を続けられた再始動の仕組みを読み解きます。",
+    "text": "lessons/apollo11-alarms.md"
+   },
+   {
+    "lesson_id": "apollo11-return",
+    "order": 7,
+    "title": "月から帰るのも、コンピューターの仕事",
+    "description": "月面からの上昇、そして秒速約11kmでの大気突入。地球へ帰るまでを2つのプログラムでたどり、コース全体をつなぎます。",
+    "text": "lessons/apollo11-return.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-information-management",
+  "course_title": "AI時代の情報管理入門",
+  "course_description": "AIに話した私的なこと、添付したファイル、接続したDrive・メール・フォルダがどう扱われるかを知り、どこまで渡すか判断する。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "name-in-context",
+    "order": 0,
+    "title": "AIに打ち明けた悩みは、4か所に行く",
+    "description": "夜中にAIへ送った相談の一文は、どこへ行き、どれだけ残るのか。設定で止まる行き先と、止まらない行き先を見分ける。",
+    "text": "lessons/name-in-context.md"
+   },
+   {
+    "lesson_id": "where-data-goes",
+    "order": 1,
+    "title": "AIは毎回、会話を最初から読み直す",
+    "description": "同じチャットで前に書いた名前が、なぜ今の返答に出てくるのか。会話の読み直し、メモリ、学習の3つを分けて見る。",
+    "text": "lessons/where-data-goes.md"
+   },
+   {
+    "lesson_id": "what-leak-means",
+    "order": 2,
+    "title": "削除したチャットは、すぐには消えない",
+    "description": "削除ボタンを押したあと、会話・メモリ・人が読んだデータはそれぞれいつ消えるのか。ChatGPT・Gemini・Claudeの実際の期間で見る。",
+    "text": "lessons/what-leak-means.md"
+   },
+   {
+    "lesson_id": "minimum-useful-input",
+    "order": 3,
+    "title": "黒く塗った口座番号は、AIに読める",
+    "description": "PDFの数字を黒い四角で隠しても、文字データは下に残る。添付ファイルがどこに保存されるかと、送る前の正しい削り方を知る。",
+    "text": "lessons/minimum-useful-input.md"
+   },
+   {
+    "lesson_id": "boundary-cases",
+    "order": 4,
+    "title": "Driveをつなぐと、同僚のファイルまで届く",
+    "description": "Google Driveを接続するとき、許可の広さ次第でAIが届くのは2ファイルにも全部にもなる。権限・取得・学習・解除を順に分ける。",
+    "text": "lessons/boundary-cases.md"
+   },
+   {
+    "lesson_id": "anonymous-clues",
+    "order": 5,
+    "title": "メールの要約は、本文そのものかもしれない",
+    "description": "GmailをつないだGeminiは、受信箱では直接学習しない。それでも要約や抜き出しは学習に使われうる。短いメールでは、要約が本文と同じになる理由を知る。",
+    "text": "lessons/anonymous-clues.md"
+   },
+   {
+    "lesson_id": "internal-ai-access",
+    "order": 6,
+    "title": "ファイルの一行が、AIを操る",
+    "description": "パソコンのフォルダを開かせるAIは、手元で動いても読んだ中身をクラウドへ送る。メールやファイルに隠れた指示がAIを動かす仕組みと、許可の絞り方を知る。",
+    "text": "lessons/internal-ai-access.md"
+   },
+   {
+    "lesson_id": "contract-changes-answer",
+    "order": 7,
+    "title": "同じChatGPTでも、会社用は学習しない",
+    "description": "同じ相談文でも、個人向けと法人向け、ChatGPT・Claude・Geminiで学習と保存の初期設定は違う。設定で止まるものと止まらないものを比べる。",
+    "text": "lessons/contract-changes-answer.md"
+   },
+   {
+    "lesson_id": "workplace-checklist",
+    "order": 8,
+    "title": "名前を消しても、AIは住む街を当てる",
+    "description": "名前のない書き込みから、AIは住む場所や年代を当てる。ETHチューリッヒの研究から、手がかりの削り方と、送る前の3つの確認を持ち帰る。",
+    "text": "lessons/workplace-checklist.md"
+   }
+  ]
+ },
+ {
+  "course_id": "fix-your-life",
+  "course_title": "人生をたった1日で変える方法",
+  "course_description": "Xで1億インプレッションを記録しElon Muskにもリポストされた世界で話題のDan Koeによる記事「How to Fix Your Entire Life in 1 Day」を基にした実践コースです。たった1日で最悪の未来を書き出して目を覚まし、自動操縦の日常を中断して本当の欲求を見つけ、理想の自分を明確に定義します。そこから人生をゲームのように設計し、持続できる進捗システムを手に入れるメソッドです。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-00-goal-lens",
+    "order": 0,
+    "title": "目標はレンズ",
+    "description": "欲しい車を決めた翌日から、街でその車ばかり見かけるのはなぜか。目標を決めた瞬間に先に変わるのは行動ではなく見えるものだ、という1つの気づきを1分で確かめます。",
+    "text": "lessons/fix-life-00-goal-lens.md"
+   },
+   {
+    "lesson_id": "fix-life-01-identity",
+    "order": 1,
+    "title": "変化の正体",
+    "description": "変化の入口として、意志力より環境と自己イメージが効く理由を短く学びます。",
+    "text": "lessons/fix-life-01-identity.md"
+   },
+   {
+    "lesson_id": "fix-life-02-conditioning",
+    "order": 2,
+    "title": "過去からの脱却",
+    "description": "私たちは親や社会から何を刷り込まれてきたのか？心の「OS」をアップデートする。",
+    "text": "lessons/fix-life-02-conditioning.md"
+   },
+   {
+    "lesson_id": "fix-life-03-intelligence",
+    "order": 3,
+    "title": "本当の知性",
+    "description": "知性とは「欲しいものを手に入れる能力」である。サイバネティクスから学ぶ目標達成の科学。",
+    "text": "lessons/fix-life-03-intelligence.md"
+   },
+   {
+    "lesson_id": "fix-life-04-protocol",
+    "order": 4,
+    "title": "1日で人生を変える",
+    "description": "「アンチ・ビジョン」と「ビジョン」。1日かけて自分の深層心理を掘り起こす実践プロトコル。",
+    "text": "lessons/fix-life-04-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-05-gamification",
+    "order": 5,
+    "title": "人生をゲーム化せよ",
+    "description": "没頭とフロー状態を日常に。人生という究極のゲームを攻略するためのフレームワーク。",
+    "text": "lessons/fix-life-05-gamification.md"
+   }
+  ]
+ }
+]

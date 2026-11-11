@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Fail as is: the story is clear and the ending is complete, but the payoff in section 5 does not work. At 57-61 s the unredacted number is drawn in near-black on the navy background, so the line about it being plain to see shows nothing readable. Also, at 15-16.5 s a huge, cut-off 'meisai.pdf / 計の相談です' sits under the caption, a broken transition.",
+  "revise": [
+    {
+      "section": 5,
+      "request": "「画像では隠れていても、文字としては丸見えです」の場面で、文字データ側の番号「1234-5678-901」がほぼ黒で紺の背景に溶けて読めません。番号を白（または明るいブルー）の太字で大きく、x=540の中央に出し、ページ画像のサムネイルと重ならないよう下に離してください。「文字データ」のラベルも番号の上に出し、流れの線や数字の緑っぽい色はHacozyのブルーにそろえてください。",
+      "quick": true
+    },
+    {
+      "section": 0,
+      "request": "15〜16.5秒（「口座番号は、黒い四角で隠しました」）でチャット画面から明細へ切り替わるとき、拡大された「meisai.pdf」と「計の相談です」が左端で切れたまま字幕の下に大きく残っています。この拡大した入力欄とファイル名は消して、明細だけをx=540の中央に表示してください。冒頭0〜1秒の明細も左右がはみ出して左寄りなので、左右60px以上の余白を取って中央にそろえてください。",
+      "quick": true
+    }
+  ]
+}
