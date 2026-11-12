@@ -1,0 +1,377 @@
+[
+ {
+  "course_id": "mit-9-13-human-brain",
+  "course_title": "脳科学入門",
+  "course_description": "顔だけを見分ける場所、音楽にだけ反応する場所、他人の勘違いを考える場所。MITのナンシー・カンウィッシャー教授の講義で扱う実験を自分の手で試しながら、脳のどこが何を受け持つのか、それがどう分かったのかを説明できるようになります。本コースはHacozyが独自に制作したもので、MITとは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "b913-face-area",
+    "order": 0,
+    "title": "電気を流したら、顔が現れた",
+    "description": "脳のある1点に弱い電気を流すと、見ていたボールの上に顔が浮かびました。脳に「顔の担当」がいることを、日本で行われたこの実験から体験します。",
+    "text": "lessons/b913-face-area.md"
+   },
+   {
+    "lesson_id": "b913-map-and-tools",
+    "order": 1,
+    "title": "光ったから、そこが担当とは限らない",
+    "description": "脳が光る画像は、その場所が「必要」だとまでは教えてくれません。fMRI、脳に傷がある人の研究、磁気刺激。方法ごとに何が言えて、何が言えないのかを見分けます。",
+    "text": "lessons/b913-map-and-tools.md"
+   },
+   {
+    "lesson_id": "b913-faces",
+    "order": 2,
+    "title": "顔だけが見分けられない人",
+    "description": "物も文字も見えるのに、顔だけが見分けられない人がいます。逆さまの顔で自分の脳を試し、顔の担当地区が本当に顔だけを受け持つのかを、反論も含めて確かめます。",
+    "text": "lessons/b913-faces.md"
+   },
+   {
+    "lesson_id": "b913-navigation",
+    "order": 3,
+    "title": "ロンドンのタクシー運転手の脳",
+    "description": "2万5千本の道を覚えた運転手は、道の記憶に関わる場所が大きい傾向がありました。脳の中の「地図」と「方位磁針」を見ていきます。",
+    "text": "lessons/b913-navigation.md"
+   },
+   {
+    "lesson_id": "b913-nature-nurture",
+    "order": 4,
+    "title": "見えない人の目の脳は、点字を読む",
+    "description": "幼いころから目の見えない人が点字を読むと、ふつうは「見る」ための場所が働きます。脳の地図は、生まれつき決まっているのか、経験で描かれるのかを確かめます。",
+    "text": "lessons/b913-nature-nurture.md"
+   },
+   {
+    "lesson_id": "b913-number",
+    "order": 5,
+    "title": "数えなくても、多いほうは分かる",
+    "description": "一瞬だけ見せた点の数を、数えずにどちらが多いか当ててみます。言葉の数詞を持たない人々もできるこの感覚と、その限界を知ります。",
+    "text": "lessons/b913-number.md"
+   },
+   {
+    "lesson_id": "b913-sound-music",
+    "order": 6,
+    "title": "音楽だけに反応する場所",
+    "description": "話し声にも、犬の鳴き声にも反応せず、音楽にだけ反応する場所が見つかりました。耳から入る音を、脳がどう仕分けているかを見ます。",
+    "text": "lessons/b913-sound-music.md"
+   },
+   {
+    "lesson_id": "b913-language",
+    "order": 7,
+    "title": "ことばを失っても、計算はできる",
+    "description": "脳卒中で文の意味が取れなくなった人が、かっこ付きの計算を解けました。ことばを受け持つ脳の地区を探し、「人はことばで考えている」という思い込みを確かめます。",
+    "text": "lessons/b913-language.md"
+   },
+   {
+    "lesson_id": "b913-other-minds",
+    "order": 8,
+    "title": "他人の勘違いが分かる場所",
+    "description": "人形がかごに入れたボールを、別の人形がこっそり箱へ移しました。戻ってきた人形はどこを探す？ 4歳前後で解けるようになるこの問題と、他人の考えを考えるときに働く脳の場所を知ります。",
+    "text": "lessons/b913-other-minds.md"
+   },
+   {
+    "lesson_id": "b913-attention",
+    "order": 9,
+    "title": "目の前のゴリラが見えない",
+    "description": "バスケットボールのパスを数えていると、画面を横切るゴリラに半数以上が気づきません。目に映っても気づかない仕組みと、脳が追っている「見えているもの」、そして地図にまだ書けない意識を見ます。",
+    "text": "lessons/b913-attention.md"
+   }
+  ]
+ },
+ {
+  "course_id": "fix-life-hour",
+  "course_title": "たった1時間で人生を立て直す方法",
+  "course_description": "Dan Koeの記事「Full guide: how to unlock extreme focus on command」（2026年1月）に基づくコース。成功には長時間労働が必要だと思われがちですが、1日1時間でも1年で365時間になります。足りないのは時間ではなく、注意の行き先です。心が散らかる仕組み、没頭に入る3つの材料、回復の置き方、1つに注ぐ理由、1時間の使い道を決める手順、そして先の見えなさとの付き合い方を学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-hour-00-attention",
+    "order": 0,
+    "title": "注意は一生の予算",
+    "description": "電車でなんとなく眺めたスマホの10分は、時間よりずっと少ない何かを使っています。一生ぶんで映画5本ほどしかない注意の予算と、その行き先を自分で決める一手を2分で確かめます。",
+    "text": "lessons/fix-life-hour-00-attention.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-01-entropy",
+    "order": 1,
+    "title": "集中できない本当の理由",
+    "description": "集中できない理由をエントロピーの比喩でつかみ、整える入口を短く学びます。",
+    "text": "lessons/fix-life-hour-01-entropy.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-02-flow",
+    "order": 2,
+    "title": "没頭のスイッチ",
+    "description": "時間を忘れる没頭に、狙って入るには？ 難しさと腕前の釣り合い、明確さ・重要さ・緊急さの3つの材料を学びます。",
+    "text": "lessons/fix-life-hour-02-flow.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-03-rest",
+    "order": 3,
+    "title": "天才たちの休息法",
+    "description": "成果を出す人は長時間働いていない。作る・回す・回復するの3種類の仕事と、睡眠・散歩・自然で力を戻す方法を学びます。",
+    "text": "lessons/fix-life-hour-03-rest.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-04-extreme",
+    "order": 4,
+    "title": "極端さが脳を変える",
+    "description": "なぜ「ほどほど」では人は変わらないのか。使うほど太くなる脳のつながりと80/20の法則から、1つに時間を注ぐ理由を学びます。",
+    "text": "lessons/fix-life-hour-04-extreme.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-05-protocol",
+    "order": 5,
+    "title": "実践プロトコル",
+    "description": "1日1時間を何に使うか。レバーの効く仕事、アンチ・ビジョン、4段の目標、作りながら学ぶ手順を組み立てます。",
+    "text": "lessons/fix-life-hour-05-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-06-uncertainty",
+    "order": 6,
+    "title": "不確実性を受け入れる",
+    "description": "先が読めないとき、どう動くか。不確実さを伸びしろの合図と捉え、小さく出して直し、失敗をデータに変える考え方を学びます。",
+    "text": "lessons/fix-life-hour-06-uncertainty.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-101-v3",
+  "course_title": "AIの仕組みと使い方",
+  "course_description": "プロンプト術は要りません。AIの仕組みから、資料の渡し方、エージェントへの任せ方まで、AIに振り回されずに使いこなす考え方を一続きで学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "ai101v3-not-magic",
+    "order": 0,
+    "title": "ルールを知らない箱が、勝ち始めた",
+    "description": "1961年、マッチ箱とビーズだけで三目並べを覚える機械が作られました。その仕組みが分かると、ChatGPTや絵を描くAIが魔法ではない理由まで説明できます。",
+    "text": "lessons/ai101v3-not-magic.md"
+   },
+   {
+    "lesson_id": "ai101v3-fluent-not-true",
+    "order": 1,
+    "title": "会社の予定を、AIがすらすら答えた",
+    "description": "何も教えていないのに、AIが来月の会議の日付まで言い切ることがあります。上手な答えと正しい答えを見分け、AIに正しく答えさせる4つの手が分かります。",
+    "text": "lessons/ai101v3-fluent-not-true.md"
+   },
+   {
+    "lesson_id": "ai101v3-background-not-spells",
+    "order": 2,
+    "title": "優秀な新人でも、この返事は書けない",
+    "description": "取引先への返信をAIに頼むと、丁寧なのにそのまま送れない返事が返ってくることがあります。足りないのはプロンプト術ではなく、あなたしか知らない背景だと分かり、何を足せば返事が変わるかが分かります。",
+    "text": "lessons/ai101v3-background-not-spells.md"
+   },
+   {
+    "lesson_id": "ai101v3-materials-not-manuals",
+    "order": 3,
+    "title": "マニュアルは、読み上げなくていい",
+    "description": "AIに頼むとき、手順や数字を長々と書き込んでいませんか。マニュアルを読み上げる代わりに資料とゴールを渡すと何が変わるか、そして渡し忘れた1枚がどこに響くかが分かります。",
+    "text": "lessons/ai101v3-materials-not-manuals.md"
+   },
+   {
+    "lesson_id": "ai101v3-chat-vs-agent",
+    "order": 4,
+    "title": "AIの手足は、あなただった",
+    "description": "AIのチャットに頼んだあと、資料を探し、返事を貼り、間違いに気づいて頼み直していたのは誰でしょう。答えて止まるチャットと、ゴールまで自分で動き続けるエージェントの違いと、その中身が魔法ではない理由が分かります。",
+    "text": "lessons/ai101v3-chat-vs-agent.md"
+   },
+   {
+    "lesson_id": "ai101v3-folder-not-attachments",
+    "order": 5,
+    "title": "添付は、もういらない",
+    "description": "資料を1つずつ探して添付する代わりに、フォルダを1つ渡すと何が起きるのでしょう。エージェントがフォルダの中で資料を読み、書き換え、新しく作る基本と、フォルダの外がAIからどう見えるかが分かります。",
+    "text": "lessons/ai101v3-folder-not-attachments.md"
+   },
+   {
+    "lesson_id": "ai101v3-cluttered-desk",
+    "order": 6,
+    "title": "AIの机も、散らかると探せない",
+    "description": "資料は多いほど安心、と共有フォルダを丸ごとAIに渡していませんか。AIにも一度に目を通せる量の限りがあり、広くなっても関係ない資料が多いほど大事な一行が埋もれる理由と、全部を渡すより要る資料に届くようにする考え方が分かります。",
+    "text": "lessons/ai101v3-cluttered-desk.md"
+   },
+   {
+    "lesson_id": "ai101v3-folder-names",
+    "order": 7,
+    "title": "「資料1」という名前が、AIを迷わせる",
+    "description": "「資料1」「最終版(2)」「スキャン0412」。この名前のファイルから、AIはどうやって今年の価格表を探すのでしょう。名前と置き場所を整えるだけで、AIが要る資料へまっすぐたどり着ける理由が分かります。",
+    "text": "lessons/ai101v3-folder-names.md"
+   },
+   {
+    "lesson_id": "ai101v3-instructions-file",
+    "order": 8,
+    "title": "同じお願いは、1回書けば済む",
+    "description": "新しい会話を開くたびに「敬語で」「結論から」と打ち直していませんか。毎回守ってほしいことを1枚の文章ファイルに残す指示書と、AIが自分で覚えるメモリ、仕事ごとに読む手順書のスキルの違いが分かります。",
+    "text": "lessons/ai101v3-instructions-file.md"
+   },
+   {
+    "lesson_id": "ai101v3-eyes-and-hands",
+    "order": 9,
+    "title": "AIは、送信ボタンまで押せる",
+    "description": "AIはパソコンの画面を操作し、メールやチャット、共有フォルダーにもつながります。できることが増えたとき、どこまで任せるかを「読むだけ」から「実行まで」の4つの段で決める方法が分かります。",
+    "text": "lessons/ai101v3-eyes-and-hands.md"
+   },
+   {
+    "lesson_id": "ai101v3-email-reply",
+    "order": 10,
+    "title": "「返信して」だけで、返事が書けた",
+    "description": "届いたメールをAIに貼り、相手や会社の事情を毎回打ち込んでいませんか。説明を打つ代わりに過去のやり取りと社内の資料を読める場所を渡すと、短い一言で合った返事が書ける理由と、送る前に自分で確かめる安全な使い方が分かります。",
+    "text": "lessons/ai101v3-email-reply.md"
+   },
+   {
+    "lesson_id": "ai101v3-split-your-task",
+    "order": 11,
+    "title": "確かめ方が言えたら、任せていい",
+    "description": "資料の要約も、フォルダーの整理も、報告スライドも、エージェントは「それらしく」仕上げてきます。頼む前に仕事を材料・ゴール・確認方法の3つに分けると、どの仕事をどう任せればいいかが分かります。",
+    "text": "lessons/ai101v3-split-your-task.md"
+   },
+   {
+    "lesson_id": "ai101v3-speak-the-background",
+    "order": 12,
+    "title": "キーボードが、事情を削っていた",
+    "description": "AIへの頼みを打ち込むと、なぜか一行で終わってしまう。その一行から消えていたのは、経緯や気持ちといった大事な背景でした。話して頼むと何が届くのか、まとまらない話をどうすればいいのかが分かります。",
+    "text": "lessons/ai101v3-speak-the-background.md"
+   },
+   {
+    "lesson_id": "ai101v3-model-and-cost",
+    "order": 13,
+    "title": "お礼の一文に、最強のAIは要らない",
+    "description": "メールの一文を直す頼みなら、軽いAIでも強いAIでも答えはほとんど同じです。モデルごとの得意・苦手と、使った量を数えるトークンの考え方から、仕事の重さに合わせてAIを選び分ける方法が分かります。",
+    "text": "lessons/ai101v3-model-and-cost.md"
+   },
+   {
+    "lesson_id": "ai101v3-judgment-stays-yours",
+    "order": 14,
+    "title": "全部任せた人ほど、仕事が増える",
+    "description": "AIに販売計画を丸ごと書かせたら、会議でひと言も説明できませんでした。AIと一緒に考えてよいところと、自分が理解して決めるところの線の引き方と、「AIに仕事を奪われる」不安への答えが分かります。",
+    "text": "lessons/ai101v3-judgment-stays-yours.md"
+   },
+   {
+    "lesson_id": "ai101v3-press-send-yourself",
+    "order": 15,
+    "title": "送信ボタンだけは、自分で押す",
+    "description": "AIに「作って送っておいて」と任せたメールの日付が、1週間ずれていたら？ 送る・公開する・消すの前に人の確認を置く任せ方と、パスワードや個人情報などAIに渡さないものの線引きが分かります。",
+    "text": "lessons/ai101v3-press-send-yourself.md"
+   },
+   {
+    "lesson_id": "ai101v3-own-workspace",
+    "order": 16,
+    "title": "質問するのは、AIのほうだった",
+    "description": "新しい会話のたびに、自分の仕事や好みを打ち直していませんか。パソコンに自分専用のフォルダを一つ作り、AIに質問してもらいながら、あなたの前提を文章で貯めていく方法が分かります。コース全体のまとめと、この先の学び方も紹介します。",
+    "text": "lessons/ai101v3-own-workspace.md"
+   }
+  ]
+ },
+ {
+  "course_id": "cs50-ai-intro",
+  "course_title": "AIの基礎：探索から機械学習まで",
+  "course_description": "ハーバード大学CS50の内容をベースに、検索、知識表現、不確実性、最適化、学習、ニューラルネットワーク、言語処理まで、AIの中核となる考え方をスマホでサクッと学べるように再構成しました。直感的な例とクイズで、理論と実践を両立しながら理解を深めます。本コースはHacozyが独自に制作したもので、ハーバード大学とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "cs50-onboarding-search",
+    "order": 0,
+    "title": "Google Mapsはどう道を探す？",
+    "description": "Google Mapsの疑問から、DFSとBFSの違いを迷路で体験し、AIの探索は「候補を見る順番」で性格が変わるとつかむ体感型レッスンです。",
+    "text": "lessons/cs50-onboarding-search.md"
+   },
+   {
+    "lesson_id": "search",
+    "order": 1,
+    "title": "探索の基本：目的地までの道を探せ！",
+    "description": "問題の要素（状態・行動・初期状態・ゴール）を定義し、DFSとBFSのメモリ構造（スタックとキュー）の違いをつかむレッスンです。",
+    "text": "lessons/search.md"
+   },
+   {
+    "lesson_id": "search-informed",
+    "order": 2,
+    "title": "賢く探すAI：A*探索と対戦ゲーム",
+    "description": "見積もり情報を使うヒューリスティックとA*探索、そして相手の最善を読むMinimaxアルゴリズムを学ぶレッスンです。",
+    "text": "lessons/search-informed.md"
+   },
+   {
+    "lesson_id": "knowledge",
+    "order": 3,
+    "title": "AIはどう推理する？：命題論理と知識ベース",
+    "description": "人間が知っている事実や文章を記号化し、命題論理と知識ベースを使って論理的推理を行う基礎を学ぶレッスンです。",
+    "text": "lessons/knowledge.md"
+   },
+   {
+    "lesson_id": "knowledge-inference",
+    "order": 4,
+    "title": "矛盾を見抜く：モデルチェックと推論規則",
+    "description": "可能な世界を全調べるモデルチェックと、パズルのように結論を導く前件肯定や解像度規則を学ぶレッスンです。",
+    "text": "lessons/knowledge-inference.md"
+   },
+   {
+    "lesson_id": "uncertainty",
+    "order": 5,
+    "title": "「たぶん」を数にする：確率とベイズの法則",
+    "description": "現実の不確実さを0〜1の確率で数値化し、手がかりを得るたびに予測を更新するベイズの法則と基準率の錯覚を学ぶレッスンです。",
+    "text": "lessons/uncertainty.md"
+   },
+   {
+    "lesson_id": "uncertainty-networks",
+    "order": 6,
+    "title": "つながる確率：ベイジアンネットワークと時間変化",
+    "description": "複数の確率要素の関係をネットワークで可視化するベイジアンネットワークと、時間変化や隠れた状態を推定するマルコフモデルを学ぶレッスンです。",
+    "text": "lessons/uncertainty-networks.md"
+   },
+   {
+    "lesson_id": "optimization",
+    "order": 7,
+    "title": "一番良い答えを探せ：山登り法と焼きなまし法",
+    "description": "無数の候補の中から最も優れた答えを探す最適化問題と、山登り法および局所解を脱出する焼きなまし法を学ぶレッスンです。",
+    "text": "lessons/optimization.md"
+   },
+   {
+    "lesson_id": "optimization-csp",
+    "order": 8,
+    "title": "ルールを守ってパズルを解く：制約充足問題",
+    "description": "変数・ドメイン・制約の3要素でパズルを定義し、バックトラック探索とアーク整合性（AC-3）で効率的に解く手法を学ぶレッスンです。",
+    "text": "lessons/optimization-csp.md"
+   },
+   {
+    "lesson_id": "learning",
+    "order": 9,
+    "title": "データから学ぶAI：教師あり学習と過学習",
+    "description": "正解つきデータからルールを学ぶ教師あり学習、分類と回帰、k-NN、過学習と汎化のトレードオフを学ぶレッスンです。",
+    "text": "lessons/learning.md"
+   },
+   {
+    "lesson_id": "learning-advanced",
+    "order": 10,
+    "title": "答えのない世界で学ぶ：クラスタリングと強化学習",
+    "description": "正解ラベルのないデータから構造を見つける教師なし学習（k-means）と、試行錯誤と報酬で上達する強化学習（Q学習）を学ぶレッスンです。",
+    "text": "lessons/learning-advanced.md"
+   },
+   {
+    "lesson_id": "neural-networks",
+    "order": 11,
+    "title": "脳を模した計算機：パーセプトロンと誤差逆伝播",
+    "description": "人工ニューロンの計算（重み・バイアス・活性化関数）と、勾配降下法および誤差逆伝播法（バックプロパゲーション）を学ぶレッスンです。",
+    "text": "lessons/neural-networks.md"
+   },
+   {
+    "lesson_id": "neural-networks-deep",
+    "order": 12,
+    "title": "深層学習の世界：画像認識と畳み込み (CNN)",
+    "description": "層を重ねるディープラーニング、画像認識に強い畳み込みニューラルネットワーク（CNN）、時系列を扱うRNNを学ぶレッスンです。",
+    "text": "lessons/neural-networks-deep.md"
+   },
+   {
+    "lesson_id": "language",
+    "order": 13,
+    "title": "言語を計算する：トークン化とN-gram",
+    "description": "自然言語をトークンに分解し、N-gramで確率予測、さらに単語の意味を空間のベクトルで表す分散表現（Word2Vec）を学ぶレッスンです。",
+    "text": "lessons/language.md"
+   },
+   {
+    "lesson_id": "language-transformers",
+    "order": 14,
+    "title": "ChatGPTの頭脳：AttentionとTransformer",
+    "description": "文脈付き埋め込み、Self-Attention（自己注意機構）、Transformer構造、大規模言語モデル（LLM）の動作原理を学ぶコース完結レッスンです。",
+    "text": "lessons/language-transformers.md"
+   }
+  ]
+ }
+]

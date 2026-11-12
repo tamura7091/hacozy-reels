@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Strong reel: the 3D matchbox hook moves from frame 0 and lands the O by 2.5 s, captions are in sync, the facts are right and the ending names the course and the profile link. It fails on two flaws a viewer would see. From 41 s on, the 'learning' payoff is shown in green (the winning beads, the 学習 bead column, the なっております bar), and Hacozy's accent is blue. The amber highlight box in the ChatGPT section also cuts through the label 「なっております」.",
+  "revise": [
+    {
+      "section": 8,
+      "request": "勝った手のビーズ（増えていく色・積み上がって「学習」の棒になる色）を緑ではなく青（#5aa9ff）にしてください。負けて消える色は赤のまま、他の色も緑を使わずアンバーなどに。主役の色がHacozyの青になるように。",
+      "quick": true
+    },
+    {
+      "section": 10,
+      "request": "「なっております」の棒のビーズを緑から青（#5aa9ff）に変えてください。アンバーの囲み枠の下辺が「なっております」の文字を横切っているので、枠を下に広げて文字が枠の内側に収まるようにしてください（文字と枠が重ならないこと）。",
+      "quick": true
+    }
+  ]
+}
