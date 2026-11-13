@@ -1,0 +1,59 @@
+{
+  "course_id": "meta-ads-fundamentals",
+  "course_title": "Meta広告：Instagram・Facebookで成果を出す基本",
+  "lesson_id": "intro-meta-ads",
+  "lesson_title": "探してない広告が、なぜ当たる？",
+  "title": "Instagram広告の仕組み",
+  "topic": "How Instagram picks the ad you see",
+  "why": "候補3つ: (1) intro-meta-ads「探してない広告が、なぜ当たる？」: 視聴者がいまInstagramの中にいて、誰もが「会話を聞かれている？」と感じた経験がある既知プロダクトの仕組み。数千万本→数千本→1本と絞られるオークションは数字が動いて映える。(2) fix-life-hour-02-flow「没頭のスイッチ」: 難しさと腕前の図は動くが、題材が生活アドバイス寄りで、同系統の「頑張っても変わらない理由」は2.2Kと弱かった。(3) htwf-fundamentals「批判は、なぜ効かないのか」: 逸話は強いが仕組みが画面で動かない。Jevは投稿済み(1.3K)なので対象外。勝者は(1): 「マイクは使っていない、なのになぜ当たる？」という本当のパラドックスで始められ、チャンネルで強い『既知プロダクトの仕組み』(Googleマップ151K)の型に合い、答えは全部Meta自身の公式ページで確かめられるため。",
+  "voice": "Konoha",
+  "yomi": {
+    "Instagram": "インスタグラム",
+    "Meta": "メタ",
+    "AI": "エーアイ",
+    "30代": "さんじゅうだい",
+    "Facebook": "フェイスブック"
+  },
+  "instruction": "タイトルは「Instagram広告の仕組み」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭のフックは、最初のフレームからスマホのInstagramフィードが指でスクロールされ、投稿の合間に広告（スニーカーのイメージ）が滑り込んでくる画。1行目「マイクの音を広告に使っていません」ではスマホのマイクアイコンに斜線が入る（OFFのまま）、2行目でその広告がぴたりと止まる。以降は1ビートに1つの画で仕組みを見せる：広告の枠が来た瞬間に裏側へ回り込み、広告カードが競り合う「オークション」の画（イメージ図）／カウンターが何十億回へ一気に増える／数千万枚の広告カードの雲が、行動のアイコン（いいね・サイト閲覧）を手がかりに数千枚へ吸い込まれて絞られる（イメージ図）／残った候補それぞれに「金額」「反応する確率」「広告の質」の3本のバーが伸び、合計が一番高い1本が光ってフィードの枠に収まる（イメージ図）／金額バーが長い広告を、確率バーの長い広告が追い抜く。最後の問いでは広告主側の設定画面で「30代・女性」の条件が届け先の輪を小さく切り取るイメージ図につなげる。広告はすべて架空のイメージ図で、実在ブランドのロゴは出さない。リアルなスマホUIの質感で、子ども向けの図にはしない。テキスト、キャプション、画は画面中央（x=540）にそろえる。上部のラベルはタイトル。エンディングは広告カードに切り替えず物語の画のまま続け、Hacozyのアイコン素材は「続きはHacozyで。」でだけ出す。",
+  "lines": [
+    "Instagramは、広告にマイクの音を使っていません。",
+    "それなのに、なぜ探してもいない広告がぴたりと当たるのでしょうか。",
+    "広告の枠が来るたびに、裏では「オークション」が開かれています。",
+    "広告同士の競り合いで、その数は1日に何十億回に上ります。",
+    "出番を待つ広告は、数千万本。",
+    "まずAIが、あなたの行動から数千本に絞り込みます。",
+    "友だちの投稿へのいいねや、よく見るサイトでの動きからです。",
+    "では、残った数千本のうち、どれが勝つのでしょうか。",
+    "決め手は、広告主が払う金額だけではありません。",
+    "AIは1本ずつ、あなたが反応する確率を予測します。",
+    "金額とこの確率と広告の質を合わせて、一番高い1本が画面に入ります。",
+    "だから、高いお金を積んだ広告に、あなたに刺さる広告が勝つことがあります。",
+    "では、広告を出す側が「30代・女性」と絞り込むと、何が起きるのでしょうか。",
+    "その答えは、Hacozyのコース「Meta広告：Instagram・Facebookで成果を出す基本」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Facebook Does Not Use Your Phone's Microphone for Ads or News Feed Stories (Meta Newsroom, 2016, updated 2023)",
+      "url": "https://about.fb.com/news/h/facebook-does-not-use-your-phones-microphone-for-ads-or-news-feed-stories/"
+    },
+    {
+      "title": "About ad auctions (Meta Business Help Center)",
+      "url": "https://www.facebook.com/business/help/430291176997542"
+    },
+    {
+      "title": "Meta Andromeda: Supercharging Advantage+ automation with the next-gen personalized ads retrieval engine (Engineering at Meta, 2024)",
+      "url": "https://engineering.fb.com/2024/12/02/production-engineering/meta-andromeda-advantage-automation-next-gen-personalized-ads-retrieval-engine/"
+    },
+    {
+      "title": "Increasing Our Ads Transparency (Meta Newsroom, 2023)",
+      "url": "https://about.fb.com/news/2023/02/increasing-our-ads-transparency/"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 7,
+    "kept": 3
+  }
+}

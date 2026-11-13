@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Fail: from 56 to 62 s the stage is completely empty during the payoff line (高いお金を積んだ広告に、刺さる広告が勝つ), because section 6's visual failed to build (KeyError 'colours'). The ranking section also uses green as an accent for the 広告の質 bar, and the winning card lands off centre.",
+  "revise": [
+    {
+      "section": 6,
+      "request": "この区間は画が空っぽです。前の区間と同じ3枚の広告カード（SORA FIT／NAMI RUN）を画面中央x=540に置いて、「高いお金を積んだ広告に、」でSORA FITの金額バーが一番長く伸びて先頭に立ち、「あなたに刺さる広告が勝つことがあります。」でNAMI RUNの反応する確率のバーが伸びて合計で追い抜き、NAMI RUNのカードが光ってフィードの枠に収まるようにしてください。色はアクセントのピンクと青だけで、緑は使わないでください。",
+      "quick": false
+    },
+    {
+      "section": 4,
+      "request": "「広告の質」のバーが緑になっているので、Hacozyの青系（反応する確率のシアンとは区別できる濃い青）に変えてください。それから、最後に一番高い1本がフィードの枠に収まる場面で、カードが左にずれて画面左端に縦線が出ているので、カードをx=540の中央にそろえて、はみ出している線を消してください。",
+      "quick": true
+    }
+  ]
+}

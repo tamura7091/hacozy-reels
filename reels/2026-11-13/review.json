@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Fail: both round-1 fixes landed (section 6 now has its cards and the quality bar is blue), but the closing question (about 66 to 70 s) has a half-cut 「オーディエンス」 panel sticking up from the bottom edge under the platform UI. At 54 s the winning card also sits on a black stage with a faded, clipped 「NAMI RUN 広告」 header and stray icons under the title, and at 57 to 61 s the three cards drift left past the 60 px margin. A viewer would notice all of these, so it is not up to the brand's bar.",
+  "revise": [
+    {
+      "section": 7,
+      "request": "「何が起きるのでしょうか。」のあたりで、画面下端に「オーディエンス」の設定パネルが半分切れたまま残っています。輪が絞り込まれる場面ではこのパネルを完全に消すか画面外へ退場させて、下420pxには何も置かないでください。",
+      "quick": true
+    },
+    {
+      "section": 5,
+      "request": "「一番高い1本が画面に入ります。」で光るNAMI RUNのカードの上端に、半透明の「NAMI RUN 広告」とハート・コメントのアイコン、ピンクの線が重なって切れています。これらを消してカードを中央x=540にきれいに収め、背景も真っ黒にせず前後と同じ紺色にしてください。",
+      "quick": true
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+[
+ {
+  "course_id": "fix-life-hour",
+  "course_title": "たった1時間で人生を立て直す方法",
+  "course_description": "Dan Koeの記事「Full guide: how to unlock extreme focus on command」（2026年1月）に基づくコース。成功には長時間労働が必要だと思われがちですが、1日1時間でも1年で365時間になります。足りないのは時間ではなく、注意の行き先です。心が散らかる仕組み、没頭に入る3つの材料、回復の置き方、1つに注ぐ理由、1時間の使い道を決める手順、そして先の見えなさとの付き合い方を学びます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-hour-00-attention",
+    "order": 0,
+    "title": "注意は一生の予算",
+    "description": "電車でなんとなく眺めたスマホの10分は、時間よりずっと少ない何かを使っています。一生ぶんで映画5本ほどしかない注意の予算と、その行き先を自分で決める一手を2分で確かめます。",
+    "text": "lessons/fix-life-hour-00-attention.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-01-entropy",
+    "order": 1,
+    "title": "集中できない本当の理由",
+    "description": "集中できない理由をエントロピーの比喩でつかみ、整える入口を短く学びます。",
+    "text": "lessons/fix-life-hour-01-entropy.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-02-flow",
+    "order": 2,
+    "title": "没頭のスイッチ",
+    "description": "時間を忘れる没頭に、狙って入るには？ 難しさと腕前の釣り合い、明確さ・重要さ・緊急さの3つの材料を学びます。",
+    "text": "lessons/fix-life-hour-02-flow.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-03-rest",
+    "order": 3,
+    "title": "天才たちの休息法",
+    "description": "成果を出す人は長時間働いていない。作る・回す・回復するの3種類の仕事と、睡眠・散歩・自然で力を戻す方法を学びます。",
+    "text": "lessons/fix-life-hour-03-rest.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-04-extreme",
+    "order": 4,
+    "title": "極端さが脳を変える",
+    "description": "なぜ「ほどほど」では人は変わらないのか。使うほど太くなる脳のつながりと80/20の法則から、1つに時間を注ぐ理由を学びます。",
+    "text": "lessons/fix-life-hour-04-extreme.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-05-protocol",
+    "order": 5,
+    "title": "実践プロトコル",
+    "description": "1日1時間を何に使うか。レバーの効く仕事、アンチ・ビジョン、4段の目標、作りながら学ぶ手順を組み立てます。",
+    "text": "lessons/fix-life-hour-05-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-hour-06-uncertainty",
+    "order": 6,
+    "title": "不確実性を受け入れる",
+    "description": "先が読めないとき、どう動くか。不確実さを伸びしろの合図と捉え、小さく出して直し、失敗をデータに変える考え方を学びます。",
+    "text": "lessons/fix-life-hour-06-uncertainty.md"
+   }
+  ]
+ },
+ {
+  "course_id": "jev-system-one",
+  "course_title": "Jev: 文章を書かないAI",
+  "course_description": "同じ問い合わせメールを渡しても、ChatGPTは3段落の返事を書き、Jevは「請求」と「緊急度73」だけを0.1秒で返します。2026年9月に公開され、3日でVercelやCloudflareに組み込まれたこの新しいAIが、いったい何者なのかを見ていきます。\n\n聞き方が3つしかない理由、「わかりません」と言える確信度の使い方、出力が無料になるほど安い仕組み、そして振り分け・モデレーション・他のAIの見張りという実際の使われ方まで。エンジニアでなくても、自分の仕事のどこに向いていて、何を任せてはいけないかを自分で判定できるようになるコースです。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "jev-intro",
+    "order": 0,
+    "title": "1文字も書かないAI",
+    "description": "ChatGPTに何を聞いても返ってくるのは文章です。2026年9月に公開されたJevは、文章を1文字も作りません。同じメールを2つに送って、返ってくるものの形とかかる時間を見比べます。",
+    "text": "lessons/jev-intro.md"
+   },
+   {
+    "lesson_id": "jev-what-is-it",
+    "order": 1,
+    "title": "返ってきたのは、文章じゃなかった",
+    "description": "同じ問い合わせメールを2つのAIに渡すと、片方は3段落の返事を、もう片方は「請求」と「緊急度73」だけを返します。2026年9月に公開されて話題になっているJevが、いったい何者なのかを見ます。",
+    "text": "lessons/jev-what-is-it.md"
+   },
+   {
+    "lesson_id": "jev-three-questions",
+    "order": 2,
+    "title": "聞き方は、3つしかない",
+    "description": "Jevには「このメールをどうすべき？」と聞けません。許されているのは「どれ？」「どれくらい？」「それは本当？」の3つだけ。この窮屈さが、答えが壊れない理由そのものです。",
+    "text": "lessons/jev-three-questions.md"
+   },
+   {
+    "lesson_id": "jev-confidence",
+    "order": 3,
+    "title": "「わかりません」と言えるAI",
+    "description": "AIに「どれくらい自信がありますか」と聞くと、たいてい自信満々の数字が返ってきます。Jevの確信度はそうなりません。どこまで信じてよく、どこから人に回すべきかの線を、自分で引けるようになります。",
+    "text": "lessons/jev-confidence.md"
+   },
+   {
+    "lesson_id": "jev-why-fast",
+    "order": 4,
+    "title": "出力は、いくら出しても無料",
+    "description": "Jevの料金表には「出力トークンは無料」と書いてあります。太っ腹だからではなく、出すものがほとんど無いからです。1語ずつ文章を作らないという仕組みが、速さと安さの両方を生んでいます。",
+    "text": "lessons/jev-why-fast.md"
+   },
+   {
+    "lesson_id": "jev-patterns",
+    "order": 5,
+    "title": "10個目の質問は、ほぼタダ",
+    "description": "同じ材料に質問を10個まとめて投げても、待ち時間はほとんど変わりません。この性質から生まれた組み方を4つ見て、判断をAIに、段取りを自分のプログラムに預ける形を覚えます。",
+    "text": "lessons/jev-patterns.md"
+   },
+   {
+    "lesson_id": "jev-limits",
+    "order": 6,
+    "title": "足し算と日付は、任せない",
+    "description": "Jevは掛け算を間違え、「〜ではない」を読み違えます。それでも問題にならない使い方と、事故になる使い方の境目を引けるようになります。公開されている成績をどこまで信じてよいかも見ます。",
+    "text": "lessons/jev-limits.md"
+   },
+   {
+    "lesson_id": "jev-use-cases",
+    "order": 7,
+    "title": "みんな、同じ仕事から始めた",
+    "description": "公開から3日でVercelとCloudflareが組み込みました。世界の開発者が実際に何をさせているのかを、振り分け・門番・見張り役・速い判断の4つの形で見て、自分の仕事のどこに入るかを見分けます。",
+    "text": "lessons/jev-use-cases.md"
+   }
+  ]
+ },
+ {
+  "course_id": "meta-ads-fundamentals",
+  "course_title": "Meta広告：Instagram・Facebookで成果を出す基本",
+  "course_description": "2026年のMeta広告（Instagram・Facebook）を、いまの姿のまま学びます。誰に出すかはもうAIが決める——では人間はどこに手を入れれば成果が変わるのか。5レッスンで、目的の選び方とクリエイティブに絞って体験します。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "intro-meta-ads",
+    "order": 1,
+    "title": "探してない広告が、なぜ当たる？",
+    "description": "InstagramやFacebookで、探してもいない商品の広告がぴたりと当たるのはなぜか。数千万本から1本が選ばれるまでを、自分の指の動きで確かめます。",
+    "text": "lessons/intro-meta-ads.md"
+   },
+   {
+    "lesson_id": "campaign-structure-101",
+    "order": 2,
+    "title": "広告の箱を分けるほど、AIは育たない",
+    "description": "Meta広告の設定は、キャンペーン・広告セット・広告の3つの箱に入ります。画像1枚の差し替えでもAIが学び直す理由と、箱の分け方を見ます。",
+    "text": "lessons/campaign-structure-101.md"
+   },
+   {
+    "lesson_id": "objective-magic",
+    "order": 3,
+    "title": "サイト訪問を願うと、売上が減る",
+    "description": "目的の選び方ひとつで、AIが連れてくる人が入れ替わります。ほしい成果をそのまま頼み、AIが学べる件数と計測をそろえる方法を見ます。",
+    "text": "lessons/objective-magic.md"
+   },
+   {
+    "lesson_id": "targeting-evolution",
+    "order": 4,
+    "title": "年齢で絞るほど、買う人が消える",
+    "description": "「30代・女性・猫好き」と絞るほど、枠の外の買い手を取りこぼします。条件を制限ではなく提案として渡す、今の届け先の決め方を見ます。",
+    "text": "lessons/targeting-evolution.md"
+   },
+   {
+    "lesson_id": "creative-essentials",
+    "order": 5,
+    "title": "きれいな広告ほど、指は止まらない",
+    "description": "広告の売上効果の半分以上は、見せる中身で決まります。最初の3秒で指を止め、切り口の違う数本でAIに当たりを探させる作り方を見ます。",
+    "text": "lessons/creative-essentials.md"
+   }
+  ]
+ },
+ {
+  "course_id": "how-to-win-friends",
+  "course_title": "人間関係のゴールデンルール",
+  "course_description": "D・カーネギー『人を動かす』の原則を、覚える対象ではなく使える判断として学び直すコースです。批判が効かない理由から、感謝の伝え方、頼み方、聞き方、説得の入り方、注意の仕方まで。原則を数えるのではなく、明日の会話ひとつを変えることを目指します。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "htwf-00-admit-first",
+    "order": 0,
+    "title": "叱られる前に、自分から言う",
+    "description": "『人を動かす』の著者が、犬の散歩で警官に捕まったときに使った一言から始めます。相手に言われる前に非を認めると、責めに来た人が許す側に回る理由が1分で分かります。",
+    "text": "lessons/htwf-00-admit-first.md"
+   },
+   {
+    "lesson_id": "htwf-fundamentals",
+    "order": 1,
+    "title": "批判は、なぜ効かないのか",
+    "description": "警官を撃った犯人でさえ「自分は悪くない」と書き残していました。正しい指摘が言い訳と恨みに変わる理由と、リンカーンやパイロットのフーバーが代わりにしたことが分かります。",
+    "text": "lessons/htwf-fundamentals.md"
+   },
+   {
+    "lesson_id": "htwf-appreciation",
+    "order": 2,
+    "title": "お世辞と感謝は、何が違うのか",
+    "description": "鉄鋼王カーネギーが1日3000ドル以上を払って雇った男は、鉄の専門家ではありませんでした。人を動かすほめ方と、見破られるお世辞の違いが分かります。",
+    "text": "lessons/htwf-appreciation.md"
+   },
+   {
+    "lesson_id": "htwf-desire",
+    "order": 3,
+    "title": "相手の欲しいものから話す",
+    "description": "カーネギーは、ホテルからほぼ3倍の値上げを告げられても抗議しませんでした。支配人に見せた1枚の紙から、頼みごとを相手の欲しいもので話す方法が分かります。",
+    "text": "lessons/htwf-desire.md"
+   },
+   {
+    "lesson_id": "htwf-likeable",
+    "order": 4,
+    "title": "好かれる人は、何をしているか",
+    "description": "カーネギーは晩餐会でほとんど口を開かなかったのに、「最高に面白い話し相手」と呼ばれました。電話の調査や名前の話から、好かれる人が会話でしていることが分かります。",
+    "text": "lessons/htwf-likeable.md"
+   },
+   {
+    "lesson_id": "htwf-persuasion",
+    "order": 5,
+    "title": "議論に勝つと、なぜ損をするのか",
+    "description": "カーネギーは晩餐会で正しい出典を指摘し、友人に机の下で足を蹴られました。言い負かさずに相手の考えを変える、「はい」から入る話し方と、相手の案にする進め方が分かります。",
+    "text": "lessons/htwf-persuasion.md"
+   },
+   {
+    "lesson_id": "htwf-leadership",
+    "order": 6,
+    "title": "注意しても、嫌われない人",
+    "description": "ほめてから「しかし」で注意すると、ほめ言葉はまるごと消えてしまいます。命令しない経営者や、天才に新しい肩書きを贈った会社の話から、反感を買わずに人を変える伝え方が分かります。",
+    "text": "lessons/htwf-leadership.md"
+   }
+  ]
+ }
+]
