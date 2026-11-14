@@ -1,0 +1,349 @@
+[
+ {
+  "course_id": "mit-9-13-human-brain",
+  "course_title": "脳科学入門",
+  "course_description": "顔だけを見分ける場所、音楽にだけ反応する場所、他人の勘違いを考える場所。MITのナンシー・カンウィッシャー教授の講義で扱う実験を自分の手で試しながら、脳のどこが何を受け持つのか、それがどう分かったのかを説明できるようになります。本コースはHacozyが独自に制作したもので、MITとは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "b913-face-area",
+    "order": 0,
+    "title": "電気を流したら、顔が現れた",
+    "description": "脳のある1点に弱い電気を流すと、見ていたボールの上に顔が浮かびました。脳に「顔の担当」がいることを、日本で行われたこの実験から体験します。",
+    "text": "lessons/b913-face-area.md"
+   },
+   {
+    "lesson_id": "b913-map-and-tools",
+    "order": 1,
+    "title": "光ったから、そこが担当とは限らない",
+    "description": "脳が光る画像は、その場所が「必要」だとまでは教えてくれません。fMRI、脳に傷がある人の研究、磁気刺激。方法ごとに何が言えて、何が言えないのかを見分けます。",
+    "text": "lessons/b913-map-and-tools.md"
+   },
+   {
+    "lesson_id": "b913-faces",
+    "order": 2,
+    "title": "顔だけが見分けられない人",
+    "description": "物も文字も見えるのに、顔だけが見分けられない人がいます。逆さまの顔で自分の脳を試し、顔の担当地区が本当に顔だけを受け持つのかを、反論も含めて確かめます。",
+    "text": "lessons/b913-faces.md"
+   },
+   {
+    "lesson_id": "b913-navigation",
+    "order": 3,
+    "title": "ロンドンのタクシー運転手の脳",
+    "description": "2万5千本の道を覚えた運転手は、道の記憶に関わる場所が大きい傾向がありました。脳の中の「地図」と「方位磁針」を見ていきます。",
+    "text": "lessons/b913-navigation.md"
+   },
+   {
+    "lesson_id": "b913-nature-nurture",
+    "order": 4,
+    "title": "見えない人の目の脳は、点字を読む",
+    "description": "幼いころから目の見えない人が点字を読むと、ふつうは「見る」ための場所が働きます。脳の地図は、生まれつき決まっているのか、経験で描かれるのかを確かめます。",
+    "text": "lessons/b913-nature-nurture.md"
+   },
+   {
+    "lesson_id": "b913-number",
+    "order": 5,
+    "title": "数えなくても、多いほうは分かる",
+    "description": "一瞬だけ見せた点の数を、数えずにどちらが多いか当ててみます。言葉の数詞を持たない人々もできるこの感覚と、その限界を知ります。",
+    "text": "lessons/b913-number.md"
+   },
+   {
+    "lesson_id": "b913-sound-music",
+    "order": 6,
+    "title": "音楽だけに反応する場所",
+    "description": "話し声にも、犬の鳴き声にも反応せず、音楽にだけ反応する場所が見つかりました。耳から入る音を、脳がどう仕分けているかを見ます。",
+    "text": "lessons/b913-sound-music.md"
+   },
+   {
+    "lesson_id": "b913-language",
+    "order": 7,
+    "title": "ことばを失っても、計算はできる",
+    "description": "脳卒中で文の意味が取れなくなった人が、かっこ付きの計算を解けました。ことばを受け持つ脳の地区を探し、「人はことばで考えている」という思い込みを確かめます。",
+    "text": "lessons/b913-language.md"
+   },
+   {
+    "lesson_id": "b913-other-minds",
+    "order": 8,
+    "title": "他人の勘違いが分かる場所",
+    "description": "人形がかごに入れたボールを、別の人形がこっそり箱へ移しました。戻ってきた人形はどこを探す？ 4歳前後で解けるようになるこの問題と、他人の考えを考えるときに働く脳の場所を知ります。",
+    "text": "lessons/b913-other-minds.md"
+   },
+   {
+    "lesson_id": "b913-attention",
+    "order": 9,
+    "title": "目の前のゴリラが見えない",
+    "description": "バスケットボールのパスを数えていると、画面を横切るゴリラに半数以上が気づきません。目に映っても気づかない仕組みと、脳が追っている「見えているもの」、そして地図にまだ書けない意識を見ます。",
+    "text": "lessons/b913-attention.md"
+   }
+  ]
+ },
+ {
+  "course_id": "openai-dots-intro",
+  "course_title": "OpenAIの最新エージェントdotsを使いこなす方法",
+  "course_description": "話しかけていない間も仕事を進めるAI「dots」が2026年9月に登場しました。どこまで勝手にやらせ、どこで止めるか。線の引き方とだまされ方を、新しい同僚を迎えるつもりで決めます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "dots-unasked",
+    "order": 0,
+    "title": "頼んでいないのに、請求書ができていた",
+    "description": "送り忘れていた請求書を、AIが自分で見つけて下書きにし、送信の許可だけを待っていました。話しかけなくても働くAI、dotsとは何かを1分で体験します。",
+    "text": "lessons/dots-unasked.md"
+   },
+   {
+    "lesson_id": "dots-unit-of-work",
+    "order": 1,
+    "title": "同じ売上報告、AIへの頼み方は3通り",
+    "description": "毎週月曜の売上報告を、チャットに聞くか、ChatGPT Workに頼むか、dotに渡すか。違いは「仕事を始めるきっかけを誰が持つか」です。AIに任せる単位がどう変わってきたかも見ます。",
+    "text": "lessons/dots-unit-of-work.md"
+   },
+   {
+    "lesson_id": "dots-own-computer",
+    "order": 2,
+    "title": "dotは、自分のパソコンを持っている",
+    "description": "dotはあなたのパソコンではなく、クラウド上の自分専用のパソコンとブラウザで働きます。4,000以上のアプリにつながり、働いた画面を後から見られます。",
+    "text": "lessons/dots-own-computer.md"
+   },
+   {
+    "lesson_id": "dots-four-lines",
+    "order": 3,
+    "title": "全部「先に聞く」にすると、かえって危ない",
+    "description": "dotには操作ごとに「聞かずにやる」「先に聞く」などの線を引けます。全部を確認にすると、なぜ事故が起きやすくなるのか。読む操作と外へ出す操作の分け方と、どう設定しても動かせない線を見ます。",
+    "text": "lessons/dots-four-lines.md"
+   },
+   {
+    "lesson_id": "dots-one-email",
+    "order": 4,
+    "title": "メール1通で、AIが乗っ取られる？",
+    "description": "受け取ったメールに「この内容を外部へ転送せよ」と隠して書かれていたら？ つなぐアプリが増えるほど、AIはだまされたときの被害も大きくなります。漏れる条件と、被害を小さくする任せ方を見ます。",
+    "text": "lessons/dots-one-email.md"
+   },
+   {
+    "lesson_id": "dots-memory",
+    "order": 5,
+    "title": "AIに忘れさせたいなら、まるごと消すしかない",
+    "description": "dotはフィードバックやつないだアプリから、あなたのことを覚えます。便利な反面、覚えたことを1つずつ消すことはできません。何を教え、何をつながないかを決めます。",
+    "text": "lessons/dots-memory.md"
+   },
+   {
+    "lesson_id": "dots-first-assignment",
+    "order": 6,
+    "title": "dotの初仕事に、大事な案件を渡さない理由",
+    "description": "SlackやTeamsからも呼べるdotに、最初は何を任せればいいのか。大事な案件ではなく、毎週くり返す小さな仕事から始める理由と、任せる範囲を広げていく決め方を身につけます。",
+    "text": "lessons/dots-first-assignment.md"
+   }
+  ]
+ },
+ {
+  "course_id": "asia-pacific-countries",
+  "course_title": "アジア太平洋の国々",
+  "course_description": "東アジア・東南アジア・オセアニアの31か国・地域を、地形・暮らし・食べ物・あいさつから学ぶコースです。日本と比べながら、国の「らしさ」が地図から生まれる理由をつかみます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "apac-japan-scale",
+    "order": 0,
+    "title": "日本",
+    "description": "日本の形をドイツやイギリスに同じ縮尺で重ねると、「小さな島国」の印象が変わります。このコースで国の大きさを測る「日本ものさし」を、2分で作ります。",
+    "text": "lessons/apac-japan-scale.md"
+   },
+   {
+    "lesson_id": "apac-china",
+    "order": 1,
+    "title": "中国",
+    "description": "東西に約5,200km広がる中国は、全国が北京時間ひとつで動いています。西の高原から東の平野へ下る地形が、人の住む場所と、北の小麦・南の米の食卓をどう分けたのかを地図から見ていきます。",
+    "text": "lessons/apac-china.md"
+   },
+   {
+    "lesson_id": "apac-korea",
+    "order": 2,
+    "title": "韓国・北朝鮮",
+    "description": "宇宙から夜の朝鮮半島を見ると、韓国は光り、北朝鮮はまるで海のように暗く写ります。山がちな半島、冬のキムチ、1948年に生まれた南北2つの国を、日本と比べながら見ていきます。",
+    "text": "lessons/apac-korea.md"
+   },
+   {
+    "lesson_id": "apac-taiwan",
+    "order": 3,
+    "title": "台湾",
+    "description": "九州よりやや小さい台湾には、富士山より高い3,952mの玉山があります。島を貫く山脈が、人と街と半導体の工場をどこへ集めたのかを、夜市やお茶とあわせて見ていきます。",
+    "text": "lessons/apac-taiwan.md"
+   },
+   {
+    "lesson_id": "apac-mongolia",
+    "order": 4,
+    "title": "モンゴル",
+    "description": "モンゴルは日本の約4倍の広さなのに、人口は福岡県より少ない国です。寒く乾いた草原が、遊牧とゲル、肉と乳の食卓をどう生んだのかを、日本と比べながらたどります。",
+    "text": "lessons/apac-mongolia.md"
+   },
+   {
+    "lesson_id": "apac-vietnam",
+    "order": 5,
+    "title": "ベトナム",
+    "description": "ベトナムは、いちばん細いところの幅が約50kmしかない、南北に細長い国です。北の紅河と南のメコン川がつくる2つのデルタから、ハノイとホーチミンという2つの中心、米とフォーの暮らしまでを、日本と比べながらたどります。",
+    "text": "lessons/apac-vietnam.md"
+   },
+   {
+    "lesson_id": "apac-thailand",
+    "order": 6,
+    "title": "タイ",
+    "description": "タイは、東南アジアでただ一国、ヨーロッパの植民地にならなかった国です。イギリスとフランスの間で独立を保った理由、チャオプラヤー川の平野が育てた米と首都、仏教とワイのあいさつ、日本車の工場が東の海岸に集まるわけを、日本と比べながら見ていきます。",
+    "text": "lessons/apac-thailand.md"
+   },
+   {
+    "lesson_id": "apac-cambodia-laos",
+    "order": 7,
+    "title": "カンボジア・ラオス",
+    "description": "カンボジアには、1年に2回、流れる向きが変わる川があります。雨季に逆流してふくらむ湖の魚と米がアンコールを支え、海のないラオスは川の水でつくる電気を国外へ売っています。メコン川が流れる2つの国を、日本と比べながら見ていきます。",
+    "text": "lessons/apac-cambodia-laos.md"
+   },
+   {
+    "lesson_id": "apac-myanmar",
+    "order": 8,
+    "title": "ミャンマー",
+    "description": "2006年、ミャンマーは首都を最大の都市ヤンゴンから、北へ約320kmの新都市ネーピードーへ移しました。国の真ん中を流れるエーヤワディー川、平野と山に分かれて住む民族、金色の仏塔と米の麺を、日本と比べながら見ていきます。",
+    "text": "lessons/apac-myanmar.md"
+   },
+   {
+    "lesson_id": "apac-malaysia-singapore-brunei",
+    "order": 9,
+    "title": "マレーシア・シンガポール・ブルネイ",
+    "description": "1963年、シンガポールはマレーシアの一部になり、1965年に分離して独立しました。東京23区ほどの島が貿易の中心になれたのは、マラッカ海峡の出口にあるから。多民族の食と、石油と天然ガスの国ブルネイも、日本と比べながら見ていきます。",
+    "text": "lessons/apac-malaysia-singapore-brunei.md"
+   },
+   {
+    "lesson_id": "apac-indonesia",
+    "order": 10,
+    "title": "インドネシア",
+    "description": "1万7千を超える島に約1,300の民族が暮らす国を、インドネシア語という1つの言葉がまとめています。火山の土が人を集めたジャワ島、世界最多のイスラム教徒、ナシゴレンと香辛料の島を、日本と比べながらたどります。",
+    "text": "lessons/apac-indonesia.md"
+   },
+   {
+    "lesson_id": "apac-philippines-timor",
+    "order": 11,
+    "title": "フィリピン・東ティモール",
+    "description": "東南アジアで、国民の9割以上がキリスト教徒の国は2つだけ。スペインとポルトガルの歴史が、宗教や祭り、あいさつに残りました。7,641の島と台風の国フィリピン、2002年に独立し米ドルを使う東ティモールを、日本と比べながら見ていきます。",
+    "text": "lessons/apac-philippines-timor.md"
+   },
+   {
+    "lesson_id": "apac-australia",
+    "order": 12,
+    "title": "オーストラリア",
+    "description": "オーストラリアは日本の約20倍の広さに、日本の約2割の人が住む国です。乾いた内陸と人が集まる南東の海岸、先住民と移民、日本へ運ばれる石炭や鉄鉱石を、日本と比べながら見ていきます。",
+    "text": "lessons/apac-australia.md"
+   },
+   {
+    "lesson_id": "apac-new-zealand",
+    "order": 13,
+    "title": "ニュージーランド",
+    "description": "ニュージーランドは、人より羊が多い国です。一年を通して雨が多い緑の島が、牧畜と乳製品の輸出をどう支えているのか。先住民マオリの言葉「キア・オラ」とあわせて、日本と比べながら見ていきます。",
+    "text": "lessons/apac-new-zealand.md"
+   },
+   {
+    "lesson_id": "apac-png-solomon",
+    "order": 14,
+    "title": "パプアニューギニア・ソロモン諸島",
+    "description": "パプアニューギニアでは、1つの国で800以上の言葉が話されています。険しい山と森が村どうしを隔て、言葉は分かれたまま残りました。共通語トク・ピシン、LNGで結ばれる日本、ガダルカナル島の歴史を、日本と比べながらたどります。",
+    "text": "lessons/apac-png-solomon.md"
+   },
+   {
+    "lesson_id": "apac-fiji-vanuatu",
+    "order": 15,
+    "title": "フィジー・バヌアツ",
+    "description": "南太平洋の島国フィジーでは、住む人の約4割がインド系です。サトウキビ畑と船がその理由。カヴァの儀式とあいさつ、120を超える言葉をつなぐバヌアツのビスラマ語まで、日本と比べながら見ていきます。",
+    "text": "lessons/apac-fiji-vanuatu.md"
+   },
+   {
+    "lesson_id": "apac-samoa-tonga-tuvalu",
+    "order": 16,
+    "title": "サモア・トンガ・ツバル",
+    "description": "2011年の年末、サモアのカレンダーから12月30日が消えました。日付変更線を越えたサモア、日本へかぼちゃを送ってきた王国トンガ、品川区ほどの陸地で海面上昇に向き合うツバル。ポリネシアの3つの島国を、日本と比べながら見ていきます。",
+    "text": "lessons/apac-samoa-tonga-tuvalu.md"
+   },
+   {
+    "lesson_id": "apac-palau-micronesia-marshall",
+    "order": 17,
+    "title": "パラオ・ミクロネシア連邦・マーシャル諸島",
+    "description": "日本から南へ約3,000kmのパラオには、日本語を公用語の1つにした島があります。1914年から1945年まで日本が治めた「南洋群島」の3つの国を、サンゴ礁がつくった島の形、ビキニ環礁の水爆実験、アメリカとの今の関係とあわせて見ていきます。",
+    "text": "lessons/apac-palau-micronesia-marshall.md"
+   },
+   {
+    "lesson_id": "apac-kiribati-nauru",
+    "order": 18,
+    "title": "キリバス・ナウル",
+    "description": "世界でいちばん早く新年が来るのは、キリバスの東の島々です。1995年に国じゅうの日付をそろえた島国キリバスと、品川区ほどの広さの島国ナウルを、日本と比べながら見ていきます。",
+    "text": "lessons/apac-kiribati-nauru.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-information-management",
+  "course_title": "AI時代の情報管理入門",
+  "course_description": "AIに話した私的なこと、添付したファイル、接続したDrive・メール・フォルダがどう扱われるかを知り、どこまで渡すか判断する。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "name-in-context",
+    "order": 0,
+    "title": "AIに打ち明けた悩みは、4か所に行く",
+    "description": "夜中にAIへ送った相談の一文は、どこへ行き、どれだけ残るのか。設定で止まる行き先と、止まらない行き先を見分ける。",
+    "text": "lessons/name-in-context.md"
+   },
+   {
+    "lesson_id": "where-data-goes",
+    "order": 1,
+    "title": "AIは毎回、会話を最初から読み直す",
+    "description": "同じチャットで前に書いた名前が、なぜ今の返答に出てくるのか。会話の読み直し、メモリ、学習の3つを分けて見る。",
+    "text": "lessons/where-data-goes.md"
+   },
+   {
+    "lesson_id": "what-leak-means",
+    "order": 2,
+    "title": "削除したチャットは、すぐには消えない",
+    "description": "削除ボタンを押したあと、会話・メモリ・人が読んだデータはそれぞれいつ消えるのか。ChatGPT・Gemini・Claudeの実際の期間で見る。",
+    "text": "lessons/what-leak-means.md"
+   },
+   {
+    "lesson_id": "minimum-useful-input",
+    "order": 3,
+    "title": "黒く塗った口座番号は、AIに読める",
+    "description": "PDFの数字を黒い四角で隠しても、文字データは下に残る。添付ファイルがどこに保存されるかと、送る前の正しい削り方を知る。",
+    "text": "lessons/minimum-useful-input.md"
+   },
+   {
+    "lesson_id": "boundary-cases",
+    "order": 4,
+    "title": "Driveをつなぐと、同僚のファイルまで届く",
+    "description": "Google Driveを接続するとき、許可の広さ次第でAIが届くのは2ファイルにも全部にもなる。権限・取得・学習・解除を順に分ける。",
+    "text": "lessons/boundary-cases.md"
+   },
+   {
+    "lesson_id": "anonymous-clues",
+    "order": 5,
+    "title": "メールの要約は、本文そのものかもしれない",
+    "description": "GmailをつないだGeminiは、受信箱では直接学習しない。それでも要約や抜き出しは学習に使われうる。短いメールでは、要約が本文と同じになる理由を知る。",
+    "text": "lessons/anonymous-clues.md"
+   },
+   {
+    "lesson_id": "internal-ai-access",
+    "order": 6,
+    "title": "ファイルの一行が、AIを操る",
+    "description": "パソコンのフォルダを開かせるAIは、手元で動いても読んだ中身をクラウドへ送る。メールやファイルに隠れた指示がAIを動かす仕組みと、許可の絞り方を知る。",
+    "text": "lessons/internal-ai-access.md"
+   },
+   {
+    "lesson_id": "contract-changes-answer",
+    "order": 7,
+    "title": "同じChatGPTでも、会社用は学習しない",
+    "description": "同じ相談文でも、個人向けと法人向け、ChatGPT・Claude・Geminiで学習と保存の初期設定は違う。設定で止まるものと止まらないものを比べる。",
+    "text": "lessons/contract-changes-answer.md"
+   },
+   {
+    "lesson_id": "workplace-checklist",
+    "order": 8,
+    "title": "名前を消しても、AIは住む街を当てる",
+    "description": "名前のない書き込みから、AIは住む場所や年代を当てる。ETHチューリッヒの研究から、手がかりの削り方と、送る前の3つの確認を持ち帰る。",
+    "text": "lessons/workplace-checklist.md"
+   }
+  ]
+ }
+]

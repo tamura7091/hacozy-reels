@@ -1,0 +1,11 @@
+{
+  "pass": false,
+  "summary": "The first 70 s are strong: the ball and face hook lands in the first 2 s, the brain diagrams are clean and the visuals stay in sync with the lines. But the final 15 s (72-86 s), from 「人の顔はどう見えるのでしょうか」 through the install CTA, show only an empty purple circle where the blurred-face photo should be. The photo credit 「写真: Wikimedia Commons」 sits under it, off centre, so the ending looks broken.",
+  "revise": [
+    {
+      "section": 6,
+      "request": "「では、この顔の場所がうまく働かないと」以降、丸の中の顔写真が読み込まれておらず、紫の空の円だけになっています。写真ではなく、目・鼻・口のある人の顔のイラスト(イメージ図)を円の中央に描き、「人の顔はどう見えるのでしょうか」で顔の輪郭や目鼻がぼやけて見分けにくくなるようにしてください。写真をやめるので「写真: Wikimedia Commons / イメージ」のクレジットは消して、x=540中央の「イメージ図」だけにしてください。Hacozyアイコンは「続きはHacozyで。」からのままでOKです。",
+      "quick": false
+    }
+  ]
+}

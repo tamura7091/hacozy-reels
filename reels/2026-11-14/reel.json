@@ -1,0 +1,55 @@
+{
+ "course_id": "mit-9-13-human-brain",
+ "course_title": "脳科学入門",
+ "lesson_id": "b913-face-area",
+ "lesson_title": "電気を流したら、顔が現れた",
+ "title": "脳に電気を流すと顔が現れる",
+ "topic": "Electrical stimulation of the fusiform face area creates illusory faces (facephenes)",
+ "why": "候補3つ: (1) b913-face-area 電気を流すとボールに顔が現れる: 北海道・旭川医大の実験という身近さと、「何も描かれていないボールに顔」という逆説がそのまま絵になり、冒頭から現象が動く。(2) b913-attention 見えないゴリラ: 超有名実験で強いが、既知の人も多く、動画そのものが他社素材なので再現が弱くなりがち。(3) b913-faces 顔だけ見分けられない人(相貌失認): 「wait, how?」は強いが、仕組みより症例紹介になりやすい。勝者は(1): 有名な脳科学の因果実験で、反応を記録→逆に電気で働かせる→顔だけ・色だけが出る、という流れが1本の物語になり、最後に「この場所が働かないと顔はどう見える?」がコースのb913-faces/b913-map-and-toolsへ自然につながる。posted.jsonに脳科学の題材はなし。",
+ "voice": "Konoha",
+ "yomi": {
+  "旭川医科大学": "あさひかわいかだいがく"
+ },
+ "instruction": "タイトルは「脳に電気を流すと顔が現れる」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭は、机の上の無地のボール(リアルな写真風)の上に、目・目・口だけの淡い顔がふっと浮かび上がる瞬間から始める。「顔が現れました」の言葉に合わせて顔が浮かぶこと。ロゴや空の図から始めない。次に、脳を下から見た図(イメージ図)で、側頭葉の底の紡錘状回あたりに電極の帯が並ぶ様子。顔・物の写真が次々に出て、顔のときだけ1つの電極の波形が大きく跳ねる(イメージ図)。「逆に」で矢印の向きが反転し、電極から電気が流れる演出。ボールは形も色もそのまま、上に顔だけが半透明で重なる(イメージ図)。色の電極では、同じボールに虹色の帯が重なる(イメージ図)。「場所ごとに仕事を分けて」で脳の底面に「顔」「色」のラベルが並ぶ。最後の問いでは、人の顔がぼやけて見分けにくくなるイメージ図。文字・字幕・ビジュアルは画面中央(x=540)。トップラベルはタイトル。エンディングは物語からそのまま続け、広告カードにしない。Hacozyのアイコン素材は「続きはHacozyで。」の時だけ出す。",
+ "lines": [
+  "脳に電気を流したところ、ただのボールに顔が現れました。",
+  "ボールには何も描かれていないのに、その顔はどこから来たのでしょうか。",
+  "この実験を行ったのは、北海道の旭川医科大学などのチームです。",
+  "治療中の男性の脳には、信号を読み取る「電極」が並んでいました。",
+  "まず、顔や物の写真を見せたところ、",
+  "脳の底に近い部分にある電極が、顔にだけ強く反応しました。",
+  "ただ反応しただけでは、たまたま一緒に働いているだけかもしれません。",
+  "そこで逆に、その電極から電気を流して、脳に直接働きかけてみました。",
+  "すると男性は、ボールの上に目と目と口が見えると答えました。",
+  "ボール自体は何も変わっておらず、顔だけが重なって見えました。",
+  "近くにある、色に反応する電極に電気を流すと、今度は虹のような色が現れました。",
+  "脳は、顔なら顔、色なら色と、場所ごとに役割を分けていました。",
+  "では、この顔の場所がうまく働かないと、人の顔はどう見えるのでしょうか。",
+  "その答えは、Hacozyのコース「脳科学入門」で解説しています。",
+  "続きはHacozyで。",
+  "プロフィールのリンクからインストールしてね。"
+ ],
+ "sources": [
+  {
+   "title": "Schalk G, Kapeller C, Guger C, Ogawa H, Hiroshima S, Lafer-Sousa R, Saygin ZM, Kamada K, Kanwisher N. Facephenes and rainbows: Causal evidence for functional and anatomical specificity of face and color processing in the human brain. PNAS 114:12285-12290 (2017)",
+   "url": "https://doi.org/10.1073/pnas.1713447114"
+  },
+  {
+   "title": "Europe PMC record with abstract and author affiliations (Department of Neurosurgery, Asahikawa Medical University)",
+   "url": "https://europepmc.org/article/PMC/PMC5699078"
+  },
+  {
+   "title": "MIT DSpace: Facephenes and rainbows (Kanwisher lab, MIT)",
+   "url": "https://dspace.mit.edu/handle/1721.1/114825"
+  },
+  {
+   "title": "IEEE Brain newsletter: Could a Man Mistake a Hat for His Wife? (stimuli: box, ball, face, word; faces or parts of faces seen; colors added)",
+   "url": "https://brain.ieee.org/newsletter/2017-issue-3/man-mistake-hat-wife/"
+  }
+ ],
+ "polish": {
+  "model": "gemini-pro-latest",
+  "taken": 11,
+  "kept": 0
+ }
+}

@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "summary": "Pass. The round-1 fix landed: the ending now shows a centred line-drawn face that blurs on 「人の顔はどう見えるのでしょうか」, the stray photo credit is gone, and the CTA names 「脳科学入門」 and says to install Hacozy from the profile link. The ball-face hook lands within 2 s and every visual matches its line. Two small flaws a viewer is unlikely to notice: a ~0.5 s dark gap at 44.5 s before the ball returns, and two 「イメージ図」 marks during the crossfade at 74.5 s.",
+  "revise": []
+}
