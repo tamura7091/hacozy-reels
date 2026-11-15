@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Fail: section 6 (人間より2割高, 44.6–48.2 s) is an empty dark stage because its visual failed to build (KeyError 'colours'), so the payoff number is shown over nothing. Section 9 also uses a green line as its accent, which is off-brand. The rest is strong: a moving hook with the scores climbing, visuals that match their lines, and an ending that names the course and says to install from the profile link.",
+  "revise": [
+    {"section": 6, "request": "この区間は画面が空っぽなので、ビジュアルを作り直してください。前の入り江の世界観と同じ濃紺の背景で、画面中央(x=540)に棒グラフを2本並べます。左は「人間の平均」(グレー)、右は「AI」(Hacozyブルーか金)で、AIの棒が人間より2割高いところまで伸び、上に「+20%」と出るようにしてください。「人間のプレイヤーより」で人間の棒、「2割も高い」でAIの棒が伸びるタイミングで。", "quick": false},
+    {"section": 9, "request": "壁の隙間をすり抜ける光る線が緑になっているので、Hacozyのブルー(または金)に変えてください。形や動きはこのままで大丈夫です。", "quick": true}
+  ]
+}

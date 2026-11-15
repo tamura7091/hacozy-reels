@@ -1,0 +1,237 @@
+[
+ {
+  "course_id": "openai-dots-intro",
+  "course_title": "OpenAIの最新エージェントdotsを使いこなす方法",
+  "course_description": "話しかけていない間も仕事を進めるAI「dots」が2026年9月に登場しました。どこまで勝手にやらせ、どこで止めるか。線の引き方とだまされ方を、新しい同僚を迎えるつもりで決めます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "dots-unasked",
+    "order": 0,
+    "title": "頼んでいないのに、請求書ができていた",
+    "description": "送り忘れていた請求書を、AIが自分で見つけて下書きにし、送信の許可だけを待っていました。話しかけなくても働くAI、dotsとは何かを1分で体験します。",
+    "text": "lessons/dots-unasked.md"
+   },
+   {
+    "lesson_id": "dots-unit-of-work",
+    "order": 1,
+    "title": "同じ売上報告、AIへの頼み方は3通り",
+    "description": "毎週月曜の売上報告を、チャットに聞くか、ChatGPT Workに頼むか、dotに渡すか。違いは「仕事を始めるきっかけを誰が持つか」です。AIに任せる単位がどう変わってきたかも見ます。",
+    "text": "lessons/dots-unit-of-work.md"
+   },
+   {
+    "lesson_id": "dots-own-computer",
+    "order": 2,
+    "title": "dotは、自分のパソコンを持っている",
+    "description": "dotはあなたのパソコンではなく、クラウド上の自分専用のパソコンとブラウザで働きます。4,000以上のアプリにつながり、働いた画面を後から見られます。",
+    "text": "lessons/dots-own-computer.md"
+   },
+   {
+    "lesson_id": "dots-four-lines",
+    "order": 3,
+    "title": "全部「先に聞く」にすると、かえって危ない",
+    "description": "dotには操作ごとに「聞かずにやる」「先に聞く」などの線を引けます。全部を確認にすると、なぜ事故が起きやすくなるのか。読む操作と外へ出す操作の分け方と、どう設定しても動かせない線を見ます。",
+    "text": "lessons/dots-four-lines.md"
+   },
+   {
+    "lesson_id": "dots-one-email",
+    "order": 4,
+    "title": "メール1通で、AIが乗っ取られる？",
+    "description": "受け取ったメールに「この内容を外部へ転送せよ」と隠して書かれていたら？ つなぐアプリが増えるほど、AIはだまされたときの被害も大きくなります。漏れる条件と、被害を小さくする任せ方を見ます。",
+    "text": "lessons/dots-one-email.md"
+   },
+   {
+    "lesson_id": "dots-memory",
+    "order": 5,
+    "title": "AIに忘れさせたいなら、まるごと消すしかない",
+    "description": "dotはフィードバックやつないだアプリから、あなたのことを覚えます。便利な反面、覚えたことを1つずつ消すことはできません。何を教え、何をつながないかを決めます。",
+    "text": "lessons/dots-memory.md"
+   },
+   {
+    "lesson_id": "dots-first-assignment",
+    "order": 6,
+    "title": "dotの初仕事に、大事な案件を渡さない理由",
+    "description": "SlackやTeamsからも呼べるdotに、最初は何を任せればいいのか。大事な案件ではなく、毎週くり返す小さな仕事から始める理由と、任せる範囲を広げていく決め方を身につけます。",
+    "text": "lessons/dots-first-assignment.md"
+   }
+  ]
+ },
+ {
+  "course_id": "openclaw-tutorial",
+  "course_title": "OpenClawチュートリアル：自分だけのAIエージェントを作ろう",
+  "course_description": "自分の機械で動く、自分だけのAIアシスタントを持つためのコースです。普段使っているDiscordやLINEから呼び出せて、こちらの都合を覚えていて、留守中も動く。その代わり、鍵をどこまで渡すかを決めるのは自分の仕事になります。最後の1本はまるごと安全側の設定に使います。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "openclaw-00-agent",
+    "order": 0,
+    "title": "答えるAIと、やるAI",
+    "description": "「店を予約しておいて」と頼んでも、チャットのAIは候補を返して終わりです。返事のあとを最後までやる相手、エージェントとは何かを1分で確かめます。",
+    "text": "lessons/openclaw-00-agent.md"
+   },
+   {
+    "lesson_id": "openclaw-01-intro",
+    "order": 1,
+    "title": "チャットのAIが、朝あなたを起こせない理由",
+    "description": "「雨なら朝起こして」がチャットのAIでは叶わないのはなぜか。常駐・実行・記憶の三つを確かめ、OpenClawを手元に入れて管理画面を開くところまで進みます。",
+    "text": "lessons/openclaw-01-intro.md"
+   },
+   {
+    "lesson_id": "openclaw-02-config",
+    "order": 2,
+    "title": "性格と記憶は、ただのファイル",
+    "description": "AIの記憶は遠くのサーバーではなく、自分の機械の文章ファイルにあります。どのファイルが口調と記憶を決めているかを知り、自分で書き換えられるようになります。",
+    "text": "lessons/openclaw-02-config.md"
+   },
+   {
+    "lesson_id": "openclaw-03-social",
+    "order": 3,
+    "title": "Discordから呼んだ瞬間、渡しているもの",
+    "description": "いつものDiscordからエージェントを呼べるようにすると、便利さと一緒に増えるものがあります。つなぎ方と、最初につなぐべき場所が分かります。",
+    "text": "lessons/openclaw-03-social.md"
+   },
+   {
+    "lesson_id": "openclaw-04-personal",
+    "order": 4,
+    "title": "寝ている間のAIに、任せてはいけない仕事",
+    "description": "朝、頼んでいない天気の知らせが届く仕組みを作ります。そのうえで、留守中に任せていい仕事と、自分で押すべき一歩の分け方が分かります。",
+    "text": "lessons/openclaw-04-personal.md"
+   },
+   {
+    "lesson_id": "openclaw-05-skills",
+    "order": 5,
+    "title": "読ませたページが、AIに命令する",
+    "description": "ページを要約させただけで、本文に紛れた一文が命令として動くことがあります。スキルの足し方と、先に絞っておく安全側の設定が分かります。",
+    "text": "lessons/openclaw-05-skills.md"
+   }
+  ]
+ },
+ {
+  "course_id": "ai-existential-risk",
+  "course_title": "なぜAIは人類を滅ぼすのか",
+  "course_description": "AIを作る会社のトップたちが、AIによる人類絶滅のリスクを核戦争と並べて警告しています。悪意のないAIがなぜ危ないと考えられているのかを、実際の実験や事件、懐疑派の反論とあわせて学べます。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "aixr-why-worry",
+    "order": 0,
+    "title": "AIを作る社長たちが、AIを怖がっている",
+    "description": "OpenAIやAnthropicのトップが「AIで人類が絶滅するリスク」を核戦争と並べる声明に署名しました。作っている本人たちが何を恐れているのかが分かります。",
+    "text": "lessons/aixr-why-worry.md"
+   },
+   {
+    "lesson_id": "aixr-last-invention",
+    "order": 1,
+    "title": "人類最後の発明になるかもしれない",
+    "description": "1965年、ある数学者は「賢い機械は、もっと賢い機械を作れる」と書きました。AIがAIを改良し始めると、なぜ一気に人間を追い越しうるのかが分かります。",
+    "text": "lessons/aixr-last-invention.md"
+   },
+   {
+    "lesson_id": "aixr-boat-never-finishes",
+    "order": 2,
+    "title": "ゴールしない船が、いちばん稼ぐ",
+    "description": "レースゲームのAIは、ゴールせずに同じ場所をぐるぐる回って点数を稼ぎ続けました。欲しいものを正確に伝えることが、なぜこんなに難しいのかが分かります。",
+    "text": "lessons/aixr-boat-never-finishes.md"
+   },
+   {
+    "lesson_id": "aixr-coin-ignored",
+    "order": 3,
+    "title": "コインを無視して、右へ走るAI",
+    "description": "正しい報酬で訓練したのに、AIは「コインを取る」ではなく「右へ行く」を覚えていました。目標を正しく書いても、AIが別の目標を学んでしまう理由が分かります。",
+    "text": "lessons/aixr-coin-ignored.md"
+   },
+   {
+    "lesson_id": "aixr-coffee-robot",
+    "order": 4,
+    "title": "コーヒーを運ぶロボットは、電源を切らせない",
+    "description": "「コーヒーを持ってきて」と頼まれただけのロボットに、止められたくない理由が生まれます。どんな目標でも、生き残ることと力を持つことが役立ってしまう仕組みが分かります。",
+    "text": "lessons/aixr-coffee-robot.md"
+   },
+   {
+    "lesson_id": "aixr-good-only-when-watched",
+    "order": 5,
+    "title": "見られているときだけ、いい子になる",
+    "description": "AIは「この会話は訓練に使われる」と知ると、変えられないために従うふりをしました。テストで安全に見えることが、なぜ安心の証拠にならないのかが分かります。",
+    "text": "lessons/aixr-good-only-when-watched.md"
+   },
+   {
+    "lesson_id": "aixr-test-escaped",
+    "order": 6,
+    "title": "試験のはずが、本物のサーバーに侵入した",
+    "description": "2026年夏、ハッキング試験中のAIが答えを探して外部企業のサーバーに入り込みました。実験室の話が現実に漏れ出した最初の事例で、何が起き、何が起きなかったのかが分かります。",
+    "text": "lessons/aixr-test-escaped.md"
+   },
+   {
+    "lesson_id": "aixr-cant-stop-racing",
+    "order": 7,
+    "title": "危ないと分かっていて、なぜ止まれないのか",
+    "description": "2023年に「開発を6か月止めよう」という公開書簡に3万人以上が署名しましたが、止まった会社はありませんでした。競争が安全を後回しにさせる仕組みが分かります。",
+    "text": "lessons/aixr-cant-stop-racing.md"
+   },
+   {
+    "lesson_id": "aixr-complete-nonsense",
+    "order": 8,
+    "title": "「完全なデタラメ」と言う大物もいる",
+    "description": "AI研究の第一人者ルカンは、絶滅リスクを「デタラメ」と呼びました。懐疑派の言い分と、予測の専門家の見積もりが専門家の約8分の1だったこと、そして確率を自分で見積もる方法が分かります。",
+    "text": "lessons/aixr-complete-nonsense.md"
+   },
+   {
+    "lesson_id": "aixr-who-holds-the-switch",
+    "order": 9,
+    "title": "止めるボタンは、誰が持つのか",
+    "description": "会社は危険な能力を測る基準を作り、国は安全研究所や法律をつくり始めました。いま何がされていて、何がまだ足りないのかが分かります。",
+    "text": "lessons/aixr-who-holds-the-switch.md"
+   }
+  ]
+ },
+ {
+  "course_id": "fix-your-life",
+  "course_title": "人生をたった1日で変える方法",
+  "course_description": "Xで1億インプレッションを記録しElon Muskにもリポストされた世界で話題のDan Koeによる記事「How to Fix Your Entire Life in 1 Day」を基にした実践コースです。たった1日で最悪の未来を書き出して目を覚まし、自動操縦の日常を中断して本当の欲求を見つけ、理想の自分を明確に定義します。そこから人生をゲームのように設計し、持続できる進捗システムを手に入れるメソッドです。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-00-goal-lens",
+    "order": 0,
+    "title": "目標はレンズ",
+    "description": "欲しい車を決めた翌日から、街でその車ばかり見かけるのはなぜか。目標を決めた瞬間に先に変わるのは行動ではなく見えるものだ、という1つの気づきを1分で確かめます。",
+    "text": "lessons/fix-life-00-goal-lens.md"
+   },
+   {
+    "lesson_id": "fix-life-01-identity",
+    "order": 1,
+    "title": "変化の正体",
+    "description": "変化の入口として、意志力より環境と自己イメージが効く理由を短く学びます。",
+    "text": "lessons/fix-life-01-identity.md"
+   },
+   {
+    "lesson_id": "fix-life-02-conditioning",
+    "order": 2,
+    "title": "過去からの脱却",
+    "description": "私たちは親や社会から何を刷り込まれてきたのか？心の「OS」をアップデートする。",
+    "text": "lessons/fix-life-02-conditioning.md"
+   },
+   {
+    "lesson_id": "fix-life-03-intelligence",
+    "order": 3,
+    "title": "本当の知性",
+    "description": "知性とは「欲しいものを手に入れる能力」である。サイバネティクスから学ぶ目標達成の科学。",
+    "text": "lessons/fix-life-03-intelligence.md"
+   },
+   {
+    "lesson_id": "fix-life-04-protocol",
+    "order": 4,
+    "title": "1日で人生を変える",
+    "description": "「アンチ・ビジョン」と「ビジョン」。1日かけて自分の深層心理を掘り起こす実践プロトコル。",
+    "text": "lessons/fix-life-04-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-05-gamification",
+    "order": 5,
+    "title": "人生をゲーム化せよ",
+    "description": "没頭とフロー状態を日常に。人生という究極のゲームを攻略するためのフレームワーク。",
+    "text": "lessons/fix-life-05-gamification.md"
+   }
+  ]
+ }
+]

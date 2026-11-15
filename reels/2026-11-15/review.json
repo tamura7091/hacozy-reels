@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Fail: both round-1 fixes landed (section 6 now has a proper human-vs-AI bar chart with +20%, section 9's line is no longer green), but the 3D lighting is still not premium: the hook (0–3 s) is a flat, washed-out grey where the human score 1,500 barely reads, and during '倒しても元に戻る的が3つ' (34.7–38.7 s) a blown-out white glare covers the lower half of the frame so the three resetting targets never read. A viewer would notice both; not today.",
+  "revise": [
+    {"section": 4, "request": "「倒しても元に戻る的が3つ」の場面で、画面下半分が真っ白に飛んでいて的が見えません。手前の白いハイライト(光源かブルーム)を消して、濃紺の水面の上で金の的3つが倒れて起き上がるのがはっきり見える明るさにしてください。構図や動きはこのままで大丈夫です。", "quick": true},
+    {"section": 0, "request": "冒頭0〜3秒が全体に灰色の霧で白っぽく、左上の人間のスコア「1,500」がほとんど読めません。後半と同じ濃紺の水面とコントラストに合わせ、霧を薄くして、人間のスコアをはっきり読める明るさにしてください。0.5〜10秒の手前に大きく映る白い物体も、白飛びしないよう暗めにしてください。", "quick": true}
+  ]
+}
