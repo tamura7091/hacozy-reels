@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "The hook is excellent: two counters split into 10件 and 8件 within 2.5 s, and the captions, facts (400,000÷8=50,000 vs ÷10=40,000) and ending all check out. But the whole AVG section (52–66 s) uses green as its main colour (bars, running total, 40,000円), which is off-brand for Hacozy. The ending's store-split table also spills past the right safe margin (to about x=975) into the platform UI.",
+  "revise": [
+    {"section": 5, "request": "平均の段の緑をすべてHacozyの青系に変えてください。売上の棒・合計の数字（256,000など）・「40,000円」・最後の比較の棒が緑になっています。空欄側（50,000円）は今の黄色のまま、0円側（40,000円）は青か灰色にして、緑はどこにも使わないでください。62秒あたりで棒が消えて空の軸だけになる一瞬も、棒を残したままつないでください。", "quick": true},
+    {"section": 7, "request": "店ごとに分かれかける表が右に寄っていて、右端の数字（55,000など）が x=975 付近まで出てUIに隠れます。表全体を少し縮めて x=540 中心に置き、左右とも x=60〜930 の内側に収めてください。カエルのアイコンは「続きはHacozyで。」の行だけに出し、最後の「プロフィールのリンクから…」の行では消してください。", "quick": true}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Round-1 fixes landed: the AVG section is now blue, the store table sits inside the safe area, and the frog shows only on the 続きはHacozyで line. The hook, facts and ending are still strong. It still fails: the ending table (66–85 s, about a quarter of the reel) shows all its sales figures in bright green (#7DE485), which is off-brand. The AVG section also has a messy moment at about 53.8 s, where the bars melt into an overlapping blob, and at about 60.8 s the divisor briefly reads 「6」 while the voice says 10.",
+  "revise": [
+    {"section": 7, "request": "店ごとの表の売上の数字（42,000・55,000など）が緑になっています。Hacozyの青系か白に変えて、緑はどこにも使わないでください。", "quick": true},
+    {"section": 5, "request": "53.8秒あたりで表の棒が縦棒グラフに変わるとき、棒が重なって崩れた塊に見えます。一度表をフェードアウトしてから縦棒を下から伸ばしてください。また60.8秒あたりで分母が8→10に変わる途中に「6」が見えるので、数字は回さずに8から10へ直接切り替えてください。", "quick": true}
+  ]
+}
