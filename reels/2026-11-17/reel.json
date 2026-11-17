@@ -1,0 +1,50 @@
+{
+  "course_id": "rewire-your-brain",
+  "course_title": "やる気に頼らない脳を作る方法",
+  "lesson_id": "lesson-05-the-timing-paradox",
+  "lesson_title": "努力は、寝ている間に完成する",
+  "title": "練習しないのに上達する理由",
+  "topic": "Sleep-dependent motor learning: skills improve overnight (Walker 2002) and sleep grows new dendritic spines (Yang 2014)",
+  "why": "Candidates: (1) lesson-05 「努力は、寝ている間に完成する」: a true paradox (no practice, yet 20% faster overnight) from a famous Harvard experiment, plus a mouse brain growing new connections under a microscope; it animates well (typing speed bars, spines sprouting, neurons replaying). (2) lesson-04 「スマホを別の部屋に置くだけ」: the phone-on-the-desk experiment is relatable, but replications found small effects, so the hook would overclaim. (3) lesson-01 「脳はあなたをサボらせたい」: myelin wrapping nerves animates well, but the mechanism is less surprising and close to the already posted 「頑張っても変わらない理由」 (habit/effort, 2.2K). The other courses (Die With Zero, How to Win Friends, Fix Your Life) are advice, weak on this account. Lesson-05 wins: a literally true paradox in line 1, a famous experiment, a real mechanism you can see moving, and it is not a posted topic.",
+  "voice": "Konoha",
+  "yomi": {},
+  "instruction": "タイトルは「練習しないのに上達する理由」。テンポよく (tight)。ステップ見出しの画面は入れない。冒頭は1フレーム目から、キーボードを打つ指のアップと、横に速さのメーターが伸びていき「＋20％」の数字が跳ね上がる画で始める（「練習をやめたあとで、指が20％速くなりました。」に合わせて動く）。次に、時計が進む上で「練習していない時間」を示す。実験の場面は、2組の比較を棒グラフで：昼間起きていた組（ほぼ横ばい）と、一晩眠った組（約20％伸びる）が並んで伸びる（イメージ図）。マウスの場面は、回るローラーの上を走るマウス、次に顕微鏡で見た光る神経の枝に小さなトゲ（スパイン）がポツポツ生えてくる画（イメージ図、本物の二光子顕微鏡写真のような見た目）。眠らせない場合は、トゲの数が半分になる比較。眠っている間に練習中と同じ神経が順に光り直す画で「なぞり直し」を見せる。夜の後半の場面は、夜から朝への睡眠のタイムラインで後半が光り、目覚まし時計と夜更かしのスマホでその部分が削られていく画。子ども向けの図ではなく、本物らしい見た目で。文字・字幕・画像はすべて画面中央（x=540）に揃える。上部のラベルはタイトル。最後は広告カードにせず、物語からそのまま続け（カレンダーの1日が抜ける画など）、Hacozyのアイコン素材は「続きはHacozyで。」の時だけ出す。",
+  "lines": [
+    "練習をやめたあとで、指が20％速くなりました。",
+    "何もしていない間に、なぜ上達したのでしょうか。",
+    "ハーバード大学で、キーを決まった順番に打つ練習をした実験があります。",
+    "昼間ずっと起きていた人は、12時間経ってもほとんど変わりませんでした。",
+    "ところが一晩眠った人は、約20％速くなっていました。",
+    "眠っている間の脳では、何が起きているのでしょうか。",
+    "回る棒を走る練習をしたマウスの脳を、顕微鏡で見ると、",
+    "神経どうしをつなぐ小さなトゲ、「スパイン」が新しく生えていました。",
+    "ところが眠らせなかった場合、その数はおよそ半分でした。",
+    "眠っている間に、練習で働いた神経がもう一度働いていたのです。",
+    "脳は眠りながら、昼の練習をなぞり直していました。",
+    "人の実験で上達と結びついていたのは、夜の後半の眠りです。",
+    "夜更かしや早起きで、真っ先に削られる時間です。",
+    "では、1日サボると、この積み重ねは消えるのでしょうか。",
+    "その答えは、Hacozyのコース「やる気に頼らない脳を作る方法」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Walker MP et al. (2002) Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1):205-211 (PubMed abstract)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    },
+    {
+      "title": "Harvard Gazette (2002) Practice makes perfect: sleep improves motor skill learning",
+      "url": "https://news.harvard.edu/gazette/story/2002/07/practice-makes-perfect/"
+    },
+    {
+      "title": "Yang G et al. (2014) Sleep promotes branch-specific formation of dendritic spines after learning. Science 344:1173-1178 (PMC full text)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4447313/"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 11,
+    "kept": 1
+  }
+}

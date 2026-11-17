@@ -1,0 +1,209 @@
+[
+ {
+  "course_id": "rewire-your-brain",
+  "course_title": "やる気に頼らない脳を作る方法",
+  "course_description": "続かないのは、意志が弱いからではありません。いつもの行動がラクで、新しい行動がおっくうになる脳のしくみを知れば、習慣は無理なく続けやすくなります。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "lesson-00-why-change-fails",
+    "order": 1,
+    "title": "意志が弱い人なんていない",
+    "description": "決意が2月に消えるのは、根性のせいではありません。脳のつくりから、挫折の正体を見ていきます。",
+    "text": "lessons/lesson-00-why-change-fails.md"
+   },
+   {
+    "lesson_id": "lesson-01-myelin-highways",
+    "order": 2,
+    "title": "脳はあなたをサボらせたい",
+    "description": "ソファでスマホはラクなのに、筋トレはおっくう。その差は、脳の省エネ本能から来ています。",
+    "text": "lessons/lesson-01-myelin-highways.md"
+   },
+   {
+    "lesson_id": "lesson-02-neurological-identity",
+    "order": 3,
+    "title": "脳は、言葉を信じない",
+    "description": "鏡の前で「私はできる」と唱えても、脳は動きません。脳が信じるのは、小さな行動の証拠だけです。",
+    "text": "lessons/lesson-02-neurological-identity.md"
+   },
+   {
+    "lesson_id": "lesson-03-discomfort-is-a-signal",
+    "order": 4,
+    "title": "しんどい時だけ、脳は変わる",
+    "description": "ラクな練習では、脳の配線は変わりません。もどかしさこそが、書き換えのスイッチです。",
+    "text": "lessons/lesson-03-discomfort-is-a-signal.md"
+   },
+   {
+    "lesson_id": "lesson-04-attention-and-environment",
+    "order": 5,
+    "title": "スマホを別の部屋に置くだけ",
+    "description": "誘惑に意志で勝とうとしなくていい。手間の置き方と、まわりの人で、脳の選択は変わります。",
+    "text": "lessons/lesson-04-attention-and-environment.md"
+   },
+   {
+    "lesson_id": "lesson-05-the-timing-paradox",
+    "order": 6,
+    "title": "努力は、寝ている間に完成する",
+    "description": "脳の配線が変わるのは、がんばっている最中ではなく眠っている間。睡眠を削ると、努力が定着しません。",
+    "text": "lessons/lesson-05-the-timing-paradox.md"
+   },
+   {
+    "lesson_id": "lesson-06-rewiring-roadmap",
+    "order": 7,
+    "title": "1日サボっても、台無しにならない",
+    "description": "新しい習慣が自動になるまでの3段階と、途中でやめないための考え方をまとめます。",
+    "text": "lessons/lesson-06-rewiring-roadmap.md"
+   }
+  ]
+ },
+ {
+  "course_id": "die-with-zero",
+  "course_title": "人生のお金を、生きているうちに使い切る方法",
+  "course_description": "「死ぬときに銀行口座の残高が0になることを目指す」。これがお金を無駄にせず、人生の経験を最大化する究極の方法です。Bill Perkins著『Die With Zero』に基づき、お金、時間、健康のバランスを最適化し、思い出の「配当」を受け取るための新しい人生戦略を学びます。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "dwz-intro",
+    "order": 1,
+    "title": "貯金を残して死ぬのは、タダ働き",
+    "description": "本に出てくるエリザベスは、13万ドルを使わずに亡くなりました。それは6,646時間ぶんの労働です。お金を働いた時間として見ると、貯め方と使い方の見え方が変わります。",
+    "text": "lessons/dwz-intro.md"
+   },
+   {
+    "lesson_id": "dwz-life-energy",
+    "order": 2,
+    "title": "若いうちの節約は、未来の金持ちへの仕送り",
+    "description": "20代のパーキンスは、1000ドルの貯金を上司に叱られました。同じお金で買える経験が年齢とともに減っていく仕組みと、いつ使うかの判断軸が分かります。",
+    "text": "lessons/dwz-life-energy.md"
+   },
+   {
+    "lesson_id": "dwz-memory-dividend",
+    "order": 3,
+    "title": "思い出にも、配当がつく",
+    "description": "パーキンスの友人ジェイソンは、お金のない20代にヨーロッパを旅しました。経験が一生払い続ける「思い出の配当」と、早く使うほど配当が増える理由が分かります。",
+    "text": "lessons/dwz-memory-dividend.md"
+   },
+   {
+    "lesson_id": "dwz-objections",
+    "order": 4,
+    "title": "老後が怖い、子に残したい。その2つの答え",
+    "description": "引退時に50万ドルあった人は、20年後も1割ほどしか使っていませんでした。長生きの不安を保険に任せる方法と、子どもにお金がいちばん効く時期が分かります。",
+    "text": "lessons/dwz-objections.md"
+   },
+   {
+    "lesson_id": "dwz-action",
+    "order": 5,
+    "title": "やりたいことリストに足りない、たった1つの欄",
+    "description": "「死ぬまでにやりたいこと」を書いても、多くは「いつか」のまま終わります。パーキンスのタイムバケットで、どの経験を何歳でするかを決める方法が分かります。",
+    "text": "lessons/dwz-action.md"
+   }
+  ]
+ },
+ {
+  "course_id": "fix-your-life",
+  "course_title": "人生をたった1日で変える方法",
+  "course_description": "Xで1億インプレッションを記録しElon Muskにもリポストされた世界で話題のDan Koeによる記事「How to Fix Your Entire Life in 1 Day」を基にした実践コースです。たった1日で最悪の未来を書き出して目を覚まし、自動操縦の日常を中断して本当の欲求を見つけ、理想の自分を明確に定義します。そこから人生をゲームのように設計し、持続できる進捗システムを手に入れるメソッドです。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "fix-life-00-goal-lens",
+    "order": 0,
+    "title": "目標はレンズ",
+    "description": "欲しい車を決めた翌日から、街でその車ばかり見かけるのはなぜか。目標を決めた瞬間に先に変わるのは行動ではなく見えるものだ、という1つの気づきを1分で確かめます。",
+    "text": "lessons/fix-life-00-goal-lens.md"
+   },
+   {
+    "lesson_id": "fix-life-01-identity",
+    "order": 1,
+    "title": "変化の正体",
+    "description": "変化の入口として、意志力より環境と自己イメージが効く理由を短く学びます。",
+    "text": "lessons/fix-life-01-identity.md"
+   },
+   {
+    "lesson_id": "fix-life-02-conditioning",
+    "order": 2,
+    "title": "過去からの脱却",
+    "description": "私たちは親や社会から何を刷り込まれてきたのか？心の「OS」をアップデートする。",
+    "text": "lessons/fix-life-02-conditioning.md"
+   },
+   {
+    "lesson_id": "fix-life-03-intelligence",
+    "order": 3,
+    "title": "本当の知性",
+    "description": "知性とは「欲しいものを手に入れる能力」である。サイバネティクスから学ぶ目標達成の科学。",
+    "text": "lessons/fix-life-03-intelligence.md"
+   },
+   {
+    "lesson_id": "fix-life-04-protocol",
+    "order": 4,
+    "title": "1日で人生を変える",
+    "description": "「アンチ・ビジョン」と「ビジョン」。1日かけて自分の深層心理を掘り起こす実践プロトコル。",
+    "text": "lessons/fix-life-04-protocol.md"
+   },
+   {
+    "lesson_id": "fix-life-05-gamification",
+    "order": 5,
+    "title": "人生をゲーム化せよ",
+    "description": "没頭とフロー状態を日常に。人生という究極のゲームを攻略するためのフレームワーク。",
+    "text": "lessons/fix-life-05-gamification.md"
+   }
+  ]
+ },
+ {
+  "course_id": "how-to-win-friends",
+  "course_title": "人間関係のゴールデンルール",
+  "course_description": "D・カーネギー『人を動かす』の原則を、覚える対象ではなく使える判断として学び直すコースです。批判が効かない理由から、感謝の伝え方、頼み方、聞き方、説得の入り方、注意の仕方まで。原則を数えるのではなく、明日の会話ひとつを変えることを目指します。本コースはHacozyが独自に制作したもので、著者・出版社とは提携していません。",
+  "last_reel": null,
+  "lessons": [
+   {
+    "lesson_id": "htwf-00-admit-first",
+    "order": 0,
+    "title": "叱られる前に、自分から言う",
+    "description": "『人を動かす』の著者が、犬の散歩で警官に捕まったときに使った一言から始めます。相手に言われる前に非を認めると、責めに来た人が許す側に回る理由が1分で分かります。",
+    "text": "lessons/htwf-00-admit-first.md"
+   },
+   {
+    "lesson_id": "htwf-fundamentals",
+    "order": 1,
+    "title": "批判は、なぜ効かないのか",
+    "description": "警官を撃った犯人でさえ「自分は悪くない」と書き残していました。正しい指摘が言い訳と恨みに変わる理由と、リンカーンやパイロットのフーバーが代わりにしたことが分かります。",
+    "text": "lessons/htwf-fundamentals.md"
+   },
+   {
+    "lesson_id": "htwf-appreciation",
+    "order": 2,
+    "title": "お世辞と感謝は、何が違うのか",
+    "description": "鉄鋼王カーネギーが1日3000ドル以上を払って雇った男は、鉄の専門家ではありませんでした。人を動かすほめ方と、見破られるお世辞の違いが分かります。",
+    "text": "lessons/htwf-appreciation.md"
+   },
+   {
+    "lesson_id": "htwf-desire",
+    "order": 3,
+    "title": "相手の欲しいものから話す",
+    "description": "カーネギーは、ホテルからほぼ3倍の値上げを告げられても抗議しませんでした。支配人に見せた1枚の紙から、頼みごとを相手の欲しいもので話す方法が分かります。",
+    "text": "lessons/htwf-desire.md"
+   },
+   {
+    "lesson_id": "htwf-likeable",
+    "order": 4,
+    "title": "好かれる人は、何をしているか",
+    "description": "カーネギーは晩餐会でほとんど口を開かなかったのに、「最高に面白い話し相手」と呼ばれました。電話の調査や名前の話から、好かれる人が会話でしていることが分かります。",
+    "text": "lessons/htwf-likeable.md"
+   },
+   {
+    "lesson_id": "htwf-persuasion",
+    "order": 5,
+    "title": "議論に勝つと、なぜ損をするのか",
+    "description": "カーネギーは晩餐会で正しい出典を指摘し、友人に机の下で足を蹴られました。言い負かさずに相手の考えを変える、「はい」から入る話し方と、相手の案にする進め方が分かります。",
+    "text": "lessons/htwf-persuasion.md"
+   },
+   {
+    "lesson_id": "htwf-leadership",
+    "order": 6,
+    "title": "注意しても、嫌われない人",
+    "description": "ほめてから「しかし」で注意すると、ほめ言葉はまるごと消えてしまいます。命令しない経営者や、天才に新しい肩書きを贈った会社の話から、反感を買わずに人を変える伝え方が分かります。",
+    "text": "lessons/htwf-leadership.md"
+   }
+  ]
+ }
+]

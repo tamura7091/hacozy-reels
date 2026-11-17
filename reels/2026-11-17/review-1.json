@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "summary": "Strong, accurate story with a clear hook (+20% lands by 2.5 s) and a correct ending, but two shots would put a viewer off: the mouse on the rotating rod (32–36 s) is a blown-out white glowing blob, not a mouse, and the night-timeline shot (66–70 s) is lopsided, with the phone and alarm clock pushed left and the bar running past the right safe edge (to x≈960), in a teal-green accent instead of Hacozy blue.",
+  "revise": [
+    {"section": 5, "request": "回る棒の上のマウスが真っ白に光りすぎて、ただの白い塊に見えます。発光・ブルームを大きく下げて、毛並みと耳・目・しっぽがわかる本物らしいマウス（グレーがかった白）にしてください。「回る棒」の引き出し線も棒そのものを指すように直してください。顕微鏡のトゲの場面はこのままでOKです。", "quick": true},
+    {"section": 8, "request": "スマホと目覚まし時計が左に寄り、タイムラインが右にはみ出しています（右端が x=960 くらい）。スマホ・時計・タイムライン・時刻ラベルをすべて x=540 中央に揃え、タイムラインは左右とも余白内（左60px・右150px以内）に収めてください。あわせて「夜の後半」の見出しと光る部分の色を、緑っぽいティールではなくHacozyのブルーにしてください。", "quick": true}
+  ]
+}
