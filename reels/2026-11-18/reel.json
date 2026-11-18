@@ -1,0 +1,54 @@
+{
+  "course_id": "statistics-literacy",
+  "course_title": "統計に騙されないための数字の読み方",
+  "lesson_id": "natural-frequencies",
+  "lesson_title": "陽性でも、病気は11人に1人",
+  "title": "陽性でも、がんは11人に1人",
+  "topic": "Base rates and natural frequencies: why a positive mammogram means about 1 in 11",
+  "why": "Candidates: (1) natural-frequencies『陽性でも、病気は11人に1人』: a true paradox every adult has felt at a health check (90% accurate test, yet 1 in 11), doctors themselves got it wrong, and 1,000 dots sorting into a positive line animates the mechanism perfectly. (2) chance-multiple-testing『100人なら、10回連続の表も約9％』: coins flipping for 100 people is visual, but the 'miracle becomes normal' idea is weaker and abstract. (3) correlation-causation『アイスが売れると、水の事故が増える？』: well-known example, so less 'wait, how?'. Winner: natural-frequencies. Not a repeat of the posted 非回答バイアス reel (survey sampling); it's a famous experiment (Gigerenzer's doctors) with a moving visual from frame 1 and a hook that flips intuition.",
+  "voice": "Konoha",
+  "yomi": {
+    "1,000人": "せんにん",
+    "992人": "きゅうひゃくきゅうじゅうににん",
+    "0.8％": "れいてんはちパーセント",
+    "4割半ば": "よんわりなかば"
+  },
+  "instruction": "タイトルは「陽性でも、がんは11人に1人」。テンポよく (tight)。ステップ見出しの画面は入れない。\nフック：1フレーム目から、検査結果の紙に赤い「陽性」の判が押される瞬間と、その横で人のアイコンの列から1人だけが青く光り、残り10人がグレーのまま並ぶ「11人に1人」が動いている画。ロゴや文字だけの画面で始めない。\n2行目「9割を見つける検査」で、がんの人のアイコン10人中9人に「陽性」マークが付くアニメ。\n「7％は陽性」で、健康な人のアイコン100人中7人に陽性マークが付く。「0.8％」で、1,000人のうちがんの人がわずか8人しかいない点の格子（イメージ図）。\n医師の答えのばらつき：1％〜90％の横軸に医師の答えの点が散らばり、90％付近に固まる（イメージ図）。\n「1,000人の女性を並べてみます」から本題：1,000個の人の点の格子を出し、紫の乳がん8人を強調→そのうち7人が右の「陽性の列」へ移動→残り992人から灰色の約70人が同じ列へ流れ込む。カウンターで 7 と 70、合計77人。77人の列の中で紫の7人だけが光る。\n「健康な人のわずかな誤りが、数で上回ります」で、陽性の列の中の紫7人と灰色70人を天秤や棒グラフで比べる。\n「正解の割合は1割から4割半ばに」で、確率で読んだ組10％と人数で読んだ組46％の2本の棒が伸びる（Hoffrage & Gigerenzer 1998）。\n「リスク50％減」の広告で、広告風のバナーに「リスク50％減！」、その後ろに1,000人の点がうっすら出て「何人？」と問いかけたまま次へ。\n落ち着いた実写風・医療の雰囲気、子供向けの図にしない。文字・字幕・図はすべて画面中央（x=540）揃え。上部ラベルはタイトル。エンディングは物語から切れ目なく続け（広告カードにしない）、Hacozyのアイコン素材は「続きはHacozyで。」の時だけ出す。",
+  "lines": [
+    "乳がん検診で陽性が出ても、本当に乳がんなのは、約11人に1人です。",
+    "がんの人の9割を見つける検査なのに、なぜでしょうか。",
+    "実は、乳がんでない人も、7％は陽性になります。",
+    "そして、検診を受ける年代で乳がんの人は、0.8％です。",
+    "この3つの数字で医師に確率を尋ねると、答えは1％から90％までばらつきました。",
+    "そこで、確率をやめて、1,000人の女性を並べてみます。",
+    "乳がんの人は8人で、そのうち7人が陽性です。",
+    "では、残りの992人はどうなるでしょうか。",
+    "その7％にあたる約70人も、陽性になります。",
+    "陽性の列には77人が並びますが、本当に乳がんなのは、7人だけです。",
+    "病気の人がもともと少ないため、健康な人へのわずかな誤判定が、数で上回ります。",
+    "医師も人数の形で読むと、正解の割合は1割から4割半ばに上がりました。",
+    "では、「リスク50％減」の広告は、1,000人に直すと何人の話でしょうか。",
+    "その答えは、Hacozyのコース「統計に騙されないための数字の読み方」で解説しています。",
+    "続きはHacozyで。",
+    "プロフィールのリンクからインストールしてね。"
+  ],
+  "sources": [
+    {
+      "title": "Hoffrage U, Gigerenzer G. Using natural frequencies to improve diagnostic inferences. Academic Medicine 1998;73(5):538-40 (PubMed abstract: 48 physicians, 10% vs 46% correct)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9609869/"
+    },
+    {
+      "title": "Association for Psychological Science, Observer: Helping Physicians Understand Screening Tests Will Improve Health Care (Gigerenzer; doctors' estimates ranged from 1% to 90%, most frequent 90%)",
+      "url": "https://www.psychologicalscience.org/observer/helping-physicians-understand-screening-tests-will-improve-health-care"
+    },
+    {
+      "title": "Plus Magazine (University of Cambridge), Reckoning with risk: passages quoted from Gigerenzer's book (0.8%, 90%, 7%; 8 of 1,000, 7 positive, about 70 of 992 positive)",
+      "url": "https://plus.maths.org/content/reckoning-risk"
+    }
+  ],
+  "polish": {
+    "model": "gemini-pro-latest",
+    "taken": 6,
+    "kept": 7
+  }
+}

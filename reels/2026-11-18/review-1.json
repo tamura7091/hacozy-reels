@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "summary": "Strong film: the stamp hook lands within the first second, the facts match Gigerenzer, and the 1,000-dot sorting makes the mechanism clear. It fails on two visible flaws. On the ending the course title runs edge to edge (x≈41–1036), under the right-side platform buttons. While the positive column fills, the 7 and 70 counters collide into a garbled 「7̶0」.",
+  "revise": [
+    {
+      "section": 10,
+      "request": "エンディングのコース名「統計に騙されないための数字の読み方」が画面の端から端まで（x≈41〜1036）広がって、右側のいいね・コメントボタンに隠れています。文字サイズを44px前後に下げるか2行に折り返して、x=540中央のまま左60px〜右930pxの内側に収めてください。",
+      "quick": true
+    },
+    {
+      "section": 7,
+      "request": "「陽性の列には77人が並びますが」の頭（52.5〜54秒）で、紫の「7」とグレーの「70」のカウンターが重なり「7̶0」のように潰れて見えます。7と70を左右に離して並べたまま、それから77人へ数え上がる形にして、数字同士が重ならないようにしてください。",
+      "quick": true
+    }
+  ]
+}

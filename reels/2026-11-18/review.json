@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "summary": "Pass: both round-1 fixes landed. The ending course title now wraps to two centred lines inside the safe area, and the 7 + 70 counters sit apart before counting up to 77. The hook (the 陽性 stamp in the first second, then 11人に1人 lighting up) is strong, the Gigerenzer figures (0.8%, 90%, 7%, 7/77, 10%→46%) are correct, and the ending names the course and asks viewers to install Hacozy from the profile link.",
+  "revise": []
+}
